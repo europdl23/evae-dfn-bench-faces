@@ -1,0 +1,51 @@
+{
+ "scheme": "S3",
+ "fold": 2,
+ "note": "ADFNE and KDE fitted distributions, fitting boxes of this fold only (standard 2-set orientation fit)",
+ "orientation_fit": {
+  "centres_deg": [
+   52.101690275216704,
+   125.796610940941
+  ],
+  "mu2": [
+   1.818692082313684,
+   4.3911300975394845
+  ],
+  "kappa2": [
+   1.59205614875904,
+   6.390525628779204
+  ],
+  "weights": [
+   0.6601032937951694,
+   0.3398967062048307
+  ],
+  "em_seed": 20260907
+ },
+ "mean_ymax": 0.9486764705882353,
+ "sets": [
+  {
+   "set": 0,
+   "centre_deg": 52.101690275216704,
+   "kappa_dir": 5.52564258961819,
+   "length_fit_low_mu_high": [
+    0.04076736443525948,
+    0.35630949727708583,
+    0.9906111639164726
+   ],
+   "mean_count": 9.0,
+   "n_fitting_traces": 306
+  },
+  {
+   "set": 1,
+   "centre_deg": 125.796610940941,
+   "kappa_dir": 27.040727237798748,
+   "length_fit_low_mu_high": [
+    0.03344668204975473,
+    0.41733703056814386,
+    1.1471566311263448
+   ],
+   "mean_count": 5.117647058823529,
+   "n_fitting_traces": 174
+  }
+ ]
+}

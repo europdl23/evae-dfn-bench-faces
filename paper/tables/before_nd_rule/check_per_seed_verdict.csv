@@ -1,0 +1,115 @@
+run_seed,group,score,verdict
+1337,Orientation distribution,orient_w1_deg,no method
+1337,Orientation distribution,oc1_w1_deg,no method
+1337,Orientation distribution,oc2_w1_deg,no method
+1337,Orientation distribution,oc3_w1_deg,no method
+1337,Orientation distribution,oc4_w1_deg,no method
+1337,Orientation clusters,oc1_centre_err_deg,no method
+1337,Orientation clusters,oc1_spread_err_deg,no method
+1337,Orientation clusters,oc1_share_err,no method
+1337,Orientation clusters,oc2_centre_err_deg,no method
+1337,Orientation clusters,oc2_spread_err_deg,no method
+1337,Orientation clusters,oc2_share_err,no method
+1337,Orientation clusters,oc3_centre_err_deg,no method
+1337,Orientation clusters,oc3_spread_err_deg,no method
+1337,Orientation clusters,oc3_share_err,no method
+1337,Orientation clusters,oc4_centre_err_deg,no method
+1337,Orientation clusters,oc4_spread_err_deg,no method
+1337,Orientation clusters,oc4_share_err,no method
+1337,Orientation clusters,unclustered_share_err,no method
+1337,Orientation clusters,cluster_share_tv,no method
+1337,Length,len_w1_m,EVAE
+1337,Length,len_med_err_m,EVAE
+1337,Length,len_p90_err_m,no method
+1337,Length,oc1_len_w1_m,no method
+1337,Length,oc2_len_w1_m,no method
+1337,Length,oc3_len_w1_m,no method
+1337,Length,oc4_len_w1_m,no method
+1337,Density,P20_relerr,no method
+1337,Density,P21_relerr,no method
+1337,Density,P22_relerr,EVAE
+1337,Density,nn_w1_m,no method
+1337,Density,cluster_vmr_err,EVAE
+1337,Density,oc1_count_relerr,no method
+1337,Density,oc2_count_relerr,no method
+1337,Density,oc3_count_relerr,no method
+1337,Density,oc4_count_relerr,no method
+1337,Topology,term_share_err,no method
+1337,Topology,CL_err,EVAE
+1337,Topology,node_tv,EVAE
+20260903,Orientation distribution,orient_w1_deg,no method
+20260903,Orientation distribution,oc1_w1_deg,no method
+20260903,Orientation distribution,oc2_w1_deg,no method
+20260903,Orientation distribution,oc3_w1_deg,no method
+20260903,Orientation distribution,oc4_w1_deg,no method
+20260903,Orientation clusters,oc1_centre_err_deg,no method
+20260903,Orientation clusters,oc1_spread_err_deg,no method
+20260903,Orientation clusters,oc1_share_err,no method
+20260903,Orientation clusters,oc2_centre_err_deg,no method
+20260903,Orientation clusters,oc2_spread_err_deg,no method
+20260903,Orientation clusters,oc2_share_err,no method
+20260903,Orientation clusters,oc3_centre_err_deg,no method
+20260903,Orientation clusters,oc3_spread_err_deg,no method
+20260903,Orientation clusters,oc3_share_err,no method
+20260903,Orientation clusters,oc4_centre_err_deg,no method
+20260903,Orientation clusters,oc4_spread_err_deg,no method
+20260903,Orientation clusters,oc4_share_err,no method
+20260903,Orientation clusters,unclustered_share_err,no method
+20260903,Orientation clusters,cluster_share_tv,no method
+20260903,Length,len_w1_m,EVAE
+20260903,Length,len_med_err_m,no method
+20260903,Length,len_p90_err_m,no method
+20260903,Length,oc1_len_w1_m,no method
+20260903,Length,oc2_len_w1_m,no method
+20260903,Length,oc3_len_w1_m,no method
+20260903,Length,oc4_len_w1_m,no method
+20260903,Density,P20_relerr,no method
+20260903,Density,P21_relerr,no method
+20260903,Density,P22_relerr,EVAE
+20260903,Density,nn_w1_m,no method
+20260903,Density,cluster_vmr_err,no method
+20260903,Density,oc1_count_relerr,no method
+20260903,Density,oc2_count_relerr,no method
+20260903,Density,oc3_count_relerr,no method
+20260903,Density,oc4_count_relerr,no method
+20260903,Topology,term_share_err,no method
+20260903,Topology,CL_err,EVAE
+20260903,Topology,node_tv,no method
+7,Orientation distribution,orient_w1_deg,no method
+7,Orientation distribution,oc1_w1_deg,no method
+7,Orientation distribution,oc2_w1_deg,no method
+7,Orientation distribution,oc3_w1_deg,no method
+7,Orientation distribution,oc4_w1_deg,no method
+7,Orientation clusters,oc1_centre_err_deg,no method
+7,Orientation clusters,oc1_spread_err_deg,no method
+7,Orientation clusters,oc1_share_err,no method
+7,Orientation clusters,oc2_centre_err_deg,no method
+7,Orientation clusters,oc2_spread_err_deg,no method
+7,Orientation clusters,oc2_share_err,no method
+7,Orientation clusters,oc3_centre_err_deg,no method
+7,Orientation clusters,oc3_spread_err_deg,no method
+7,Orientation clusters,oc3_share_err,no method
+7,Orientation clusters,oc4_centre_err_deg,no method
+7,Orientation clusters,oc4_spread_err_deg,no method
+7,Orientation clusters,oc4_share_err,no method
+7,Orientation clusters,unclustered_share_err,no method
+7,Orientation clusters,cluster_share_tv,no method
+7,Length,len_w1_m,EVAE
+7,Length,len_med_err_m,no method
+7,Length,len_p90_err_m,no method
+7,Length,oc1_len_w1_m,no method
+7,Length,oc2_len_w1_m,KDE
+7,Length,oc3_len_w1_m,no method
+7,Length,oc4_len_w1_m,no method
+7,Density,P20_relerr,no method
+7,Density,P21_relerr,no method
+7,Density,P22_relerr,EVAE
+7,Density,nn_w1_m,no method
+7,Density,cluster_vmr_err,no method
+7,Density,oc1_count_relerr,no method
+7,Density,oc2_count_relerr,no method
+7,Density,oc3_count_relerr,no method
+7,Density,oc4_count_relerr,no method
+7,Topology,term_share_err,no method
+7,Topology,CL_err,EVAE
+7,Topology,node_tv,EVAE

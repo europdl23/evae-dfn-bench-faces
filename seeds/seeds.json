@@ -1,0 +1,17 @@
+{
+ "run_seeds": [
+  1337,
+  20260903,
+  7
+ ],
+ "draws_per_seed": 8,
+ "networks_per_test_box_and_method": 24,
+ "generator_seed_rule": "crc32 of \"METHOD|scheme|variant|fold|box|run_seed|draw\" (unsigned), see src/study/study.py gen_seed; variant = geobg for EVAE and main for ADFNE and KDE (internal names kept because they are part of the key)",
+ "same_seed_for_all_methods": "every method draws its networks with the same run seeds (1337, 20260903, 7) and draws (0-7); only the method name in the key differs",
+ "evae_training_seed": "each EVAE is trained once per run seed: python, numpy and torch seeded with the run seed (scripts/train_evae.py)",
+ "orientation_cluster_fit_seed": 20261001,
+ "baseline_two_set_fit_em_seed": 20260907,
+ "per_network_table": "seeds/network_seeds.csv (8640 rows: 120 test-box cases x 3 methods x 24 networks)",
+ "figure_networks": "seeds/figure_networks.json",
+ "ablation": "every ablation arm uses the EVAE generator seeds (crc32 of \"EVAE|scheme|geobg|fold|box|run_seed|draw\") and is trained with the same run seeds; seeds/ablation_network_seeds.csv"
+}

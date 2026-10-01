@@ -1,0 +1,229 @@
+test,group,score,against,median_diff,ci_low,ci_high,ci
+gap-filling,Orientation distribution,orient_w1_deg,ADFNE,0.23679225097160206,-1.301498161570641,2.0367950277207507,includes 0
+gap-filling,Orientation distribution,orient_w1_deg,KDE,0.4228412391798271,-0.6848190808120735,2.321724855588011,includes 0
+gap-filling,Orientation distribution,oc1_w1_deg,ADFNE,0.41850006596919487,0.27863242068107663,1.2791534544326728,EVAE worse
+gap-filling,Orientation distribution,oc1_w1_deg,KDE,1.055964435647887,0.30683688510917545,1.6222892685188217,EVAE worse
+gap-filling,Orientation distribution,oc2_w1_deg,ADFNE,0.7232525158626517,0.06282584319104689,1.4027325811322964,EVAE worse
+gap-filling,Orientation distribution,oc2_w1_deg,KDE,0.3963815184310313,0.11460951310635004,1.1248770483755433,EVAE worse
+gap-filling,Orientation distribution,oc3_w1_deg,ADFNE,-0.12820737735916987,-0.5207117609748373,0.6164548649011087,includes 0
+gap-filling,Orientation distribution,oc3_w1_deg,KDE,0.36257766256229074,-0.26241737780106433,1.5563214346985568,includes 0
+gap-filling,Orientation distribution,oc4_w1_deg,ADFNE,0.0,-499999997.43649817,5.5666501847584,includes 0
+gap-filling,Orientation distribution,oc4_w1_deg,KDE,0.0,-1.6526279734554468,0.07016422168615932,includes 0
+gap-filling,Orientation clusters,oc1_centre_err_deg,ADFNE,0.4595339261875562,-0.8414493641167287,2.1303560446388015,includes 0
+gap-filling,Orientation clusters,oc1_centre_err_deg,KDE,0.6368780909511551,-0.4715973053325566,2.358873910651375,includes 0
+gap-filling,Orientation clusters,oc1_spread_err_deg,ADFNE,0.8925274487853825,0.2976230819436694,1.3453667502740965,EVAE worse
+gap-filling,Orientation clusters,oc1_spread_err_deg,KDE,0.6263570495184982,0.2089581249323189,1.0222507730324235,EVAE worse
+gap-filling,Orientation clusters,oc1_share_err,ADFNE,0.0014940425931137952,-0.04704670329670332,0.03654507257448433,includes 0
+gap-filling,Orientation clusters,oc1_share_err,KDE,0.01785714285714285,-0.04761904761904761,0.0516854877148995,includes 0
+gap-filling,Orientation clusters,oc2_centre_err_deg,ADFNE,0.5463349520169718,-0.06101464199527884,1.3999829155420738,includes 0
+gap-filling,Orientation clusters,oc2_centre_err_deg,KDE,0.9589996009090176,0.22676806151505868,2.284385843470057,EVAE worse
+gap-filling,Orientation clusters,oc2_spread_err_deg,ADFNE,0.6630920885793965,-0.03232769972730587,1.0677337186341482,includes 0
+gap-filling,Orientation clusters,oc2_spread_err_deg,KDE,0.506319314040768,-0.043101266109136116,1.1737819995824363,includes 0
+gap-filling,Orientation clusters,oc2_share_err,ADFNE,0.02843198468198465,0.013156288156288165,0.03713731443994603,EVAE worse
+gap-filling,Orientation clusters,oc2_share_err,KDE,0.018978536083799256,0.0031593406593406342,0.030194805194805198,EVAE worse
+gap-filling,Orientation clusters,oc3_centre_err_deg,ADFNE,0.016093013399756995,-0.4487587807996771,0.4828724414681316,includes 0
+gap-filling,Orientation clusters,oc3_centre_err_deg,KDE,0.9575748745216965,-0.5426686700653542,2.011164587081521,includes 0
+gap-filling,Orientation clusters,oc3_spread_err_deg,ADFNE,-0.2862558019165844,-0.9211440366216097,0.4287880123592711,includes 0
+gap-filling,Orientation clusters,oc3_spread_err_deg,KDE,0.7116963223197719,0.0942306701795137,2.3214726018224434,EVAE worse
+gap-filling,Orientation clusters,oc3_share_err,ADFNE,0.014738733488733481,-0.0055194805194804936,0.03773634453781513,includes 0
+gap-filling,Orientation clusters,oc3_share_err,KDE,0.02127100840336133,-0.009307359307359299,0.03019480519480517,includes 0
+gap-filling,Orientation clusters,oc4_centre_err_deg,ADFNE,-0.31430242172006295,-999999986.9450119,6.291351781726423,includes 0
+gap-filling,Orientation clusters,oc4_centre_err_deg,KDE,-0.5125147556794443,-1.6558159687880654,1.8912255296105451,includes 0
+gap-filling,Orientation clusters,oc4_spread_err_deg,ADFNE,0.0,-999999992.194013,2.3229624368180026,includes 0
+gap-filling,Orientation clusters,oc4_spread_err_deg,KDE,-0.22760333806960897,-2.7113903235340713,0.4286478027796399,includes 0
+gap-filling,Orientation clusters,oc4_share_err,ADFNE,0.0028083028083028053,-0.0029761904761904726,0.023748473748473747,includes 0
+gap-filling,Orientation clusters,oc4_share_err,KDE,0.008928571428571425,-0.004017857142857169,0.028847419028340027,includes 0
+gap-filling,Orientation clusters,unclustered_share_err,ADFNE,0.0,-0.004166666666666676,0.0263157894736842,includes 0
+gap-filling,Orientation clusters,unclustered_share_err,KDE,0.0,0.0,0.020246884178772726,includes 0
+gap-filling,Orientation clusters,cluster_share_tv,ADFNE,0.03795146846617431,-0.01048173317910156,0.05952380952380948,includes 0
+gap-filling,Orientation clusters,cluster_share_tv,KDE,0.028941197691197698,-0.028926482873851272,0.0633699633699634,includes 0
+gap-filling,Length,len_w1_m,ADFNE,-0.4732604811958556,-0.6518552021251405,-0.3997473990548448,EVAE better
+gap-filling,Length,len_w1_m,KDE,-0.4128187148856246,-0.5250592513101373,-0.27388297343831125,EVAE better
+gap-filling,Length,len_med_err_m,ADFNE,-0.7493595229167326,-0.9288310166074057,-0.5759952204821166,EVAE better
+gap-filling,Length,len_med_err_m,KDE,-0.3729673795307288,-0.5603356493993622,-0.17537514882543348,EVAE better
+gap-filling,Length,len_p90_err_m,ADFNE,-0.7423426845259582,-1.0283970282746704,-0.13843945754989362,EVAE better
+gap-filling,Length,len_p90_err_m,KDE,-1.0342539398956625,-1.3492529563140123,-0.6884399484563863,EVAE better
+gap-filling,Length,oc1_len_w1_m,ADFNE,-0.40935234012054034,-0.9915317196218014,0.19398324215096485,includes 0
+gap-filling,Length,oc1_len_w1_m,KDE,-0.12056674636189202,-0.5051895251058975,0.22096217803644613,includes 0
+gap-filling,Length,oc2_len_w1_m,ADFNE,0.18244538501990615,0.004091550519376597,0.3209558343810177,EVAE worse
+gap-filling,Length,oc2_len_w1_m,KDE,0.2302562095111984,-0.12750167878082141,0.3973452221451037,includes 0
+gap-filling,Length,oc3_len_w1_m,ADFNE,-0.0703354881746685,-0.5472316002300062,0.786866862323349,includes 0
+gap-filling,Length,oc3_len_w1_m,KDE,0.4951244257891205,0.2316616883046539,1.3342545011126945,EVAE worse
+gap-filling,Length,oc4_len_w1_m,ADFNE,-0.5180256714294567,-499999998.9586968,1.4886841269824558,includes 0
+gap-filling,Length,oc4_len_w1_m,KDE,-0.14734175601722144,-1.747764546979528,0.0,includes 0
+gap-filling,Density,P20_relerr,ADFNE,0.0,-0.0773809523809524,0.05555555555555561,includes 0
+gap-filling,Density,P20_relerr,KDE,0.0,-0.0773809523809524,0.05555555555555561,includes 0
+gap-filling,Density,P21_relerr,ADFNE,-0.03505758228759445,-0.06201294721783056,-0.01672441394960085,EVAE better
+gap-filling,Density,P21_relerr,KDE,-0.013951224380626251,-0.048665006330117055,-0.002787634447762047,EVAE better
+gap-filling,Density,P22_relerr,ADFNE,-0.75,-1.0,-0.5,EVAE better
+gap-filling,Density,P22_relerr,KDE,-1.25,-1.5,-0.75,EVAE better
+gap-filling,Density,nn_w1_m,ADFNE,0.29325954986350095,-0.27796194686251163,0.48507600032182396,includes 0
+gap-filling,Density,nn_w1_m,KDE,0.1886625369421121,-0.5318159074324584,0.49700619399246126,includes 0
+gap-filling,Density,cluster_vmr_err,ADFNE,-0.1084605957767723,-0.21493818681318683,-0.0016447368421053377,EVAE better
+gap-filling,Density,cluster_vmr_err,KDE,-0.10140931372549015,-0.192857142857143,-0.018013583638583727,EVAE better
+gap-filling,Density,oc1_count_relerr,ADFNE,-0.06071428571428572,-0.20833333333333331,0.10000000000000003,includes 0
+gap-filling,Density,oc1_count_relerr,KDE,-0.07142857142857145,-0.175,0.10000000000000002,includes 0
+gap-filling,Density,oc2_count_relerr,ADFNE,0.08571428571428572,0.0,0.16666666666666669,includes 0
+gap-filling,Density,oc2_count_relerr,KDE,0.0,-0.0625,0.10555555555555554,includes 0
+gap-filling,Density,oc3_count_relerr,ADFNE,0.0,0.0,0.08333333333333331,includes 0
+gap-filling,Density,oc3_count_relerr,KDE,0.0,0.0,0.0,includes 0
+gap-filling,Density,oc4_count_relerr,ADFNE,0.0,0.0,0.0,includes 0
+gap-filling,Density,oc4_count_relerr,KDE,0.0,0.0,0.0,includes 0
+gap-filling,Topology,term_share_err,ADFNE,-0.00046992481203007863,-0.023888888888888904,0.018996230751345843,includes 0
+gap-filling,Topology,term_share_err,KDE,-0.008392227740053826,-0.022923567977915803,0.016834772619955706,includes 0
+gap-filling,Topology,CL_err,ADFNE,-0.2761473711473712,-0.3439874072025103,-0.06899281451711128,EVAE better
+gap-filling,Topology,CL_err,KDE,-0.34330621448268506,-0.5116447871014435,-0.12288786482334885,EVAE better
+gap-filling,Topology,node_tv,ADFNE,-0.034735166793990344,-0.048008540372670806,-0.011765297906602273,EVAE better
+gap-filling,Topology,node_tv,KDE,-0.04006004558204767,-0.07975195302781508,-0.010012878649376972,EVAE better
+new-bench,Orientation distribution,orient_w1_deg,ADFNE,0.12749156854726174,-0.7310973764703181,1.4818263911214586,includes 0
+new-bench,Orientation distribution,orient_w1_deg,KDE,0.6298344120308785,-0.7319372680359979,1.262314717414113,includes 0
+new-bench,Orientation distribution,oc1_w1_deg,ADFNE,0.4131773780500434,-0.18760297673270096,1.3126194976753194,includes 0
+new-bench,Orientation distribution,oc1_w1_deg,KDE,0.4163208399370957,-0.3323570136128934,1.7267344490104861,includes 0
+new-bench,Orientation distribution,oc2_w1_deg,ADFNE,0.669912932049487,0.26660140139752464,0.9554818579785991,EVAE worse
+new-bench,Orientation distribution,oc2_w1_deg,KDE,0.41458116150697055,0.11977630652675941,0.8166052671779129,EVAE worse
+new-bench,Orientation distribution,oc3_w1_deg,ADFNE,-0.9076890633702601,-1.483561238724103,-0.3969682748761558,EVAE better
+new-bench,Orientation distribution,oc3_w1_deg,KDE,-0.4328868404851942,-0.9921081426399794,0.8449230212626571,includes 0
+new-bench,Orientation distribution,oc4_w1_deg,ADFNE,-0.9674486218369465,-999999989.3834198,0.0,includes 0
+new-bench,Orientation distribution,oc4_w1_deg,KDE,0.0,-1.9299863457280306,0.0,includes 0
+new-bench,Orientation clusters,oc1_centre_err_deg,ADFNE,0.8841862098574658,0.09273513765031716,1.460322586960246,EVAE worse
+new-bench,Orientation clusters,oc1_centre_err_deg,KDE,0.2865961921929252,-0.5947385856581748,1.075052819861693,includes 0
+new-bench,Orientation clusters,oc1_spread_err_deg,ADFNE,0.3944359490728564,-0.025660369405747046,0.8488391673685305,includes 0
+new-bench,Orientation clusters,oc1_spread_err_deg,KDE,0.745132109826133,0.17582708787573142,1.1443179996154242,EVAE worse
+new-bench,Orientation clusters,oc1_share_err,ADFNE,0.011538461538461553,-0.021303696303696315,0.03379267791032495,includes 0
+new-bench,Orientation clusters,oc1_share_err,KDE,0.017487373737373725,-0.005286458333333338,0.02946428571428565,includes 0
+new-bench,Orientation clusters,oc2_centre_err_deg,ADFNE,0.4339789357559496,-0.08982188626026355,1.1968388345189531,includes 0
+new-bench,Orientation clusters,oc2_centre_err_deg,KDE,0.17456377189716843,-0.1459203109338525,0.6795856055746263,includes 0
+new-bench,Orientation clusters,oc2_spread_err_deg,ADFNE,0.6244728086544253,0.3490382589566021,0.8522946354497085,EVAE worse
+new-bench,Orientation clusters,oc2_spread_err_deg,KDE,0.5720056774889604,0.22602021840458741,0.6676482395511028,EVAE worse
+new-bench,Orientation clusters,oc2_share_err,ADFNE,-0.0019230769230769162,-0.020833333333333398,0.032051282051282,includes 0
+new-bench,Orientation clusters,oc2_share_err,KDE,0.0,-0.01287878787878785,0.012254901960784402,includes 0
+new-bench,Orientation clusters,oc3_centre_err_deg,ADFNE,-1.2432637806303384,-1.7651928188720178,-0.99175719168348,EVAE better
+new-bench,Orientation clusters,oc3_centre_err_deg,KDE,-0.5238743601801608,-0.7129115542225548,0.7977882300263559,includes 0
+new-bench,Orientation clusters,oc3_spread_err_deg,ADFNE,-0.36297861765083494,-1.0039419187400265,-0.007622563233674606,EVAE better
+new-bench,Orientation clusters,oc3_spread_err_deg,KDE,-0.3951881095289562,-0.8387417440535021,0.7255816958514414,includes 0
+new-bench,Orientation clusters,oc3_share_err,ADFNE,-2.0816681711721685e-17,-0.026785714285714274,0.014790864262371585,includes 0
+new-bench,Orientation clusters,oc3_share_err,KDE,-0.01366758241758247,-0.033333333333333395,0.016666666666666607,includes 0
+new-bench,Orientation clusters,oc4_centre_err_deg,ADFNE,-0.9670783932306772,-999999989.6302801,0.0,includes 0
+new-bench,Orientation clusters,oc4_centre_err_deg,KDE,0.0,-2.6741250225155433,0.0,includes 0
+new-bench,Orientation clusters,oc4_spread_err_deg,ADFNE,-0.2099544843661194,-999999994.2331768,0.0,includes 0
+new-bench,Orientation clusters,oc4_spread_err_deg,KDE,0.0,-1.1692318194565279,0.0,includes 0
+new-bench,Orientation clusters,oc4_share_err,ADFNE,0.002083333333333298,-0.005784493284493278,0.01113624937154345,includes 0
+new-bench,Orientation clusters,oc4_share_err,KDE,0.002083333333333298,-0.0041666666666667004,0.009344474969474947,includes 0
+new-bench,Orientation clusters,unclustered_share_err,ADFNE,0.0,0.0,0.0023809523809524002,includes 0
+new-bench,Orientation clusters,unclustered_share_err,KDE,0.0,0.0,0.01279761904761905,includes 0
+new-bench,Orientation clusters,cluster_share_tv,ADFNE,0.0010416666666666768,-0.011858974358974317,0.017647058823529405,includes 0
+new-bench,Orientation clusters,cluster_share_tv,KDE,0.013249883286647945,-0.0012254901960784548,0.026785714285714246,includes 0
+new-bench,Length,len_w1_m,ADFNE,-0.3892756781580905,-0.5138303653904708,-0.2861534174602698,EVAE better
+new-bench,Length,len_w1_m,KDE,-0.2449197815836458,-0.3322559527490342,-0.1924434188570605,EVAE better
+new-bench,Length,len_med_err_m,ADFNE,-0.6605725854175701,-0.8275628138757476,-0.5000244669610091,EVAE better
+new-bench,Length,len_med_err_m,KDE,-0.19540634067415447,-0.3358490129499057,-0.08511075245534194,EVAE better
+new-bench,Length,len_p90_err_m,ADFNE,-0.5706478434206463,-0.9595101749021168,-0.30549826480772324,EVAE better
+new-bench,Length,len_p90_err_m,KDE,-0.7637511100735425,-1.1467774426564563,-0.29741825362864405,EVAE better
+new-bench,Length,oc1_len_w1_m,ADFNE,0.15514851078841185,-0.4090359285329721,0.4990649369036617,includes 0
+new-bench,Length,oc1_len_w1_m,KDE,0.10142685079549185,-0.168029184818979,0.48488499814942476,includes 0
+new-bench,Length,oc2_len_w1_m,ADFNE,-0.09246153542988322,-0.3206020158178089,0.24672469099645045,includes 0
+new-bench,Length,oc2_len_w1_m,KDE,0.15462781387947677,0.032494061632303284,0.39737619505834676,EVAE worse
+new-bench,Length,oc3_len_w1_m,ADFNE,-0.36398223750104,-0.5702167357856309,-0.07979290441535447,EVAE better
+new-bench,Length,oc3_len_w1_m,KDE,0.26081139401460973,0.014378631077139659,0.5464125358133338,EVAE worse
+new-bench,Length,oc4_len_w1_m,ADFNE,-0.10875601081182285,-999999996.2609718,0.0,includes 0
+new-bench,Length,oc4_len_w1_m,KDE,-0.056845929338993795,-1.0492453709298335,0.0,includes 0
+new-bench,Density,P20_relerr,ADFNE,0.04166666666666666,0.0,0.0714285714285714,includes 0
+new-bench,Density,P20_relerr,KDE,0.04166666666666666,0.0,0.0714285714285714,includes 0
+new-bench,Density,P21_relerr,ADFNE,-0.0459956143995592,-0.056898059333695405,-0.023975108724898882,EVAE better
+new-bench,Density,P21_relerr,KDE,-0.022059280308763363,-0.06464232019265324,-0.004475350821007307,EVAE better
+new-bench,Density,P22_relerr,ADFNE,-0.625,-1.0,-0.16666666666666663,EVAE better
+new-bench,Density,P22_relerr,KDE,-1.0,-1.75,-0.5,EVAE better
+new-bench,Density,nn_w1_m,ADFNE,0.38423038509027885,0.20519164116915595,0.6047733374678739,EVAE worse
+new-bench,Density,nn_w1_m,KDE,0.3489113185402454,0.027963398000409034,0.5347455624106787,EVAE worse
+new-bench,Density,cluster_vmr_err,ADFNE,-0.05463980463980467,-0.16522570566688216,0.03617701742701729,includes 0
+new-bench,Density,cluster_vmr_err,KDE,-0.05637383449883443,-0.1424242424242425,0.020260989010988995,includes 0
+new-bench,Density,oc1_count_relerr,ADFNE,0.0,-0.04166666666666663,0.125,includes 0
+new-bench,Density,oc1_count_relerr,KDE,0.0,0.0,0.0,includes 0
+new-bench,Density,oc2_count_relerr,ADFNE,0.0,-0.25,0.12500000000000006,includes 0
+new-bench,Density,oc2_count_relerr,KDE,0.0,0.0,0.06696428571428573,includes 0
+new-bench,Density,oc3_count_relerr,ADFNE,0.0,0.0,0.0,includes 0
+new-bench,Density,oc3_count_relerr,KDE,0.0,0.0,0.0,includes 0
+new-bench,Density,oc4_count_relerr,ADFNE,0.0,0.0,0.0,includes 0
+new-bench,Density,oc4_count_relerr,KDE,0.0,0.0,0.0,includes 0
+new-bench,Topology,term_share_err,ADFNE,-0.003095975232198126,-0.012191714757251768,0.009266381766381698,includes 0
+new-bench,Topology,term_share_err,KDE,-0.003128483835005573,-0.015391799696467201,0.0090248599439776,includes 0
+new-bench,Topology,CL_err,ADFNE,-0.15607032286598854,-0.19656558275484115,-0.07345596432552956,EVAE better
+new-bench,Topology,CL_err,KDE,-0.3280863069865628,-0.40475454957888657,-0.18736795017249994,EVAE better
+new-bench,Topology,node_tv,ADFNE,-0.028073553982996713,-0.037200956937798985,-0.008250988142292554,EVAE better
+new-bench,Topology,node_tv,KDE,-0.045737041596174685,-0.06184882032091493,-0.02775163485330509,EVAE better
+new-stretch,Orientation distribution,orient_w1_deg,ADFNE,1.2561621625238741,0.026707055537681157,1.8467255580424569,EVAE worse
+new-stretch,Orientation distribution,orient_w1_deg,KDE,0.7580240931167914,0.2782262452653417,1.6584511830517474,EVAE worse
+new-stretch,Orientation distribution,oc1_w1_deg,ADFNE,0.2404399722850279,-0.0053463403139071275,1.3514821252907527,includes 0
+new-stretch,Orientation distribution,oc1_w1_deg,KDE,0.32917609213139176,0.07599111947733306,0.6512068787918963,EVAE worse
+new-stretch,Orientation distribution,oc2_w1_deg,ADFNE,0.3164962969351377,-0.36516538939715604,0.8633967088190344,includes 0
+new-stretch,Orientation distribution,oc2_w1_deg,KDE,0.3129098123811733,-0.2559927193963958,1.0179517861437852,includes 0
+new-stretch,Orientation distribution,oc3_w1_deg,ADFNE,-1.1511500346967924,-1.3380958959736784,0.0,includes 0
+new-stretch,Orientation distribution,oc3_w1_deg,KDE,-0.30411006631976445,-0.8711079763836622,0.935177662585664,includes 0
+new-stretch,Orientation distribution,oc4_w1_deg,ADFNE,-999999987.458931,-999999990.8243302,0.0,includes 0
+new-stretch,Orientation distribution,oc4_w1_deg,KDE,-499999995.061063,-999999991.0411955,0.0,includes 0
+new-stretch,Orientation clusters,oc1_centre_err_deg,ADFNE,0.25370062780132674,-0.20287455088675532,1.3887768580761968,includes 0
+new-stretch,Orientation clusters,oc1_centre_err_deg,KDE,0.3580945619987821,-0.24026103643060814,1.042906826307739,includes 0
+new-stretch,Orientation clusters,oc1_spread_err_deg,ADFNE,0.28212077319012696,-0.04270042585953604,0.7092659648667503,includes 0
+new-stretch,Orientation clusters,oc1_spread_err_deg,KDE,0.6360722735994635,0.3137873383770793,1.1023547129911702,EVAE worse
+new-stretch,Orientation clusters,oc1_share_err,ADFNE,0.0,-0.022664835164835195,0.0363636363636364,includes 0
+new-stretch,Orientation clusters,oc1_share_err,KDE,-0.0013736263736264034,-0.030975788192071068,0.029626623376623397,includes 0
+new-stretch,Orientation clusters,oc2_centre_err_deg,ADFNE,0.121166686029746,-0.3755115955697381,0.5903083332806318,includes 0
+new-stretch,Orientation clusters,oc2_centre_err_deg,KDE,0.12266968962328262,-0.5575146347537885,0.9127392290610186,includes 0
+new-stretch,Orientation clusters,oc2_spread_err_deg,ADFNE,0.293863932429423,0.1299517329820712,0.7255451954658181,EVAE worse
+new-stretch,Orientation clusters,oc2_spread_err_deg,KDE,0.2033359362363203,0.04489318622936311,0.5120723390329562,EVAE worse
+new-stretch,Orientation clusters,oc2_share_err,ADFNE,0.0,-0.009883498854087076,0.016986268939393957,includes 0
+new-stretch,Orientation clusters,oc2_share_err,KDE,0.0008741258741258723,-0.0066808191808191975,0.023341112012986998,includes 0
+new-stretch,Orientation clusters,oc3_centre_err_deg,ADFNE,-1.0332431527401411,-1.6102401793693817,0.2671772564904673,includes 0
+new-stretch,Orientation clusters,oc3_centre_err_deg,KDE,-0.4344878057431032,-1.3677104533855715,1.157648138673287,includes 0
+new-stretch,Orientation clusters,oc3_spread_err_deg,ADFNE,-0.5216822947086066,-0.9731677208006726,0.06844663195720146,includes 0
+new-stretch,Orientation clusters,oc3_spread_err_deg,KDE,0.05330205690057355,-0.8680145742784582,0.5470293885869175,includes 0
+new-stretch,Orientation clusters,oc3_share_err,ADFNE,-4.85722573273506e-17,-0.013933982683982701,0.005507523522229342,includes 0
+new-stretch,Orientation clusters,oc3_share_err,KDE,-0.016014194139194075,-0.028571428571428498,-0.002262443438914047,EVAE better
+new-stretch,Orientation clusters,oc4_centre_err_deg,ADFNE,-999999987.4532154,-999999991.0001001,0.0,includes 0
+new-stretch,Orientation clusters,oc4_centre_err_deg,KDE,-499999996.1245817,-999999991.1358343,0.0,includes 0
+new-stretch,Orientation clusters,oc4_spread_err_deg,ADFNE,-999999992.4370997,-999999994.0863771,0.0,includes 0
+new-stretch,Orientation clusters,oc4_spread_err_deg,KDE,-499999998.06978965,-999999994.014965,-0.3644512911696074,EVAE better
+new-stretch,Orientation clusters,oc4_share_err,ADFNE,0.0,-0.001294326561596294,0.014423076923076941,includes 0
+new-stretch,Orientation clusters,oc4_share_err,KDE,-0.0037545787545787447,-0.01100045787545789,0.0,includes 0
+new-stretch,Orientation clusters,unclustered_share_err,ADFNE,0.0,0.0,0.0,includes 0
+new-stretch,Orientation clusters,unclustered_share_err,KDE,0.0,0.0,0.0,includes 0
+new-stretch,Orientation clusters,cluster_share_tv,ADFNE,0.009798534798534791,-0.023357198357198322,0.042891684339052744,includes 0
+new-stretch,Orientation clusters,cluster_share_tv,KDE,0.013955999066293218,-0.006257631257631249,0.04086538461538458,includes 0
+new-stretch,Length,len_w1_m,ADFNE,-0.33082341127563064,-0.48574421451771876,-0.1746096578084756,EVAE better
+new-stretch,Length,len_w1_m,KDE,-0.25858996136680956,-0.3714579747550181,-0.1734734929283482,EVAE better
+new-stretch,Length,len_med_err_m,ADFNE,-0.4171988287562413,-0.493237656674429,-0.2810644932691997,EVAE better
+new-stretch,Length,len_med_err_m,KDE,-0.09303914248175171,-0.18813815047542892,0.04838138291319877,includes 0
+new-stretch,Length,len_p90_err_m,ADFNE,-0.22724508432092994,-0.4408730084082251,0.07516017363535088,includes 0
+new-stretch,Length,len_p90_err_m,KDE,-0.4428644813154453,-0.5670359110281178,-0.2382253102497669,EVAE better
+new-stretch,Length,oc1_len_w1_m,ADFNE,0.04373736555756125,-0.3962235994250163,0.6011453140831335,includes 0
+new-stretch,Length,oc1_len_w1_m,KDE,0.2322376703178861,-0.2648440234440752,0.752921103868113,includes 0
+new-stretch,Length,oc2_len_w1_m,ADFNE,-0.04081385021853934,-0.24648996650951505,0.07090837956962726,includes 0
+new-stretch,Length,oc2_len_w1_m,KDE,0.08391351774242706,-0.023703683127491115,0.35048695938668706,includes 0
+new-stretch,Length,oc3_len_w1_m,ADFNE,-0.6185395019240136,-1.0058811844976532,-0.45433704228551064,EVAE better
+new-stretch,Length,oc3_len_w1_m,KDE,0.057373789205661385,-0.1717697553979578,0.6007985072231694,includes 0
+new-stretch,Length,oc4_len_w1_m,ADFNE,-999999991.0848892,-999999995.5154202,0.0,includes 0
+new-stretch,Length,oc4_len_w1_m,KDE,-499999995.67019624,-999999995.5154202,0.0,includes 0
+new-stretch,Density,P20_relerr,ADFNE,0.0,0.0,0.038157894736842085,includes 0
+new-stretch,Density,P20_relerr,KDE,0.0,0.0,0.038157894736842085,includes 0
+new-stretch,Density,P21_relerr,ADFNE,-0.02227143583225441,-0.03878757733283881,-0.0005211368002388805,EVAE better
+new-stretch,Density,P21_relerr,KDE,-0.005304399087639924,-0.016417569261373402,0.012526702076316842,includes 0
+new-stretch,Density,P22_relerr,ADFNE,-0.5,-0.75,-0.14583333333333334,EVAE better
+new-stretch,Density,P22_relerr,KDE,-0.5,-1.25,0.0,includes 0
+new-stretch,Density,nn_w1_m,ADFNE,0.3376981249848603,-0.018815408222626562,0.5775962614364356,includes 0
+new-stretch,Density,nn_w1_m,KDE,0.32654185490245946,-0.029209795324373622,0.5561455544334775,includes 0
+new-stretch,Density,cluster_vmr_err,ADFNE,0.022696053946053882,-0.1345508658008659,0.10449661814793387,includes 0
+new-stretch,Density,cluster_vmr_err,KDE,-0.011572802197802212,-0.11071428571428577,0.07040598290598295,includes 0
+new-stretch,Density,oc1_count_relerr,ADFNE,0.0,-0.08333333333333337,0.0,includes 0
+new-stretch,Density,oc1_count_relerr,KDE,0.0,0.0,0.125,includes 0
+new-stretch,Density,oc2_count_relerr,ADFNE,0.0,0.0,0.0,includes 0
+new-stretch,Density,oc2_count_relerr,KDE,0.0,0.0,0.0,includes 0
+new-stretch,Density,oc3_count_relerr,ADFNE,0.0,0.0,0.0,includes 0
+new-stretch,Density,oc3_count_relerr,KDE,0.0,0.0,0.0,includes 0
+new-stretch,Density,oc4_count_relerr,ADFNE,0.0,0.0,0.0,includes 0
+new-stretch,Density,oc4_count_relerr,KDE,0.0,0.0,0.0,includes 0
+new-stretch,Topology,term_share_err,ADFNE,-0.0009604978354978491,-0.00901752074520953,0.009704067861962599,includes 0
+new-stretch,Topology,term_share_err,KDE,0.002953559850111573,-0.00678461182887456,0.011122482589873903,includes 0
+new-stretch,Topology,CL_err,ADFNE,-0.21657411328810922,-0.2924901185770752,-0.09552879062860908,EVAE better
+new-stretch,Topology,CL_err,KDE,-0.2916393198715854,-0.3431889574693173,-0.14575098814229248,EVAE better
+new-stretch,Topology,node_tv,ADFNE,-0.033546131726712475,-0.04438900798138941,-0.017643977268560193,EVAE better
+new-stretch,Topology,node_tv,KDE,-0.03573416050405885,-0.05199081330546844,-0.0190130629604314,EVAE better

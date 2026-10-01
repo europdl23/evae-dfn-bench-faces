@@ -1,0 +1,10 @@
+test,measure,realisation_median,heldout_median,realisation_max,heldout_max,p_wilcoxon,n_panels
+gap-filling,"near-copy share, vs source panel",0.0,0.0,0.0,0.0,1.0,20
+gap-filling,distance to closest trace of source panel (m),4.963730522968686,5.090519765705354,5.765858557829077,6.272279377108653,0.06372261047363281,20
+gap-filling,"near-copy share, nearest training panel",0.027046783625730993,0.05555555555555555,0.07142857142857142,0.14285714285714285,0.3404738535817129,20
+new-bench,"near-copy share, vs source panel",0.0,0.0,0.0,0.0,1.0,50
+new-bench,distance to closest trace of source panel (m),4.944995862094073,5.004248089469128,5.814859436189115,6.163197439121429,0.08054833435456032,50
+new-bench,"near-copy share, nearest training panel",0.0,0.05131578947368421,0.07692307692307693,0.14285714285714285,0.005912133784603242,50
+new-stretch,"near-copy share, vs source panel",0.0,0.0,0.0,0.0,1.0,50
+new-stretch,distance to closest trace of source panel (m),4.861043959101963,5.129412126539771,5.906275516349969,6.327431312342464,0.010879562807692977,50
+new-stretch,"near-copy share, nearest training panel",0.0,0.0,0.07692307692307693,0.125,0.18620534520384902,50

@@ -1,0 +1,25 @@
+edge,group,better,no_difference,worse
+"Geology-informed terms, single latent",Orientation distribution,4,11,0
+"Geology-informed terms, single latent",Orientation clusters,7,35,0
+"Geology-informed terms, single latent",Length,2,19,0
+"Geology-informed terms, single latent",Density,1,25,1
+"Geology-informed terms, single latent",Topology,0,5,4
+"Geology-informed terms, single latent",All,14,95,5
+"Geology-informed terms, dual latent",Orientation distribution,5,10,0
+"Geology-informed terms, dual latent",Orientation clusters,13,29,0
+"Geology-informed terms, dual latent",Length,3,18,0
+"Geology-informed terms, dual latent",Density,4,22,1
+"Geology-informed terms, dual latent",Topology,0,8,1
+"Geology-informed terms, dual latent",All,25,87,2
+"Dual vs single latent, with terms",Orientation distribution,0,15,0
+"Dual vs single latent, with terms",Orientation clusters,0,42,0
+"Dual vs single latent, with terms",Length,0,18,3
+"Dual vs single latent, with terms",Density,1,23,3
+"Dual vs single latent, with terms",Topology,1,8,0
+"Dual vs single latent, with terms",All,2,106,6
+"Dual vs single latent, without terms",Orientation distribution,0,14,1
+"Dual vs single latent, without terms",Orientation clusters,4,34,4
+"Dual vs single latent, without terms",Length,1,14,6
+"Dual vs single latent, without terms",Density,0,22,5
+"Dual vs single latent, without terms",Topology,0,9,0
+"Dual vs single latent, without terms",All,5,93,16

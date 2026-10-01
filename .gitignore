@@ -1,0 +1,20 @@
+# scratch space for reruns (regenerated networks, retrained models, ADFNE work files)
+work/
+paper/work/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# third-party software that is not redistributed (see src/baselines/README.md)
+src/baselines/adfne_octave/ADFNE1.5/
+
+# os and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

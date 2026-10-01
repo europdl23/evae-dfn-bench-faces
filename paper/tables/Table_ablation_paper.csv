@@ -1,0 +1,16 @@
+Parameter,Unit,gap-filling test: held-out,gap-filling test: Single-latent EVAE without geology-informed terms,gap-filling test: Single-latent EVAE,gap-filling test: EVAE without geology-informed terms,gap-filling test: Full EVAE,new-bench test: held-out,new-bench test: Single-latent EVAE without geology-informed terms,new-bench test: Single-latent EVAE,new-bench test: EVAE without geology-informed terms,new-bench test: Full EVAE,new-stretch test: held-out,new-stretch test: Single-latent EVAE without geology-informed terms,new-stretch test: Single-latent EVAE,new-stretch test: EVAE without geology-informed terms,new-stretch test: Full EVAE
+Trace count (P20),traces per 100 m²,3.75,3.5,3.5,3.5,3.5,3.93,3.75,3.88,3.5,3.5,3.93,3.5,3.5,3.5,3.5
+Median trace length,m,5.8,5.7,5.8,5.4,5.5,5.7,5.3,5.3,5.3,5.5,5.7,5.5,5.6,5.2,5.1
+Long traces: 90th percentile length,m,13.9,10.5,11.3,10.5,11.8,12.4,10.1,11.5,11.1,12.1,12.4,9.9,10.6,10.4,11.4
+Trace intensity (P21),m/m²,0.269,0.221,0.222,0.201,0.214,0.265,0.221,0.244,0.217,0.223,0.265,0.212,0.222,0.207,0.206
+Intersections,per 100 m²,0.5,0.75,0.75,0.5,0.75,0.41,0.62,1.0,0.57,0.75,0.41,0.5,0.75,0.5,0.65
+Connections per trace,-,0.73,0.78,0.82,0.69,0.9,0.68,0.78,1.09,0.77,1.0,0.68,0.69,0.91,0.67,0.87
+Spacing: nearest trace,m,3.1,4.0,4.0,4.1,4.1,3.0,4.0,3.9,4.1,4.1,3.0,4.1,3.8,4.2,4.0
+Orientation cluster 1 (~125°): share,%,36.0,23.0,36.0,20.0,34.0,34.0,22.0,35.0,18.0,34.0,34.0,23.0,35.0,18.0,36.0
+Orientation cluster 2 (~56°): share,%,32.0,20.0,25.0,26.0,28.0,31.0,24.0,29.0,30.0,28.0,32.0,24.0,27.0,29.0,28.0
+Orientation cluster 3 (~27°): share,%,19.0,24.0,17.0,24.0,19.0,19.0,23.0,17.0,22.0,20.0,18.0,22.0,19.0,27.0,18.0
+Orientation cluster 4 (~89°): share,%,10.0,11.0,14.0,11.0,13.0,10.0,9.0,11.0,12.0,10.0,10.0,10.0,13.0,10.0,13.0
+Orientation cluster 1: direction,°,125.0,126.0,127.0,126.0,126.0,125.0,126.0,124.0,125.0,125.0,124.0,125.0,124.0,125.0,124.0
+Orientation cluster 2: direction,°,56.0,56.0,56.0,57.0,56.0,57.0,56.0,55.0,56.0,56.0,56.0,56.0,56.0,57.0,56.0
+Orientation cluster 1: spread,°,10.1,12.2,11.9,12.5,11.6,11.0,12.9,12.3,13.5,12.0,10.9,12.9,12.4,13.3,12.2
+Orientation cluster 2: spread,°,9.3,10.3,10.3,10.1,10.0,9.8,10.7,10.5,10.6,10.4,10.3,10.3,10.7,10.4,10.6

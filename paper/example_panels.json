@@ -1,0 +1,105 @@
+{
+ "rule": "Per test, the EVAE errors of every held-out panel (panel value = median over its 24 realisations, from the release\ntable tables/stats_box_medians.csv) on four scores: trace-direction W1 (orient_w1_deg), trace-length W1 (len_w1_m),\ntrace-count error (P20_relerr) and trace-direction-cluster share error (cluster_share_tv). Each score is standardised\nwithin the test (z = (x - mean) / sd over the test's panels).\n  typical panel = the panel whose standardised error vector is closest (Euclidean) to the vector of per-score medians;\n                  tests are taken in the order gap-filling, new-bench, new-stretch, and a panel already chosen is skipped\n                  (the next closest is taken);\n  hard panel    = gap-filling test: the panel whose mean standardised error is closest to the 90th percentile of the\n                  mean standardised errors of that test (a panel already chosen is skipped).\nRealisation shown = run seed 1337, draw 0 for every method (the first realisation, not selected).\nWrites paper/example_panels.json and EXAMPLE_PANELS.md.",
+ "panels": [
+  {
+   "role": "typical",
+   "test": "gap-filling",
+   "scheme": "S1",
+   "panel": "W03_C2",
+   "fold": 2,
+   "distance_to_median": 0.709,
+   "mean_z": -0.505,
+   "errors": {
+    "orient_w1_deg": 11.9303,
+    "len_w1_m": 1.1119,
+    "P20_relerr": 0.2222,
+    "cluster_share_tv": 0.2542
+   },
+   "label": "A",
+   "realisation": {
+    "run_seed": 1337,
+    "draw": 0,
+    "generator_seed": {
+     "EVAE": 2058722514,
+     "ADFNE": 1858885179,
+     "KDE": 2362463540
+    }
+   }
+  },
+  {
+   "role": "typical",
+   "test": "new-bench",
+   "scheme": "S2",
+   "panel": "W06_C5",
+   "fold": 6,
+   "distance_to_median": 0.426,
+   "mean_z": -0.377,
+   "errors": {
+    "orient_w1_deg": 12.7024,
+    "len_w1_m": 1.5125,
+    "P20_relerr": 0.1429,
+    "cluster_share_tv": 0.2747
+   },
+   "label": "B",
+   "realisation": {
+    "run_seed": 1337,
+    "draw": 0,
+    "generator_seed": {
+     "EVAE": 4257113559,
+     "ADFNE": 2790931267,
+     "KDE": 1145452620
+    }
+   }
+  },
+  {
+   "role": "typical",
+   "test": "new-stretch",
+   "scheme": "S3",
+   "panel": "W04_C4",
+   "fold": 1,
+   "distance_to_median": 0.322,
+   "mean_z": -0.105,
+   "errors": {
+    "orient_w1_deg": 14.7564,
+    "len_w1_m": 1.6717,
+    "P20_relerr": 0.3,
+    "cluster_share_tv": 0.2846
+   },
+   "label": "C",
+   "realisation": {
+    "run_seed": 1337,
+    "draw": 0,
+    "generator_seed": {
+     "EVAE": 1762277702,
+     "ADFNE": 3199592902,
+     "KDE": 1554639561
+    }
+   }
+  },
+  {
+   "role": "hard",
+   "test": "gap-filling",
+   "scheme": "S1",
+   "panel": "W02_C2",
+   "fold": 0,
+   "mean_z": 0.798,
+   "p90_mean_z": 0.831,
+   "errors": {
+    "orient_w1_deg": 11.2392,
+    "len_w1_m": 4.1482,
+    "P20_relerr": 0.4,
+    "cluster_share_tv": 0.3063
+   },
+   "label": "D",
+   "realisation": {
+    "run_seed": 1337,
+    "draw": 0,
+    "generator_seed": {
+     "EVAE": 331215491,
+     "ADFNE": 130300010,
+     "KDE": 3856153445
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+# Byte-exact checkout is required in this repository.
+#
+# MANIFEST_SHA256.txt records the sha256 of every file here, and scripts/verify_release.py checks them. Git's
+# end-of-line conversion would rewrite text files on clone and break their checksums, so no end-of-line conversion
+# is applied to anything.
+* -text
+
+# Files are therefore served exactly as committed: the shell launchers with LF, the Windows batch launchers with
+# CRLF, and every data, network, table and model file byte for byte.
+
+# Git LFS is not required: the largest file is a 2.2 MB model checkpoint and the repository is about 430 MB in
+# total (180 checkpoints of about 2.1 MB). If you later add large artefacts, such as the bench-face orthophotos, track
+# those with LFS instead, for example:
+#   *.jpg filter=lfs diff=lfs merge=lfs -text

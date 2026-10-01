@@ -1,0 +1,15 @@
+name: section1-evae
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pyyaml
+  # CPU is enough for training, generation, evaluation and figures.
+  - pytorch
+  - cpuonly

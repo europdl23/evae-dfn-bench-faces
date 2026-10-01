@@ -1,0 +1,13 @@
+against,group,better,no difference,worse
+ADFNE (neighbours),Density,2,7,0
+ADFNE (neighbours),Length,3,4,0
+ADFNE (neighbours),Orientation clusters,0,11,3
+ADFNE (neighbours),Orientation distribution,0,4,1
+ADFNE (neighbours),Topology,2,1,0
+KDE (neighbours),Density,2,6,1
+KDE (neighbours),Length,3,4,0
+KDE (neighbours),Orientation clusters,0,11,3
+KDE (neighbours),Orientation distribution,0,4,1
+KDE (neighbours),Topology,2,1,0
+ADFNE (neighbours),All,7,27,4
+KDE (neighbours),All,7,26,5

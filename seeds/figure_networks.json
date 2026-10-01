@@ -1,0 +1,78 @@
+{
+ "purpose": "Figure 1 (plain comparison): the networks shown for EVAE, ADFNE and KDE. All three methods use the SAME run seed and draw.",
+ "run_seed": 1337,
+ "draw": 0,
+ "network_rule": "run seed 1337, draw 0 = the first network of each method for that box; not selected by quality",
+ "box_rule": "one held-out test box per scheme, fixed before this comparison: the boxes shown in the image-chain figures of the same study (median-performance box per scheme, rule written in code/image_only_figure.py of the study)",
+ "boxes": [
+  {
+   "scheme": "S1",
+   "scheme_name": "Neighbourhood (fill a gap)",
+   "fold": 2,
+   "box": "W01_C2",
+   "networks": {
+    "EVAE": {
+     "file": "networks/S1/EVAE/f2_W01_C2_s1337_d00.csv",
+     "generator_seed": 584656147,
+     "seed_key": "EVAE|S1|geobg|2|W01_C2|1337|0"
+    },
+    "ADFNE": {
+     "file": "networks/S1/ADFNE/f2_W01_C2_s1337_d00.csv",
+     "generator_seed": 916516858,
+     "seed_key": "ADFNE|S1|main|2|W01_C2|1337|0"
+    },
+    "KDE": {
+     "file": "networks/S1/KDE/f2_W01_C2_s1337_d00.csv",
+     "generator_seed": 3569151221,
+     "seed_key": "KDE|S1|main|2|W01_C2|1337|0"
+    }
+   }
+  },
+  {
+   "scheme": "S2",
+   "scheme_name": "Leave-one-bench-out (new bench level)",
+   "fold": 0,
+   "box": "W00_C4",
+   "networks": {
+    "EVAE": {
+     "file": "networks/S2/EVAE/f0_W00_C4_s1337_d00.csv",
+     "generator_seed": 4217076728,
+     "seed_key": "EVAE|S2|geobg|0|W00_C4|1337|0"
+    },
+    "ADFNE": {
+     "file": "networks/S2/ADFNE/f0_W00_C4_s1337_d00.csv",
+     "generator_seed": 2696881516,
+     "seed_key": "ADFNE|S2|main|0|W00_C4|1337|0"
+    },
+    "KDE": {
+     "file": "networks/S2/KDE/f0_W00_C4_s1337_d00.csv",
+     "generator_seed": 1117988451,
+     "seed_key": "KDE|S2|main|0|W00_C4|1337|0"
+    }
+   }
+  },
+  {
+   "scheme": "S3",
+   "scheme_name": "Leave-one-stretch-out (new part of the wall)",
+   "fold": 1,
+   "box": "W00_C3",
+   "networks": {
+    "EVAE": {
+     "file": "networks/S3/EVAE/f1_W00_C3_s1337_d00.csv",
+     "generator_seed": 3541451741,
+     "seed_key": "EVAE|S3|geobg|1|W00_C3|1337|0"
+    },
+    "ADFNE": {
+     "file": "networks/S3/ADFNE/f1_W00_C3_s1337_d00.csv",
+     "generator_seed": 78222173,
+     "seed_key": "ADFNE|S3|main|1|W00_C3|1337|0"
+    },
+    "KDE": {
+     "file": "networks/S3/KDE/f1_W00_C3_s1337_d00.csv",
+     "generator_seed": 3870658642,
+     "seed_key": "KDE|S3|main|1|W00_C3|1337|0"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+comparison,group,better,no_difference,worse
+EVAE vs ADFNE,Orientation distribution,2,12,1
+EVAE vs ADFNE,Orientation clusters,1,36,5
+EVAE vs ADFNE,Length,9,12,0
+EVAE vs ADFNE,Density,6,21,0
+EVAE vs ADFNE,Topology,6,3,0
+EVAE vs ADFNE,All,24,84,6
+EVAE vs KDE,Orientation distribution,0,14,1
+EVAE vs KDE,Orientation clusters,1,39,2
+EVAE vs KDE,Length,8,11,2
+EVAE vs KDE,Density,6,21,0
+EVAE vs KDE,Topology,6,3,0
+EVAE vs KDE,All,21,88,5

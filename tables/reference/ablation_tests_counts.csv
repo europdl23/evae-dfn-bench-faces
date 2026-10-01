@@ -1,0 +1,25 @@
+edge,group,better,no_difference,worse
+"Guide, single latent",Orientation distribution,10,5,0
+"Guide, single latent",Orientation clusters,21,18,3
+"Guide, single latent",Length,3,16,2
+"Guide, single latent",Density,1,25,1
+"Guide, single latent",Topology,0,5,4
+"Guide, single latent",All,35,69,10
+"Guide, dual latent",Orientation distribution,7,8,0
+"Guide, dual latent",Orientation clusters,17,25,0
+"Guide, dual latent",Length,7,12,2
+"Guide, dual latent",Density,4,22,1
+"Guide, dual latent",Topology,0,8,1
+"Guide, dual latent",All,35,75,4
+"Latent, with guide",Orientation distribution,1,14,0
+"Latent, with guide",Orientation clusters,2,40,0
+"Latent, with guide",Length,0,17,4
+"Latent, with guide",Density,1,23,3
+"Latent, with guide",Topology,1,8,0
+"Latent, with guide",All,5,102,7
+"Latent, no guide",Orientation distribution,2,10,3
+"Latent, no guide",Orientation clusters,6,28,8
+"Latent, no guide",Length,2,12,7
+"Latent, no guide",Density,0,22,5
+"Latent, no guide",Topology,0,9,0
+"Latent, no guide",All,10,81,23

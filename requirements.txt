@@ -1,0 +1,9 @@
+# Python 3.10 or newer.
+# Versions below are the ones the released results were checked with (docs/REPRODUCIBILITY.md); nearby versions work.
+numpy>=1.24,<3          # checked: 2.2.6
+scipy>=1.10             # checked: 1.15.3
+pandas>=2.0             # checked: 2.3.3
+torch>=2.0              # checked: 2.6.0 (CPU is enough; training used the CPU)
+scikit-learn>=1.2       # checked: 1.7.2
+matplotlib>=3.7         # checked: 3.10.6 (figures need the Times New Roman font installed)
+PyYAML>=6.0             # checked: 6.0.2

@@ -1,0 +1,13 @@
+against,group,better,no_difference,worse
+ADFNE,Orientation distribution,2,12,1
+ADFNE,Orientation clusters,1,36,5
+ADFNE,Length,9,12,0
+ADFNE,Density,6,21,0
+ADFNE,Topology,6,3,0
+ADFNE,All,24,84,6
+KDE,Orientation distribution,0,14,1
+KDE,Orientation clusters,1,39,2
+KDE,Length,8,11,2
+KDE,Density,6,21,0
+KDE,Topology,6,3,0
+KDE,All,21,88,5

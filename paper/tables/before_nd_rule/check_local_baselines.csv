@@ -1,0 +1,77 @@
+test,group,score,against,n_boxes,median_diff,p_holm,result
+gap-filling,Orientation distribution,orient_w1_deg,ADFNE (neighbours),20,1.3685327192360761,0.002712249755859375,worse
+gap-filling,Orientation distribution,orient_w1_deg,KDE (neighbours),20,1.466712153656763,0.00026702880859375,worse
+gap-filling,Orientation distribution,oc1_w1_deg,ADFNE (neighbours),18,1.0718933238999306,0.06072998046875,no difference
+gap-filling,Orientation distribution,oc1_w1_deg,KDE (neighbours),18,0.5412076264644328,0.550872802734375,no difference
+gap-filling,Orientation distribution,oc2_w1_deg,ADFNE (neighbours),19,0.44844124106500427,0.13257598876953125,no difference
+gap-filling,Orientation distribution,oc2_w1_deg,KDE (neighbours),19,0.467016195722163,0.13257598876953125,no difference
+gap-filling,Orientation distribution,oc3_w1_deg,ADFNE (neighbours),18,-0.8224384548512678,0.7854766845703125,no difference
+gap-filling,Orientation distribution,oc3_w1_deg,KDE (neighbours),18,0.09350309965919479,0.8616909367394272,no difference
+gap-filling,Orientation distribution,oc4_w1_deg,ADFNE (neighbours),8,-0.6200308136979515,1.0,no difference
+gap-filling,Orientation distribution,oc4_w1_deg,KDE (neighbours),8,0.053301082329427096,1.0,no difference
+gap-filling,Orientation clusters,oc1_centre_err_deg,ADFNE (neighbours),18,0.40750448595662214,0.3347015380859375,no difference
+gap-filling,Orientation clusters,oc1_centre_err_deg,KDE (neighbours),18,0.622885338897339,0.8985748291015625,no difference
+gap-filling,Orientation clusters,oc1_spread_err_deg,ADFNE (neighbours),18,0.9873586286995875,0.0013427734375,worse
+gap-filling,Orientation clusters,oc1_spread_err_deg,KDE (neighbours),18,0.9135743904059115,0.0047454833984375,worse
+gap-filling,Orientation clusters,oc1_share_err,ADFNE (neighbours),20,0.03789682539682535,0.04844093322753906,worse
+gap-filling,Orientation clusters,oc1_share_err,KDE (neighbours),20,0.0399572649572649,0.01893908033917614,worse
+gap-filling,Orientation clusters,oc2_centre_err_deg,ADFNE (neighbours),19,0.16148492597668263,0.5677604675292969,no difference
+gap-filling,Orientation clusters,oc2_centre_err_deg,KDE (neighbours),19,0.38269801693899996,0.5158538818359375,no difference
+gap-filling,Orientation clusters,oc2_spread_err_deg,ADFNE (neighbours),19,0.6636161565457108,0.02471923828125,worse
+gap-filling,Orientation clusters,oc2_spread_err_deg,KDE (neighbours),19,0.6708251571485127,0.12318801879882812,no difference
+gap-filling,Orientation clusters,oc2_share_err,ADFNE (neighbours),20,0.004166666666666659,0.5221977233886719,no difference
+gap-filling,Orientation clusters,oc2_share_err,KDE (neighbours),20,0.012634587634587587,0.5221977233886719,no difference
+gap-filling,Orientation clusters,oc3_centre_err_deg,ADFNE (neighbours),18,-0.36132068711356835,1.0,no difference
+gap-filling,Orientation clusters,oc3_centre_err_deg,KDE (neighbours),18,0.037935848628325,1.0,no difference
+gap-filling,Orientation clusters,oc3_spread_err_deg,ADFNE (neighbours),18,-0.4876223196055196,0.4130992649429739,no difference
+gap-filling,Orientation clusters,oc3_spread_err_deg,KDE (neighbours),18,-0.2687192244949561,0.4130992649429739,no difference
+gap-filling,Orientation clusters,oc3_share_err,ADFNE (neighbours),20,0.02004793452161868,0.23352023873340422,no difference
+gap-filling,Orientation clusters,oc3_share_err,KDE (neighbours),20,0.010751748251748239,0.23352023873340422,no difference
+gap-filling,Orientation clusters,oc4_centre_err_deg,ADFNE (neighbours),8,-1.0947652110117936,0.8125,no difference
+gap-filling,Orientation clusters,oc4_centre_err_deg,KDE (neighbours),8,0.2649129273853843,0.8125,no difference
+gap-filling,Orientation clusters,oc4_spread_err_deg,ADFNE (neighbours),8,-0.5170447664961033,1.0,no difference
+gap-filling,Orientation clusters,oc4_spread_err_deg,KDE (neighbours),8,0.05852072018180898,1.0,no difference
+gap-filling,Orientation clusters,oc4_share_err,ADFNE (neighbours),20,0.016468253968253938,0.3299140930175781,no difference
+gap-filling,Orientation clusters,oc4_share_err,KDE (neighbours),20,0.005357142857142831,0.7841262817382812,no difference
+gap-filling,Orientation clusters,unclustered_share_err,ADFNE (neighbours),20,0.0016025641025640552,0.3818163246175905,no difference
+gap-filling,Orientation clusters,unclustered_share_err,KDE (neighbours),20,0.0,0.3818163246175905,no difference
+gap-filling,Orientation clusters,cluster_share_tv,ADFNE (neighbours),20,0.03761808367071523,0.007177811106404219,worse
+gap-filling,Orientation clusters,cluster_share_tv,KDE (neighbours),20,0.04233058608058604,0.007177811106404219,worse
+gap-filling,Length,len_w1_m,ADFNE (neighbours),20,-0.3745115729337176,1.9073486328125e-05,better
+gap-filling,Length,len_w1_m,KDE (neighbours),20,-0.3589256856399057,6.29425048828125e-05,better
+gap-filling,Length,len_med_err_m,ADFNE (neighbours),20,-0.7173344982829909,7.62939453125e-06,better
+gap-filling,Length,len_med_err_m,KDE (neighbours),20,-0.2735946976411253,0.001689910888671875,better
+gap-filling,Length,len_p90_err_m,ADFNE (neighbours),20,-0.2693181291664132,0.01531219482421875,better
+gap-filling,Length,len_p90_err_m,KDE (neighbours),20,-0.6376716141063714,0.00337982177734375,better
+gap-filling,Length,oc1_len_w1_m,ADFNE (neighbours),18,0.011334624782051383,1.0,no difference
+gap-filling,Length,oc1_len_w1_m,KDE (neighbours),18,-0.08194345345547571,1.0,no difference
+gap-filling,Length,oc2_len_w1_m,ADFNE (neighbours),19,0.3000107769118179,0.07213592529296875,no difference
+gap-filling,Length,oc2_len_w1_m,KDE (neighbours),19,0.09758346194818168,0.2934989929199219,no difference
+gap-filling,Length,oc3_len_w1_m,ADFNE (neighbours),18,-0.056939613065940975,1.0,no difference
+gap-filling,Length,oc3_len_w1_m,KDE (neighbours),18,0.02374768947920347,1.0,no difference
+gap-filling,Length,oc4_len_w1_m,ADFNE (neighbours),8,-0.3773119313414004,0.8125,no difference
+gap-filling,Length,oc4_len_w1_m,KDE (neighbours),8,0.0,1.0,no difference
+gap-filling,Density,P20_relerr,ADFNE (neighbours),20,0.0,1.0,no difference
+gap-filling,Density,P20_relerr,KDE (neighbours),20,0.0,1.0,no difference
+gap-filling,Density,P21_relerr,ADFNE (neighbours),20,-0.042996574812566773,0.12744522094726562,no difference
+gap-filling,Density,P21_relerr,KDE (neighbours),20,-0.00419487389894746,0.47490501403808594,no difference
+gap-filling,Density,P22_relerr,ADFNE (neighbours),15,-0.75,0.0031918963931262456,better
+gap-filling,Density,P22_relerr,KDE (neighbours),15,-1.0,0.0031918963931262456,better
+gap-filling,Density,nn_w1_m,ADFNE (neighbours),20,0.345886680047189,1.0,no difference
+gap-filling,Density,nn_w1_m,KDE (neighbours),20,0.2370482005438112,1.0,no difference
+gap-filling,Density,cluster_vmr_err,ADFNE (neighbours),20,-0.09411268556005414,0.014591217041015625,better
+gap-filling,Density,cluster_vmr_err,KDE (neighbours),20,-0.14504751461988313,0.04844093322753906,better
+gap-filling,Density,oc1_count_relerr,ADFNE (neighbours),18,0.13333333333333336,0.06377508174672641,no difference
+gap-filling,Density,oc1_count_relerr,KDE (neighbours),18,0.10555555555555557,0.027404029528658187,worse
+gap-filling,Density,oc2_count_relerr,ADFNE (neighbours),20,0.0,0.8590604144444218,no difference
+gap-filling,Density,oc2_count_relerr,KDE (neighbours),20,0.0,0.9700971378800123,no difference
+gap-filling,Density,oc3_count_relerr,ADFNE (neighbours),20,0.0,1.0,no difference
+gap-filling,Density,oc3_count_relerr,KDE (neighbours),20,0.0,1.0,no difference
+gap-filling,Density,oc4_count_relerr,ADFNE (neighbours),14,0.0,1.0,no difference
+gap-filling,Density,oc4_count_relerr,KDE (neighbours),14,0.0,1.0,no difference
+gap-filling,Topology,term_share_err,ADFNE (neighbours),20,-0.0038728632478632966,0.7011814117431641,no difference
+gap-filling,Topology,term_share_err,KDE (neighbours),20,-0.005294960887066179,0.35370635986328125,no difference
+gap-filling,Topology,CL_err,ADFNE (neighbours),20,-0.2678932178932179,0.024158477783203125,better
+gap-filling,Topology,CL_err,KDE (neighbours),20,-0.3377253876378927,0.03276824951171875,better
+gap-filling,Topology,node_tv,ADFNE (neighbours),20,-0.04125380579201821,0.006305694580078125,better
+gap-filling,Topology,node_tv,KDE (neighbours),20,-0.04637734040984821,0.006305694580078125,better

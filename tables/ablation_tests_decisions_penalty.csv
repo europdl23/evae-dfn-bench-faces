@@ -1,0 +1,457 @@
+scheme,group,score,edge,first,second,n_boxes,median_diff,p_holm,result
+S1,Orientation distribution,orient_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,20,-3.5447769288933246,0.0003147125244140625,better
+S1,Orientation distribution,orient_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-3.3400106308111104,0.00014495849609375,better
+S1,Orientation distribution,orient_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,20,-0.9898375190208322,0.24548721313476562,no difference
+S1,Orientation distribution,orient_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,-0.7747199721095424,0.21079635620117188,no difference
+S1,Orientation distribution,oc1_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,18,-2.0268649106551857,0.00098419189453125,better
+S1,Orientation distribution,oc1_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,18,-2.78860107621554,3.0517578125e-05,better
+S1,Orientation distribution,oc1_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,18,-0.09206699560286591,0.6705245971679688,no difference
+S1,Orientation distribution,oc1_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,18,1.0509348026793166,0.179534912109375,no difference
+S1,Orientation distribution,oc2_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,19,-0.9393267885566239,0.043304443359375,better
+S1,Orientation distribution,oc2_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,19,-0.42865515076574034,0.24637603759765625,no difference
+S1,Orientation distribution,oc2_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,19,-0.31053880211140505,0.3524589538574219,no difference
+S1,Orientation distribution,oc2_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,19,-0.8879044499469684,0.043304443359375,better
+S1,Orientation distribution,oc3_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,18,0.3905266126711906,0.07293701171875,no difference
+S1,Orientation distribution,oc3_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,18,0.9044447844224468,0.6494598388671875,no difference
+S1,Orientation distribution,oc3_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,18,-0.01113613617275977,0.6494598388671875,no difference
+S1,Orientation distribution,oc3_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,18,0.24575111209601275,0.42455291748046875,no difference
+S1,Orientation distribution,oc4_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,8,0.0,0.8125,no difference
+S1,Orientation distribution,oc4_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,8,-499999992.82773775,0.25,no difference
+S1,Orientation distribution,oc4_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,8,0.0956368083760375,0.8125,no difference
+S1,Orientation distribution,oc4_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,8,1.0940303421947069,0.375,no difference
+S1,Orientation clusters,oc1_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,18,-3.271846074635796,0.00125885009765625,better
+S1,Orientation clusters,oc1_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,18,-3.5790870056555955,0.000152587890625,better
+S1,Orientation clusters,oc1_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,18,-0.3183241122355478,0.7337265014648438,no difference
+S1,Orientation clusters,oc1_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,18,1.0020368244032194,0.529052734375,no difference
+S1,Orientation clusters,oc1_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,18,-1.1263683773197941,0.1798095703125,no difference
+S1,Orientation clusters,oc1_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,18,-1.7222403326609257,0.000152587890625,better
+S1,Orientation clusters,oc1_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,18,-0.1725625940725557,0.49507904052734375,no difference
+S1,Orientation clusters,oc1_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,18,1.2598113461642955,0.1798095703125,no difference
+S1,Orientation clusters,oc1_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,20,-0.035574229691876735,0.28995734209519175,no difference
+S1,Orientation clusters,oc1_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.0454285298035298,0.061248779296875,no difference
+S1,Orientation clusters,oc1_share_err,"Dual vs single latent, with terms",EVAE,single_guide,20,-0.022042102634207902,0.7365531921386719,no difference
+S1,Orientation clusters,oc1_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.009943181818181816,0.7365531921386719,no difference
+S1,Orientation clusters,oc2_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,19,-1.8024364428143196,0.00677490234375,better
+S1,Orientation clusters,oc2_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,19,-0.3508381544490584,0.6641311645507812,no difference
+S1,Orientation clusters,oc2_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,19,-0.6195396482509343,0.6641311645507812,no difference
+S1,Orientation clusters,oc2_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,19,-0.839954811034298,0.0542449951171875,no difference
+S1,Orientation clusters,oc2_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,19,-0.7571248506202473,0.120391845703125,no difference
+S1,Orientation clusters,oc2_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,19,0.014095179283816428,0.6507492065429688,no difference
+S1,Orientation clusters,oc2_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,19,-0.39658090188777884,0.14566802978515625,no difference
+S1,Orientation clusters,oc2_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,19,-0.894377600665222,0.1032867431640625,no difference
+S1,Orientation clusters,oc2_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,20,-0.021676362852833447,0.017163349738521655,better
+S1,Orientation clusters,oc2_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.009891150516150526,0.4948711395263672,no difference
+S1,Orientation clusters,oc2_share_err,"Dual vs single latent, with terms",EVAE,single_guide,20,0.0015182186234817818,0.9702171637980858,no difference
+S1,Orientation clusters,oc2_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,-0.011675824175824197,0.4948711395263672,no difference
+S1,Orientation clusters,oc3_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,18,1.2726732494704516,0.00933837890625,worse
+S1,Orientation clusters,oc3_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,18,0.5057509641680058,0.39273834228515625,no difference
+S1,Orientation clusters,oc3_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,18,-0.38727174660038344,0.25479608868089165,no difference
+S1,Orientation clusters,oc3_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,18,0.5078604773659467,0.19960784912109375,no difference
+S1,Orientation clusters,oc3_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,18,0.5221899459929378,0.16156768798828125,no difference
+S1,Orientation clusters,oc3_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,18,0.5524412219698209,0.1214599609375,no difference
+S1,Orientation clusters,oc3_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,18,0.016101739270593107,1.0,no difference
+S1,Orientation clusters,oc3_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,18,-0.004568701025498445,1.0,no difference
+S1,Orientation clusters,oc3_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,20,-0.016163003663003682,0.593261801461826,no difference
+S1,Orientation clusters,oc3_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.007936507936507929,0.7011814117431641,no difference
+S1,Orientation clusters,oc3_share_err,"Dual vs single latent, with terms",EVAE,single_guide,20,0.016933066933066947,0.1065673828125,no difference
+S1,Orientation clusters,oc3_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.001984126984126984,0.6633615390357814,no difference
+S1,Orientation clusters,oc4_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,8,-1.119553688575882,0.5625,no difference
+S1,Orientation clusters,oc4_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,8,-499999995.18691564,0.25,no difference
+S1,Orientation clusters,oc4_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,8,0.6615387052153947,0.5625,no difference
+S1,Orientation clusters,oc4_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,8,1.81184154197988,0.375,no difference
+S1,Orientation clusters,oc4_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,8,-1.2952130295150313,0.25,no difference
+S1,Orientation clusters,oc4_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,8,-499999996.09628975,0.25,no difference
+S1,Orientation clusters,oc4_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,8,0.6666486896078085,0.25,no difference
+S1,Orientation clusters,oc4_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,8,0.19103897823668348,0.25,no difference
+S1,Orientation clusters,oc4_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,20,0.00104166666666667,1.0,no difference
+S1,Orientation clusters,oc4_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,0.00392156862745098,0.7631851214061316,no difference
+S1,Orientation clusters,oc4_share_err,"Dual vs single latent, with terms",EVAE,single_guide,20,-0.00104166666666667,1.0,no difference
+S1,Orientation clusters,oc4_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,-0.014204545454545456,0.5612369343068594,no difference
+S1,Orientation clusters,unclustered_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,20,-0.13377976190476193,0.001009305760840571,better
+S1,Orientation clusters,unclustered_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.10998044353307512,0.00067138671875,better
+S1,Orientation clusters,unclustered_share_err,"Dual vs single latent, with terms",EVAE,single_guide,20,-0.00525075414781297,0.2699647703177451,no difference
+S1,Orientation clusters,unclustered_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,-0.017643540669856447,0.2942523956298828,no difference
+S1,Orientation clusters,cluster_share_tv,"Geology-informed terms, single latent",single_guide,single_noguide,20,-0.08136716224951515,0.00104522705078125,better
+S1,Orientation clusters,cluster_share_tv,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.101281850459482,0.00104522705078125,better
+S1,Orientation clusters,cluster_share_tv,"Dual vs single latent, with terms",EVAE,single_guide,20,-0.008802655677655702,0.6235885620117188,no difference
+S1,Orientation clusters,cluster_share_tv,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.006709956709956749,0.8983173370361328,no difference
+S1,Length,len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,20,-0.08746516625523792,0.21079635620117188,no difference
+S1,Length,len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.21025893394901773,0.00025177001953125,better
+S1,Length,len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,20,0.06775191645376016,0.2305126190185547,no difference
+S1,Length,len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.15148477523623816,0.002552032470703125,worse
+S1,Length,len_med_err_m,"Geology-informed terms, single latent",single_guide,single_noguide,20,-0.049260909331947655,0.5309066772460938,no difference
+S1,Length,len_med_err_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.059270446940804855,0.5309066772460938,no difference
+S1,Length,len_med_err_m,"Dual vs single latent, with terms",EVAE,single_guide,20,0.012807819312459778,0.5309066772460938,no difference
+S1,Length,len_med_err_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.14283979792989537,0.5309066772460938,no difference
+S1,Length,len_p90_err_m,"Geology-informed terms, single latent",single_guide,single_noguide,20,0.2012429531398699,0.6235885620117188,no difference
+S1,Length,len_p90_err_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.6104786210003202,0.0005035400390625,better
+S1,Length,len_p90_err_m,"Dual vs single latent, with terms",EVAE,single_guide,20,0.17404539855509354,0.6235885620117188,no difference
+S1,Length,len_p90_err_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.6565336163746422,0.00019073486328125,worse
+S1,Length,oc1_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,18,-0.4213513143448203,0.000762939453125,better
+S1,Length,oc1_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,18,-1.175457245868797,0.0230712890625,better
+S1,Length,oc1_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,18,0.2849715551783758,0.1083831787109375,no difference
+S1,Length,oc1_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,18,0.17895011050171172,0.0769805908203125,no difference
+S1,Length,oc2_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,19,0.0010630560052615756,0.930633544921875,no difference
+S1,Length,oc2_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,19,0.21002372765131394,0.21850204467773438,no difference
+S1,Length,oc2_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,19,-0.1142464414183002,0.930633544921875,no difference
+S1,Length,oc2_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,19,-0.6130820462468676,0.0562744140625,no difference
+S1,Length,oc3_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,18,0.146388422245175,0.5674591064453125,no difference
+S1,Length,oc3_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,18,0.5429870365347742,0.00213623046875,worse
+S1,Length,oc3_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,18,0.015077781797764755,0.8616909367394272,no difference
+S1,Length,oc3_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,18,-0.42258706171256943,0.0230712890625,better
+S1,Length,oc4_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,8,-0.22893083306983697,0.375,no difference
+S1,Length,oc4_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,8,-499999995.5614287,0.25,no difference
+S1,Length,oc4_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,8,0.07668157450808621,0.375,no difference
+S1,Length,oc4_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,8,0.48375201275615076,0.375,no difference
+S1,Density,P20_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,20,0.0,1.0,no difference
+S1,Density,P20_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,0.0,1.0,no difference
+S1,Density,P20_relerr,"Dual vs single latent, with terms",EVAE,single_guide,20,0.0,1.0,no difference
+S1,Density,P20_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.013888888888888895,1.0,no difference
+S1,Density,P21_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,20,0.008202171556365535,1.0,no difference
+S1,Density,P21_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.02403775929347833,0.6598281860351562,no difference
+S1,Density,P21_relerr,"Dual vs single latent, with terms",EVAE,single_guide,20,0.014090762444821471,1.0,no difference
+S1,Density,P21_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.015418431410416308,1.0,no difference
+S1,Density,P22_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,15,0.0,0.8250835703373087,no difference
+S1,Density,P22_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,15,0.0,0.8250835703373087,no difference
+S1,Density,P22_relerr,"Dual vs single latent, with terms",EVAE,single_guide,15,0.0,0.8250835703373087,no difference
+S1,Density,P22_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,15,0.0,0.8250835703373087,no difference
+S1,Density,nn_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,20,-0.029518488570178025,1.0,no difference
+S1,Density,nn_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.033178252426302735,1.0,no difference
+S1,Density,nn_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,20,-0.03759929902278858,0.7074127197265625,no difference
+S1,Density,nn_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,-0.013307231606762726,1.0,no difference
+S1,Density,cluster_vmr_err,"Geology-informed terms, single latent",single_guide,single_noguide,20,-0.04198717948717948,0.23371152090382077,no difference
+S1,Density,cluster_vmr_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.05883387445887449,0.0108489990234375,better
+S1,Density,cluster_vmr_err,"Dual vs single latent, with terms",EVAE,single_guide,20,-0.011755952380952422,0.09830474853515625,no difference
+S1,Density,cluster_vmr_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.019858776844070933,0.23371152090382077,no difference
+S1,Density,oc1_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,18,-0.16666666666666669,0.10323789315853105,no difference
+S1,Density,oc1_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,18,-0.21825396825396826,0.0012952632046516316,better
+S1,Density,oc1_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,18,0.0,0.6451893343147646,no difference
+S1,Density,oc1_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,18,0.04999999999999999,0.10323789315853105,no difference
+S1,Density,oc2_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,20,0.0,1.0,no difference
+S1,Density,oc2_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,0.0,0.29949948015084976,no difference
+S1,Density,oc2_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,20,0.0,1.0,no difference
+S1,Density,oc2_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.0,1.0,no difference
+S1,Density,oc3_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,20,0.0,0.22024549387174128,no difference
+S1,Density,oc3_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,0.0,0.22024549387174128,no difference
+S1,Density,oc3_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,20,0.0,0.2939770502371789,no difference
+S1,Density,oc3_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.08333333333333334,0.2939770502371789,no difference
+S1,Density,oc4_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,14,0.0,1.0,no difference
+S1,Density,oc4_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,14,0.0,1.0,no difference
+S1,Density,oc4_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,14,0.0,1.0,no difference
+S1,Density,oc4_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,14,0.0,1.0,no difference
+S1,Topology,term_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,20,0.0,1.0,no difference
+S1,Topology,term_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,0.007974778844344069,0.3161945343017578,no difference
+S1,Topology,term_share_err,"Dual vs single latent, with terms",EVAE,single_guide,20,-0.001253132832080204,1.0,no difference
+S1,Topology,term_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,-0.008957980425371735,0.23755748332099097,no difference
+S1,Topology,CL_err,"Geology-informed terms, single latent",single_guide,single_noguide,20,0.017827721477607056,1.0,no difference
+S1,Topology,CL_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.023568038132466496,1.0,no difference
+S1,Topology,CL_err,"Dual vs single latent, with terms",EVAE,single_guide,20,0.051404151404151444,1.0,no difference
+S1,Topology,CL_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.0562698412698413,0.8440978617562207,no difference
+S1,Topology,node_tv,"Geology-informed terms, single latent",single_guide,single_noguide,20,0.008573185129261932,0.9220504760742188,no difference
+S1,Topology,node_tv,"Geology-informed terms, dual latent",EVAE,dual_noguide,20,-0.0006507381507381629,1.0,no difference
+S1,Topology,node_tv,"Dual vs single latent, with terms",EVAE,single_guide,20,0.003245228876364921,1.0,no difference
+S1,Topology,node_tv,"Dual vs single latent, without terms",dual_noguide,single_noguide,20,0.005128087811978051,1.0,no difference
+S2,Orientation distribution,orient_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,50,-3.8546567028039673,8.924174345281699e-06,better
+S2,Orientation distribution,orient_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-1.3188038329998237,0.0008571019826515425,better
+S2,Orientation distribution,orient_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.29978127821926837,0.49032624846387485,no difference
+S2,Orientation distribution,orient_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.7301090703877939,0.2511269322126708,no difference
+S2,Orientation distribution,oc1_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,44,-1.9940538472670783,3.089218785135017e-05,better
+S2,Orientation distribution,oc1_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,44,-3.544664569815803,2.5011104298755527e-11,better
+S2,Orientation distribution,oc1_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,44,-0.1462347502722232,0.9217797570671564,no difference
+S2,Orientation distribution,oc1_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,44,2.1797794396167207,3.150943143737095e-06,worse
+S2,Orientation distribution,oc2_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,48,-0.5910134639524891,0.03385836438667411,better
+S2,Orientation distribution,oc2_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,48,0.12858417648971088,0.8908876226674849,no difference
+S2,Orientation distribution,oc2_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,48,0.29639236978817696,0.28126181902177194,no difference
+S2,Orientation distribution,oc2_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,48,-0.6333389556656992,0.872227399618879,no difference
+S2,Orientation distribution,oc3_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,42,0.7326935194434094,0.05102313380803025,no difference
+S2,Orientation distribution,oc3_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,42,-0.05208955813821925,0.6380331310333531,no difference
+S2,Orientation distribution,oc3_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,42,-0.8084384320012727,0.020420143289811676,better
+S2,Orientation distribution,oc3_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,42,0.5326946023291068,0.2965379576617124,no difference
+S2,Orientation distribution,oc4_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,22,-499999995.5284604,0.009078461083479716,better
+S2,Orientation distribution,oc4_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,22,0.0,0.9478151107210787,no difference
+S2,Orientation distribution,oc4_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,22,0.0,0.7592356797111974,no difference
+S2,Orientation distribution,oc4_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,22,-1.0199005962853018,0.023527511330066673,better
+S2,Orientation clusters,oc1_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,44,-2.2097290975917723,0.00013735845436713134,better
+S2,Orientation clusters,oc1_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,44,-3.8229965040600047,4.001776687800884e-11,better
+S2,Orientation clusters,oc1_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,44,-0.07075009589962344,0.9677495535080425,no difference
+S2,Orientation clusters,oc1_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,44,2.4254507325772305,4.633828177702526e-05,worse
+S2,Orientation clusters,oc1_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,44,-0.8029095178799857,0.0007856519116558047,better
+S2,Orientation clusters,oc1_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,44,-2.504153278225071,2.177655915147625e-06,better
+S2,Orientation clusters,oc1_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,44,-0.1531060905688475,0.8397749013727207,no difference
+S2,Orientation clusters,oc1_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,44,1.7403824205992393,2.0508999682533613e-05,worse
+S2,Orientation clusters,oc1_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.018820028011204484,0.16973355262366763,no difference
+S2,Orientation clusters,oc1_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.041419880429168346,0.036594903244440355,better
+S2,Orientation clusters,oc1_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0,0.8393354034507687,no difference
+S2,Orientation clusters,oc1_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.026055334414467543,0.036594903244440355,worse
+S2,Orientation clusters,oc2_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,48,-1.1824734303655708,0.003882190685033038,better
+S2,Orientation clusters,oc2_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,48,-0.33967069146256046,0.6218353477274192,no difference
+S2,Orientation clusters,oc2_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,48,0.3410030406065463,0.6218353477274192,no difference
+S2,Orientation clusters,oc2_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,48,-0.49453550311917915,0.6218353477274192,no difference
+S2,Orientation clusters,oc2_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,48,-0.48255772486419635,0.016217816224923354,better
+S2,Orientation clusters,oc2_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,48,0.1681713715342681,0.872227399618879,no difference
+S2,Orientation clusters,oc2_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,48,0.299630278595576,0.872227399618879,no difference
+S2,Orientation clusters,oc2_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,48,-0.6539750530742325,0.25189018122068063,no difference
+S2,Orientation clusters,oc2_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.0023809523809523933,1.0,no difference
+S2,Orientation clusters,oc2_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.007442849548112716,1.0,no difference
+S2,Orientation clusters,oc2_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,0.002881921999569048,1.0,no difference
+S2,Orientation clusters,oc2_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.0023809523809523794,1.0,no difference
+S2,Orientation clusters,oc3_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,42,1.374738744614958,0.016515979114046786,worse
+S2,Orientation clusters,oc3_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,42,-0.12042265334972724,0.6204215925972676,no difference
+S2,Orientation clusters,oc3_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,42,-0.9126811155714094,0.016515979114046786,better
+S2,Orientation clusters,oc3_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,42,0.6432683264721195,0.23763652610250574,no difference
+S2,Orientation clusters,oc3_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,42,0.6303883012997931,0.003541120058798697,worse
+S2,Orientation clusters,oc3_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,42,-0.34358804675530785,0.47518738963754004,no difference
+S2,Orientation clusters,oc3_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,42,-0.7720461777852294,0.003541120058798697,better
+S2,Orientation clusters,oc3_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,42,0.1439762566408187,0.47518738963754004,no difference
+S2,Orientation clusters,oc3_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.004760097358781572,1.0,no difference
+S2,Orientation clusters,oc3_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.0037276449041155,1.0,no difference
+S2,Orientation clusters,oc3_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.003544494720965314,1.0,no difference
+S2,Orientation clusters,oc3_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.0025755977768361776,1.0,no difference
+S2,Orientation clusters,oc4_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,22,-499999995.51576144,0.009078461083479716,better
+S2,Orientation clusters,oc4_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,22,0.0,1.0,no difference
+S2,Orientation clusters,oc4_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,22,0.0,1.0,no difference
+S2,Orientation clusters,oc4_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,22,-1.0199005962853018,0.0213330143228617,better
+S2,Orientation clusters,oc4_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,22,-499999996.97707754,0.02564214714860242,better
+S2,Orientation clusters,oc4_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,22,0.0,1.0,no difference
+S2,Orientation clusters,oc4_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,22,0.0,1.0,no difference
+S2,Orientation clusters,oc4_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,22,-0.7247821925793008,0.025922115057713045,better
+S2,Orientation clusters,oc4_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.002415293040293042,0.45214804747574405,no difference
+S2,Orientation clusters,oc4_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.006045343545343543,0.5157994768851334,no difference
+S2,Orientation clusters,oc4_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,0.002813852813852824,0.5157994768851334,no difference
+S2,Orientation clusters,oc4_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.003359487734487736,0.5157994768851334,no difference
+S2,Orientation clusters,unclustered_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.10651260504201682,3.0115985802021057e-07,better
+S2,Orientation clusters,unclustered_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.04377042483660131,0.00011849533797700582,better
+S2,Orientation clusters,unclustered_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0,0.9268094142486442,no difference
+S2,Orientation clusters,unclustered_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.04359839077331337,3.0115985802021057e-07,better
+S2,Orientation clusters,cluster_share_tv,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.06951626804567979,8.924203565463529e-05,better
+S2,Orientation clusters,cluster_share_tv,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.06430806036069191,2.690121580428695e-05,better
+S2,Orientation clusters,cluster_share_tv,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.005121719740527775,0.6845655516223133,no difference
+S2,Orientation clusters,cluster_share_tv,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.009768009768009706,0.6845655516223133,no difference
+S2,Length,len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.1491786471475478,0.013378267819925682,better
+S2,Length,len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.04891778447327022,0.25598668677490366,no difference
+S2,Length,len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,50,0.07634457252107762,0.004762789157496172,worse
+S2,Length,len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.007390378903946226,0.9313837099567692,no difference
+S2,Length,len_med_err_m,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.14070770009770994,0.24164500306368097,no difference
+S2,Length,len_med_err_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.0005303260566028034,1.0,no difference
+S2,Length,len_med_err_m,"Dual vs single latent, with terms",EVAE,single_guide,50,0.06105358083324042,0.15987338611369495,no difference
+S2,Length,len_med_err_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.055101548777429676,1.0,no difference
+S2,Length,len_p90_err_m,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.13686732032966809,0.7553464119882172,no difference
+S2,Length,len_p90_err_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.38111583631012314,0.11593710534325652,no difference
+S2,Length,len_p90_err_m,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.12365777134688394,0.5343031433725827,no difference
+S2,Length,len_p90_err_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.050068603997688366,0.9923668279164506,no difference
+S2,Length,oc1_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,44,-0.3762382808870859,0.19118215849687203,no difference
+S2,Length,oc1_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,44,-0.5878020381786402,0.00021845438243417448,better
+S2,Length,oc1_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,44,0.2372594223839708,0.014081402879810412,worse
+S2,Length,oc1_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,44,0.5565145611719169,1.1486197308840929e-05,worse
+S2,Length,oc2_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,48,0.024206606007367792,1.0,no difference
+S2,Length,oc2_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,48,0.1345997532806562,1.0,no difference
+S2,Length,oc2_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,48,-0.005095622470382644,1.0,no difference
+S2,Length,oc2_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,48,0.031459741832884136,1.0,no difference
+S2,Length,oc3_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,42,0.4303392087602904,0.0006129054036136949,worse
+S2,Length,oc3_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,42,0.056614857194196455,0.930992042690832,no difference
+S2,Length,oc3_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,42,-0.12321467302676736,0.47518738963754004,no difference
+S2,Length,oc3_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,42,0.2799680928298798,0.004786980170592869,worse
+S2,Length,oc4_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,22,-499999996.30634564,0.03420632026074771,better
+S2,Length,oc4_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,22,0.0,0.9032799779681897,no difference
+S2,Length,oc4_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,22,0.0,0.9032799779681897,no difference
+S2,Length,oc4_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,22,-0.2521996017644361,0.0210784116655056,better
+S2,Density,P20_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.0,0.46037848025587613,no difference
+S2,Density,P20_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.0,0.69929623294783,no difference
+S2,Density,P20_relerr,"Dual vs single latent, with terms",EVAE,single_guide,50,0.047149122807017524,0.27373580891601784,no difference
+S2,Density,P20_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.03452380952380952,0.27373580891601784,no difference
+S2,Density,P21_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.0025953357762655005,1.0,no difference
+S2,Density,P21_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.015890758382361314,1.0,no difference
+S2,Density,P21_relerr,"Dual vs single latent, with terms",EVAE,single_guide,50,0.00770008105062614,1.0,no difference
+S2,Density,P21_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.018352954566288188,1.0,no difference
+S2,Density,P22_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,38,0.0,0.0627021829433658,no difference
+S2,Density,P22_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,38,0.0,0.6176857881466133,no difference
+S2,Density,P22_relerr,"Dual vs single latent, with terms",EVAE,single_guide,38,0.0,0.13791495815588864,no difference
+S2,Density,P22_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,38,0.0,0.8172404815238233,no difference
+S2,Density,nn_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.003058757885615937,0.7553464119882172,no difference
+S2,Density,nn_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.039209446443180584,0.29128154903518855,no difference
+S2,Density,nn_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,50,0.06519730733130347,0.039857127061445397,worse
+S2,Density,nn_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.010263196042525458,0.7553464119882172,no difference
+S2,Density,cluster_vmr_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.0014880952380952467,0.4294925167615391,no difference
+S2,Density,cluster_vmr_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.035290404040404094,0.0004083807608532326,better
+S2,Density,cluster_vmr_err,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.013209706959706968,0.042625668868525396,better
+S2,Density,cluster_vmr_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.007440476190476247,0.6499657066913848,no difference
+S2,Density,oc1_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,47,-0.08333333333333331,0.9623069483615332,no difference
+S2,Density,oc1_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,47,-0.16666666666666669,0.09072988397795183,no difference
+S2,Density,oc1_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,47,0.0,0.9623069483615332,no difference
+S2,Density,oc1_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,47,0.10000000000000009,0.045295129018799715,worse
+S2,Density,oc2_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.0,0.8840516385197044,no difference
+S2,Density,oc2_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.0,0.3063326076678921,no difference
+S2,Density,oc2_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0,0.8256178779088007,no difference
+S2,Density,oc2_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.0,0.8840516385197044,no difference
+S2,Density,oc3_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,48,0.0,0.6697481359139128,no difference
+S2,Density,oc3_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,48,0.0,0.12452230449661895,no difference
+S2,Density,oc3_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,48,0.0,0.40869048539723474,no difference
+S2,Density,oc3_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,48,0.0,0.40869048539723474,no difference
+S2,Density,oc4_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,34,0.0,0.3557780925236357,no difference
+S2,Density,oc4_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,34,0.0,0.8898992801400432,no difference
+S2,Density,oc4_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,34,0.0,0.9643706868158897,no difference
+S2,Density,oc4_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,34,0.0,0.3557780925236357,no difference
+S2,Topology,term_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.007944925444925442,0.09556658491632718,no difference
+S2,Topology,term_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.0,0.7081437053898336,no difference
+S2,Topology,term_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.0014311594202898528,0.7081437053898336,no difference
+S2,Topology,term_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.002620632777282382,0.597537622348983,no difference
+S2,Topology,CL_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.1593609860772332,0.008792492980340683,worse
+S2,Topology,CL_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.083623506874014,0.10617430849480236,no difference
+S2,Topology,CL_err,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.0004680819696299965,0.4690682518168938,no difference
+S2,Topology,CL_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.026783483488289045,0.23697067281372242,no difference
+S2,Topology,node_tv,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.022230989622294008,0.002483085368595539,worse
+S2,Topology,node_tv,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.008877183076267753,0.029892845296084047,worse
+S2,Topology,node_tv,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.00033068783068783414,0.8696479052043413,no difference
+S2,Topology,node_tv,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.0075574712643678085,0.10843236466091355,no difference
+S3,Orientation distribution,orient_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,50,-3.111020252017367,8.324272701543123e-05,better
+S3,Orientation distribution,orient_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-3.1041900215811324,0.00012034387903270272,better
+S3,Orientation distribution,orient_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,50,0.27563533945931074,0.6253677971440439,no difference
+S3,Orientation distribution,orient_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,1.3720050458426165,0.02660960303347082,worse
+S3,Orientation distribution,oc1_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,45,-1.7525181674473274,3.060954315969866e-05,better
+S3,Orientation distribution,oc1_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,45,-6.5071341221082974,3.3719516068231314e-10,better
+S3,Orientation distribution,oc1_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,45,0.15089705158965572,0.2617784817531401,no difference
+S3,Orientation distribution,oc1_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,45,4.2697805636232165,1.2416904837664333e-07,worse
+S3,Orientation distribution,oc2_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,48,-0.8635576912347136,0.07251806032076047,no difference
+S3,Orientation distribution,oc2_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,48,0.12871396488569786,1.0,no difference
+S3,Orientation distribution,oc2_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,48,-0.29269397906555117,1.0,no difference
+S3,Orientation distribution,oc2_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,48,-0.5905367606471961,0.07845092934831399,no difference
+S3,Orientation distribution,oc3_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,39,1.0712602029785785,0.43896479292743606,no difference
+S3,Orientation distribution,oc3_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,39,0.1309794976649421,0.3134875737996481,no difference
+S3,Orientation distribution,oc3_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,39,0.0,0.7324249376475125,no difference
+S3,Orientation distribution,oc3_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,39,-0.7075204310658911,0.25603662309003994,no difference
+S3,Orientation distribution,oc4_w1_deg,"Geology-informed terms, single latent",single_guide,single_noguide,22,-4.034774294982047,0.006222852425387081,better
+S3,Orientation distribution,oc4_w1_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,22,-999999988.0854297,0.0006407274660598067,better
+S3,Orientation distribution,oc4_w1_deg,"Dual vs single latent, with terms",EVAE,single_guide,22,0.4373818071253712,0.4648043084886917,no difference
+S3,Orientation distribution,oc4_w1_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,22,0.0,0.06035792140419946,no difference
+S3,Orientation clusters,oc1_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,45,-2.6738644756042684,0.0004943981102769612,better
+S3,Orientation clusters,oc1_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,45,-6.9147791406680135,1.3046701496932656e-09,better
+S3,Orientation clusters,oc1_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,45,0.2749740441119979,0.43312024361824797,no difference
+S3,Orientation clusters,oc1_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,45,5.427132334526633,1.3671785836777417e-07,worse
+S3,Orientation clusters,oc1_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,45,-1.0911734174652428,0.0029283660389864963,better
+S3,Orientation clusters,oc1_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,45,-5.011391495417202,3.115019353572279e-11,better
+S3,Orientation clusters,oc1_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,45,-0.28864114582886113,0.4265506265994645,no difference
+S3,Orientation clusters,oc1_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,45,4.0662159242794385,9.785026122699492e-10,worse
+S3,Orientation clusters,oc1_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.025607725607725604,0.09895501239767711,no difference
+S3,Orientation clusters,oc1_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.05391308038366861,0.007546361804769437,better
+S3,Orientation clusters,oc1_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0012019230769230727,0.4718869089586709,no difference
+S3,Orientation clusters,oc1_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.08820346320346321,0.0028128811163231167,worse
+S3,Orientation clusters,oc2_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,48,-1.227633384442551,0.02609858125956066,better
+S3,Orientation clusters,oc2_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,48,-0.16928069753747566,1.0,no difference
+S3,Orientation clusters,oc2_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,48,-0.10071119380793236,1.0,no difference
+S3,Orientation clusters,oc2_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,48,-0.6084557598180633,0.06830063142134435,no difference
+S3,Orientation clusters,oc2_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,48,-0.6965303041734812,0.004207948778088166,better
+S3,Orientation clusters,oc2_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,48,0.20622883687400217,0.6918980341136773,no difference
+S3,Orientation clusters,oc2_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,48,0.3073872377184943,0.6918980341136773,no difference
+S3,Orientation clusters,oc2_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,48,-0.6762025660201263,0.007359077480728615,better
+S3,Orientation clusters,oc2_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.006410256410256408,0.07349166756371325,no difference
+S3,Orientation clusters,oc2_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.014101890756302526,0.07349166756371325,no difference
+S3,Orientation clusters,oc2_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0,0.221876915531793,no difference
+S3,Orientation clusters,oc2_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.021358849483849474,0.016825065507750293,better
+S3,Orientation clusters,oc3_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,39,1.592287618628709,0.17743119059014134,no difference
+S3,Orientation clusters,oc3_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,39,0.39404154383780554,0.4267910401467816,no difference
+S3,Orientation clusters,oc3_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,39,0.1902523608049016,0.8835035917829857,no difference
+S3,Orientation clusters,oc3_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,39,-0.7460314651512556,0.4267910401467816,no difference
+S3,Orientation clusters,oc3_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,39,0.7437041958445314,1.0,no difference
+S3,Orientation clusters,oc3_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,39,-0.039271967469871605,1.0,no difference
+S3,Orientation clusters,oc3_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,39,0.015423934790842697,1.0,no difference
+S3,Orientation clusters,oc3_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,39,0.2789725629635189,1.0,no difference
+S3,Orientation clusters,oc3_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.008333333333333345,0.5624223012396317,no difference
+S3,Orientation clusters,oc3_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.04172053436759319,0.004294535922424458,better
+S3,Orientation clusters,oc3_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.00512820512820511,0.43677911146907933,no difference
+S3,Orientation clusters,oc3_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.027777777777777776,0.00023218661777429567,worse
+S3,Orientation clusters,oc4_centre_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,22,-4.6634565605300535,0.007729409093644129,better
+S3,Orientation clusters,oc4_centre_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,22,-999999988.0797142,0.0006407274660598067,better
+S3,Orientation clusters,oc4_centre_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,22,0.0683108730930595,0.5264087208280529,no difference
+S3,Orientation clusters,oc4_centre_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,22,0.0,0.055496294758575225,no difference
+S3,Orientation clusters,oc4_spread_err_deg,"Geology-informed terms, single latent",single_guide,single_noguide,22,-0.2951085475115103,0.0416521471555209,better
+S3,Orientation clusters,oc4_spread_err_deg,"Geology-informed terms, dual latent",EVAE,dual_noguide,22,-999999993.4240968,0.0015589133009459855,better
+S3,Orientation clusters,oc4_spread_err_deg,"Dual vs single latent, with terms",EVAE,single_guide,22,-0.3740874067309381,0.505420880182643,no difference
+S3,Orientation clusters,oc4_spread_err_deg,"Dual vs single latent, without terms",dual_noguide,single_noguide,22,0.0,0.042883491990695945,worse
+S3,Orientation clusters,oc4_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.0,1.0,no difference
+S3,Orientation clusters,oc4_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.00036630036630037194,1.0,no difference
+S3,Orientation clusters,oc4_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0,1.0,no difference
+S3,Orientation clusters,oc4_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.0,1.0,no difference
+S3,Orientation clusters,unclustered_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.09621767121767123,8.030783019387225e-07,better
+S3,Orientation clusters,unclustered_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.03156441829210708,0.0008512200110102463,better
+S3,Orientation clusters,unclustered_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0,0.3695518163194864,no difference
+S3,Orientation clusters,unclustered_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.035406260406260395,7.699239144995907e-05,better
+S3,Orientation clusters,cluster_share_tv,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.06171224608724607,4.6905498721013135e-05,better
+S3,Orientation clusters,cluster_share_tv,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.05970453157953157,0.00011751051530323845,better
+S3,Orientation clusters,cluster_share_tv,"Dual vs single latent, with terms",EVAE,single_guide,50,5.551115123125783e-17,0.9077798683161526,no difference
+S3,Orientation clusters,cluster_share_tv,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.020453749681690808,0.10585673111236311,no difference
+S3,Length,len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.025572814661585896,1.0,no difference
+S3,Length,len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.12601583697626872,0.011585240961359489,better
+S3,Length,len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0034695733101181014,1.0,no difference
+S3,Length,len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.1273230520787425,0.022828357058589432,worse
+S3,Length,len_med_err_m,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.05178921480418791,0.33177359758878566,no difference
+S3,Length,len_med_err_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.012247376820224087,0.8258163298101913,no difference
+S3,Length,len_med_err_m,"Dual vs single latent, with terms",EVAE,single_guide,50,0.1817211396048083,0.009427228576996072,worse
+S3,Length,len_med_err_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.14564802480804628,0.03664004430381418,worse
+S3,Length,len_p90_err_m,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.021778711312438137,1.0,no difference
+S3,Length,len_p90_err_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.09155146465572006,0.5119733735498073,no difference
+S3,Length,len_p90_err_m,"Dual vs single latent, with terms",EVAE,single_guide,50,0.02433953072252054,1.0,no difference
+S3,Length,len_p90_err_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.2076531830245325,0.9134419826094575,no difference
+S3,Length,oc1_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,45,-0.05983989065082218,0.606890746763213,no difference
+S3,Length,oc1_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,45,-1.531449989236899,1.0540942923853436e-05,better
+S3,Length,oc1_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,45,0.31426104545105593,0.0081228567199787,worse
+S3,Length,oc1_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,45,1.9461813881378474,1.8422724679112434e-08,worse
+S3,Length,oc2_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,48,-0.04683826153146309,1.0,no difference
+S3,Length,oc2_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,48,-0.03581976334036374,1.0,no difference
+S3,Length,oc2_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,48,0.08288186414537657,1.0,no difference
+S3,Length,oc2_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,48,0.06424738470408897,1.0,no difference
+S3,Length,oc3_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,39,0.12068486122787192,0.04285550869099097,worse
+S3,Length,oc3_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,39,0.3555890815414877,0.0407803832058562,worse
+S3,Length,oc3_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,39,-0.051528015120534176,0.630766798829427,no difference
+S3,Length,oc3_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,39,-0.1538191200310517,0.630766798829427,no difference
+S3,Length,oc4_len_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,22,-0.15057863677922345,0.07646423239971785,no difference
+S3,Length,oc4_len_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,22,-999999993.536921,0.0006407274660598067,better
+S3,Length,oc4_len_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,22,0.0,0.708701061164478,no difference
+S3,Length,oc4_len_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,22,0.0,0.07646423239971785,no difference
+S3,Density,P20_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.0,0.15944999894925332,no difference
+S3,Density,P20_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.0,0.37364426885565616,no difference
+S3,Density,P20_relerr,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0,0.15944999894925332,no difference
+S3,Density,P20_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.054093567251461985,0.013263812201395294,worse
+S3,Density,P21_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.004337132172589568,1.0,no difference
+S3,Density,P21_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.006372848827556898,1.0,no difference
+S3,Density,P21_relerr,"Dual vs single latent, with terms",EVAE,single_guide,50,0.008230537069609231,1.0,no difference
+S3,Density,P21_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.012464870251584478,1.0,no difference
+S3,Density,P22_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,38,0.0,0.00838424793164495,worse
+S3,Density,P22_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,38,0.0,0.752550065758882,no difference
+S3,Density,P22_relerr,"Dual vs single latent, with terms",EVAE,single_guide,38,0.0,0.0170999794529668,worse
+S3,Density,P22_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,38,0.0,0.752550065758882,no difference
+S3,Density,nn_w1_m,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.005937494008378952,0.7018365959451138,no difference
+S3,Density,nn_w1_m,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,-0.05782148412723709,0.2573802413660946,no difference
+S3,Density,nn_w1_m,"Dual vs single latent, with terms",EVAE,single_guide,50,0.038742049049135474,0.5224176183067151,no difference
+S3,Density,nn_w1_m,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.1188833146136144,0.0017305379221710382,worse
+S3,Density,cluster_vmr_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,-0.07711834733893559,0.001264567644945606,better
+S3,Density,cluster_vmr_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.0021446078431373167,0.5271951521249347,no difference
+S3,Density,cluster_vmr_err,"Dual vs single latent, with terms",EVAE,single_guide,50,0.06491841491841491,0.022163859272485573,worse
+S3,Density,cluster_vmr_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.0030870681605975753,0.4778051002271084,no difference
+S3,Density,oc1_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,47,0.0,0.6142871676398602,no difference
+S3,Density,oc1_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,47,-0.16666666666666663,0.04496074081695819,better
+S3,Density,oc1_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,47,0.0,0.6142871676398602,no difference
+S3,Density,oc1_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,47,0.20000000000000018,0.005646052179150577,worse
+S3,Density,oc2_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.0,0.2167575183969355,no difference
+S3,Density,oc2_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.0,0.9283856240330891,no difference
+S3,Density,oc2_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,50,0.0,0.9283856240330891,no difference
+S3,Density,oc2_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.0,0.9283856240330891,no difference
+S3,Density,oc3_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,49,0.0,1.0,no difference
+S3,Density,oc3_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,49,0.0,0.004390560910135472,worse
+S3,Density,oc3_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,49,0.0,1.0,no difference
+S3,Density,oc3_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,49,0.0,0.004390560910135472,worse
+S3,Density,oc4_count_relerr,"Geology-informed terms, single latent",single_guide,single_noguide,35,0.0,1.0,no difference
+S3,Density,oc4_count_relerr,"Geology-informed terms, dual latent",EVAE,dual_noguide,35,0.0,0.9299628359918262,no difference
+S3,Density,oc4_count_relerr,"Dual vs single latent, with terms",EVAE,single_guide,35,0.0,1.0,no difference
+S3,Density,oc4_count_relerr,"Dual vs single latent, without terms",dual_noguide,single_noguide,35,0.0,1.0,no difference
+S3,Topology,term_share_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.0050696240501396025,0.47142035383494213,no difference
+S3,Topology,term_share_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.0006578947368421038,1.0,no difference
+S3,Topology,term_share_err,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.004599888200894391,1.0,no difference
+S3,Topology,term_share_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,-0.001728387885676884,1.0,no difference
+S3,Topology,CL_err,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.09153069153069154,0.007912156375113,worse
+S3,Topology,CL_err,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.03197560491038748,0.18621375675802554,no difference
+S3,Topology,CL_err,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.025738617733502667,0.18621375675802554,no difference
+S3,Topology,CL_err,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.012820512820512858,0.9922979176054624,no difference
+S3,Topology,node_tv,"Geology-informed terms, single latent",single_guide,single_noguide,50,0.024313595243576368,0.000302516967268401,worse
+S3,Topology,node_tv,"Geology-informed terms, dual latent",EVAE,dual_noguide,50,0.005082804546926986,0.1479120482256029,no difference
+S3,Topology,node_tv,"Dual vs single latent, with terms",EVAE,single_guide,50,-0.012443193351121762,0.0028512252422103757,better
+S3,Topology,node_tv,"Dual vs single latent, without terms",dual_noguide,single_noguide,50,0.000852826510721251,0.8332778036429911,no difference

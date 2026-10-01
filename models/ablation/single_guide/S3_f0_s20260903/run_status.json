@@ -1,0 +1,33 @@
+{
+ "arm": "single_guide",
+ "label": "Single latent, with guide",
+ "scheme": "S3",
+ "fold": 0,
+ "seed": 20260903,
+ "internal_run_name": "S3_ablSLGEOBG_f0_s20260903",
+ "settings": {
+  "EVGEO_W": "1.0",
+  "EVBG_W": "1.0",
+  "EVFIX_WGEO": null,
+  "EVFIX_SINGLE_LATENT": "1",
+  "EVFIX_WQ": "1.0",
+  "EVFIX_WLEN": "0.005",
+  "LAMBDA_FREE": "0.22",
+  "ROUTEB_ISO": "1"
+ },
+ "model_class": "SingleLatentVAE",
+ "n_params": 527624,
+ "model_code": "src/model_ablation/training.py",
+ "device": "cpu",
+ "n_fit": 32,
+ "n_val": 4,
+ "traces_fit": 427,
+ "epochs": 100,
+ "elapsed_s": 83.4,
+ "best_val_loss": 0.4420383498072624,
+ "kl_spatial": 0.9661387801170349,
+ "kl_geometry": 1.2093327045440674,
+ "classification": "STABLE",
+ "checkpoint": "checkpoint.pt",
+ "checkpoint_sha256": "cbeda20ec3e95d6b0d7205272d99212c99660dde9fd02744a28279c0075be6dd"
+}

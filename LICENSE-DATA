@@ -1,0 +1,17 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The fracture-trace data in data/ (the 50 mapped boxes of the Section 1 west
+wall, the fold splits, the learned orientation clusters and the fitted baseline
+parameters), the trained EVAE models in models/, the generated networks in
+networks/, the seed records in seeds/, and the tables and figures are released
+under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+You are free to share and adapt the material for any purpose, including
+commercially, provided you give appropriate credit.
+
+WHAT IS NOT INCLUDED. The bench-face photographs are the property of the mine
+operator and are NOT redistributed here; the box files carry "imageData": null
+and no image file. This removes no information used by any computation in this
+repository, which reads only `shapes`, `imageWidth` and `imageHeight`. Mine
+coordinates are not included; positions are given in a local frame along the
+wall.

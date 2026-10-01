@@ -1,0 +1,23 @@
+{
+ "scheme": "S2",
+ "variant": "geobg",
+ "fold": 2,
+ "seed": 1337,
+ "lambda_free": 0.22,
+ "device": "cpu",
+ "evgeo_w": "1.0",
+ "evbg_w": "1.0",
+ "model_code": "src/model/training.py",
+ "n_fit": 39,
+ "n_val": 5,
+ "traces_fit": 580,
+ "epochs": 100,
+ "elapsed_s": 127.8,
+ "best_val_loss": 0.4230215221643448,
+ "kl_spatial": 0.19449320435523987,
+ "kl_geometry": 2.4467451572418213,
+ "classification": "STABLE",
+ "checkpoint": "models/evae/S2_f2_s1337/checkpoint.pt",
+ "checkpoint_sha256": "c240573050848f5411c0fc5a775feb3ac16c9e1381024cbe8b8e9a0485fb54ed",
+ "internal_run_name": "S2_geobg_f2_s1337"
+}

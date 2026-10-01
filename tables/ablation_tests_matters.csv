@@ -1,0 +1,39 @@
+group,score,"Geology-informed terms, single latent","Geology-informed terms, dual latent","Dual vs single latent, with terms","Dual vs single latent, without terms"
+Orientation distribution,orient_w1_deg,helps,helps,no consistent effect,no consistent effect
+Orientation distribution,oc1_w1_deg,no consistent effect,helps,no consistent effect,no consistent effect
+Orientation distribution,oc2_w1_deg,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation distribution,oc3_w1_deg,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation distribution,oc4_w1_deg,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,oc1_centre_err_deg,no consistent effect,helps,no consistent effect,no consistent effect
+Orientation clusters,oc1_spread_err_deg,no consistent effect,helps,no consistent effect,no consistent effect
+Orientation clusters,oc1_share_err,no consistent effect,helps,no consistent effect,hurts
+Orientation clusters,oc2_centre_err_deg,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,oc2_spread_err_deg,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,oc2_share_err,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,oc3_centre_err_deg,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,oc3_spread_err_deg,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,oc3_share_err,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,oc4_centre_err_deg,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,oc4_spread_err_deg,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,oc4_share_err,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Orientation clusters,unclustered_share_err,helps,helps,no consistent effect,helps
+Orientation clusters,cluster_share_tv,helps,helps,no consistent effect,no consistent effect
+Length,len_w1_m,no consistent effect,helps,no consistent effect,hurts
+Length,len_med_err_m,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Length,len_p90_err_m,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Length,oc1_len_w1_m,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Length,oc2_len_w1_m,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Length,oc3_len_w1_m,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Length,oc4_len_w1_m,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Density,P20_relerr,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Density,P21_relerr,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Density,P22_relerr,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Density,nn_w1_m,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Density,cluster_vmr_err,no consistent effect,helps,no consistent effect,no consistent effect
+Density,oc1_count_relerr,no consistent effect,helps,no consistent effect,hurts
+Density,oc2_count_relerr,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Density,oc3_count_relerr,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Density,oc4_count_relerr,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Topology,term_share_err,no consistent effect,no consistent effect,no consistent effect,no consistent effect
+Topology,CL_err,hurts,no consistent effect,no consistent effect,no consistent effect
+Topology,node_tv,hurts,no consistent effect,no consistent effect,no consistent effect

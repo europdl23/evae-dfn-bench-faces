@@ -1,0 +1,37 @@
+test,first,second,group,better,no_difference,worse
+gap-filling,EVAE,Reference,Orientation distribution,0,4,1
+gap-filling,EVAE,Reference,Orientation clusters,0,12,2
+gap-filling,EVAE,Reference,Length,1,6,0
+gap-filling,EVAE,Reference,Density,0,9,0
+gap-filling,EVAE,Reference,Topology,0,3,0
+gap-filling,EVAE,Reference,All,1,34,3
+new-bench,EVAE,Reference,Orientation distribution,1,3,1
+new-bench,EVAE,Reference,Orientation clusters,1,12,1
+new-bench,EVAE,Reference,Length,4,3,0
+new-bench,EVAE,Reference,Density,0,8,1
+new-bench,EVAE,Reference,Topology,0,3,0
+new-bench,EVAE,Reference,All,6,29,3
+new-stretch,EVAE,Reference,Orientation distribution,0,5,0
+new-stretch,EVAE,Reference,Orientation clusters,1,11,2
+new-stretch,EVAE,Reference,Length,1,6,0
+new-stretch,EVAE,Reference,Density,1,6,2
+new-stretch,EVAE,Reference,Topology,0,3,0
+new-stretch,EVAE,Reference,All,3,31,4
+gap-filling,EVAE,Random context,Orientation distribution,1,4,0
+gap-filling,EVAE,Random context,Orientation clusters,2,12,0
+gap-filling,EVAE,Random context,Length,1,6,0
+gap-filling,EVAE,Random context,Density,1,8,0
+gap-filling,EVAE,Random context,Topology,0,3,0
+gap-filling,EVAE,Random context,All,5,33,0
+new-bench,EVAE,Random context,Orientation distribution,1,4,0
+new-bench,EVAE,Random context,Orientation clusters,3,11,0
+new-bench,EVAE,Random context,Length,0,7,0
+new-bench,EVAE,Random context,Density,2,7,0
+new-bench,EVAE,Random context,Topology,0,2,1
+new-bench,EVAE,Random context,All,6,31,1
+new-stretch,EVAE,Random context,Orientation distribution,1,4,0
+new-stretch,EVAE,Random context,Orientation clusters,4,10,0
+new-stretch,EVAE,Random context,Length,1,6,0
+new-stretch,EVAE,Random context,Density,2,7,0
+new-stretch,EVAE,Random context,Topology,0,3,0
+new-stretch,EVAE,Random context,All,8,30,0
