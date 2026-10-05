@@ -2,7 +2,7 @@
 """Paper figures (paper/figures/): 14.65 cm wide, Times New Roman 12 pt (10 pt ticks and values), PNG 600 dpi
 + PDF, every figure through the layout check (fonts, sizes, no overlaps, no text on data or other panels; here also
 no text on scatter points).
-  Fig_R1_examples       panel map + the 4 example panels (example_panels.json): held-out traces on the photo | EVAE
+  Fig_R1_examples       panel map + the 4 example panels (example_panels.json): held-out traces | EVAE
                         realisation (run seed 1337, draw 0); traces coloured by trace-direction cluster
   Fig_R2_geometry       per test: trace-direction rose (0-360 deg) and trace-length histogram (0-30 m), EVAE filled,
                         held-out outline, dashed line at the 20 m decoder limit
@@ -63,22 +63,6 @@ def draw_traces(ax, L, s, fi, stroke=False):
         if stroke: ln.set_path_effects([pe.Stroke(linewidth=1.9, foreground='white'), pe.Normal()])
 
 
-PHOTO_DIR = P.Path(os.environ['S1_PHOTO_DIR']) if os.environ.get('S1_PHOTO_DIR') else None   # holds to_map/ and to_map_metadata/ (not released)
-
-
-def panel_photo(b):
-    """the orthophoto of panel b, cut from its bench-face image with the same pixel mapping as the traces;
-    None when the photographs are not available (they belong to the mine operator and are not in the repository)"""
-    if PHOTO_DIR is None or not (PHOTO_DIR / 'to_map').exists():
-        return None
-    box = json.load(open(P.RP.BOX_LIBRARY_DIR / 'boxes' / (b + '.json')))['section1']
-    meta = [json.load(open(f)) for f in sorted((PHOTO_DIR / 'to_map_metadata').glob(box['row'] + '_*.json'))][0]
-    img = Image.open(PHOTO_DIR / 'to_map' / meta['image'])
-    px = meta['pixel_size_m']; c0 = int(round((box['u_left_m'] - meta['u_along_wall_left_m']) / px)); r0 = int(round(box['y_top_m'] / px))
-    w, h = int(round((box['u_right_m'] - box['u_left_m']) / px)), int(round((box['y_bottom_m'] - box['y_top_m']) / px))
-    return np.asarray(img.crop((c0, r0, c0 + w, r0 + h)).convert('RGB'))
-
-
 def panel_axes(ax, ym, ticks=True, yticks=True):
     ax.set_xlim(-0.4, C.M + 0.4); ax.set_ylim(ym * C.M + 0.4, -0.4); ax.set_aspect('equal')
     ax.set_xticks([0, 10, 20] if ticks else []); ax.set_yticks([t for t in (0, 10, 20) if t <= ym * C.M + 1e-6] if (ticks and yticks) else [])
@@ -108,12 +92,8 @@ def fig_r1():
         s, fi, b = e['scheme'], e['fold'], e['panel']; ym = LIB[b]['y_max']; sp = C.split(s, fi, LIB)
         real = sp['panels'][b]['lines']; gen = C.load_net(C.net_path(s, 'EVAE', fi, b, 1337, 0))
         a1 = fig.add_subplot(gs[1 + i // 2, 3 * (i % 2)]); a2 = fig.add_subplot(gs[1 + i // 2, 3 * (i % 2) + 1])
-        ph = panel_photo(b)
-        if ph is not None:
-            a1.imshow(ph, extent=(0, C.M, ym * C.M, 0), interpolation='lanczos')
-        else:
-            a1.add_patch(Rectangle((0, 0), C.M, ym * C.M, fill=False, ec='#999999', lw=0.6))
-        draw_traces(a1, real, s, fi, stroke=ph is not None); photo = ph is not None
+        a1.add_patch(Rectangle((0, 0), C.M, ym * C.M, fill=False, ec='#999999', lw=0.6))
+        draw_traces(a1, real, s, fi)
         draw_traces(a2, gen, s, fi); a2.add_patch(Rectangle((0, 0), C.M, ym * C.M, fill=False, ec='#999999', lw=0.6))
         panel_axes(a1, ym); panel_axes(a2, ym, ticks=False)
         a1.set_title('Held-out, %d traces' % len(np.asarray(real).reshape(-1, 4)), fontsize=10, pad=2)
@@ -124,7 +104,7 @@ def fig_r1():
                loc='lower center', ncol=5, frameon=False, fontsize=10, bbox_to_anchor=(0.5, 0.0), title='Trace-direction cluster', title_fontsize=10,
                handlelength=1.4, columnspacing=1.0)
     fig.subplots_adjust(left=0.08, right=0.99, top=0.97, bottom=0.11)
-    save(fig, 'Fig_R1_examples' if photo else 'Fig_R1_examples_no_photo')
+    save(fig, 'Fig_R1_examples_no_photo')
 
 
 def pooled():

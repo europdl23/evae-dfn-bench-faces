@@ -1,0 +1,61 @@
+test,measure,name,reference,n_panels,median_EVAE,median_reference,median_diff,p,result
+gap-filling,E_along,"Equivalent modulus along the bench, E/E0",Reference,20,0.0905357828347453,0.05140297479134145,0.04317105601994832,0.026641845703125,worse
+gap-filling,E_along,"Equivalent modulus along the bench, E/E0",Reference (fracture-removed),20,0.0905357828347453,0.054445413309216,0.03411539803064927,0.03276824951171875,worse
+new-bench,E_along,"Equivalent modulus along the bench, E/E0",Reference,50,0.08353629243360607,0.07813982352480178,-0.008453366002803657,0.8707939059443142,no difference
+new-bench,E_along,"Equivalent modulus along the bench, E/E0",Reference (fracture-removed),50,0.08353629243360607,0.07813982352480178,-0.008453366002803657,0.8707939059443142,no difference
+new-stretch,E_along,"Equivalent modulus along the bench, E/E0",Reference,50,0.08962164299670884,0.07547976533679457,0.0062258092948402205,0.44326672141018975,no difference
+new-stretch,E_along,"Equivalent modulus along the bench, E/E0",Reference (fracture-removed),50,0.08962164299670884,0.07059479720771522,0.004507547064058794,0.3673427625704484,no difference
+gap-filling,E_down,"Equivalent modulus down the face, E/E0",Reference,20,0.0903338543492758,0.10901552749699708,-0.025428070826995844,0.15364646911621094,no difference
+gap-filling,E_down,"Equivalent modulus down the face, E/E0",Reference (fracture-removed),20,0.0903338543492758,0.125449764953008,-0.027545544576441608,0.017181396484375,better
+new-bench,E_down,"Equivalent modulus down the face, E/E0",Reference,50,0.0835552129741923,0.10199399099847117,-0.015250910976924804,0.03286210881230289,better
+new-bench,E_down,"Equivalent modulus down the face, E/E0",Reference (fracture-removed),50,0.0835552129741923,0.10199399099847117,-0.015250910976924804,0.03286210881230289,better
+new-stretch,E_down,"Equivalent modulus down the face, E/E0",Reference,50,0.09917590244915445,0.09933918526619427,-0.0017502564650488314,0.9771032283055696,no difference
+new-stretch,E_down,"Equivalent modulus down the face, E/E0",Reference (fracture-removed),50,0.09917590244915445,0.10516810622765282,-0.002996303635899561,0.9085978224870299,no difference
+gap-filling,aniso,Deformability anisotropy index,Reference,20,0.1385793586000349,0.14041138455353358,0.03615208504700115,0.058258056640625,no difference
+gap-filling,aniso,Deformability anisotropy index,Reference (fracture-removed),20,0.1385793586000349,0.1568527544710723,0.021647841146822125,0.36827659606933594,no difference
+new-bench,aniso,Deformability anisotropy index,Reference,50,0.1747315657020733,0.17586353977658556,0.020452326118512394,0.13045894629165566,no difference
+new-bench,aniso,Deformability anisotropy index,Reference (fracture-removed),50,0.1747315657020733,0.17586353977658556,0.020452326118512394,0.13045894629165566,no difference
+new-stretch,aniso,Deformability anisotropy index,Reference,50,0.14360864979517038,0.1561141462755991,-0.0035985735262110824,0.5526669770606443,no difference
+new-stretch,aniso,Deformability anisotropy index,Reference (fracture-removed),50,0.14360864979517038,0.1609368845953055,-0.01437913286428516,0.10110987171644048,no difference
+gap-filling,p,Percolation parameter p,Reference,20,0.2948139446119179,0.20971471395202648,0.09387145339416442,0.20244979858398438,no difference
+gap-filling,p,Percolation parameter p,Reference (fracture-removed),20,0.2948139446119179,0.20166675765061806,0.08740841342784832,0.15364646911621094,no difference
+new-bench,p,Percolation parameter p,Reference,50,0.23828699301761194,0.26282107760501894,0.0066599360623129655,0.652772195247282,no difference
+new-bench,p,Percolation parameter p,Reference (fracture-removed),50,0.23828699301761194,0.26282107760501894,0.0066599360623129655,0.652772195247282,no difference
+new-stretch,p,Percolation parameter p,Reference,50,0.3472043367698502,0.25278294418073244,0.038796278797755726,0.6118509675549912,no difference
+new-stretch,p,Percolation parameter p,Reference (fracture-removed),50,0.3472043367698502,0.2684684641253996,0.02647140799083328,0.4843032319103049,no difference
+gap-filling,span,Spanning cluster (share),Reference,20,0.08333333333333333,0.5,-0.0625,0.7935047239041556,no difference
+gap-filling,span,Spanning cluster (share),Reference (fracture-removed),20,0.08333333333333333,0.5,-0.0625,0.7790496796066505,no difference
+new-bench,span,Spanning cluster (share),Reference,50,0.08333333333333333,0.375,-0.1875,0.0002187465527320692,better
+new-bench,span,Spanning cluster (share),Reference (fracture-removed),50,0.08333333333333333,0.375,-0.1875,0.0002187465527320692,better
+new-stretch,span,Spanning cluster (share),Reference,50,0.08333333333333333,0.375,-0.0625,0.024738621928476735,better
+new-stretch,span,Spanning cluster (share),Reference (fracture-removed),50,0.08333333333333333,0.375,-0.0625,0.031248147602496595,better
+gap-filling,largest_share,Largest connected cluster (share of trace length),Reference,20,0.13053909678675235,0.11612822696487995,-0.0118528477265832,0.7841262817382812,no difference
+gap-filling,largest_share,Largest connected cluster (share of trace length),Reference (fracture-removed),20,0.13053909678675235,0.12159254525737584,0.007669614004137629,1.0,no difference
+new-bench,largest_share,Largest connected cluster (share of trace length),Reference,50,0.19155678438342957,0.12367588868076967,0.062069937052579204,0.01574343835962111,worse
+new-bench,largest_share,Largest connected cluster (share of trace length),Reference (fracture-removed),50,0.19155678438342957,0.12367588868076967,0.062069937052579204,0.01574343835962111,worse
+new-stretch,largest_share,Largest connected cluster (share of trace length),Reference,50,0.15642653076771648,0.12139269577762497,0.010808318886692286,0.13549845162767582,no difference
+new-stretch,largest_share,Largest connected cluster (share of trace length),Reference (fracture-removed),50,0.15642653076771648,0.12948316677969252,0.02396656547658841,0.10316599771973678,no difference
+gap-filling,k_mean_C1,"Mean persistence, cluster C1",Reference,20,0.025171441908051373,0.02463427238013465,0.0030769078182771997,0.5458755493164062,no difference
+gap-filling,k_mean_C1,"Mean persistence, cluster C1",Reference (fracture-removed),20,0.025171441908051373,0.0268241592598017,0.0006726799480130004,0.956329345703125,no difference
+new-bench,k_mean_C1,"Mean persistence, cluster C1",Reference,50,0.021369663699346526,0.02489514239946375,0.00015503777572409977,0.8035269768960163,no difference
+new-bench,k_mean_C1,"Mean persistence, cluster C1",Reference (fracture-removed),50,0.021369663699346526,0.02489514239946375,0.00015503777572409977,0.8035269768960163,no difference
+new-stretch,k_mean_C1,"Mean persistence, cluster C1",Reference,50,0.02779011362525355,0.024517741084770152,-0.00027754594665069937,0.19427670053532076,no difference
+new-stretch,k_mean_C1,"Mean persistence, cluster C1",Reference (fracture-removed),50,0.02779011362525355,0.023599123806982397,-0.0011265458974712983,0.3044806608698192,no difference
+gap-filling,k_mean_C2,"Mean persistence, cluster C2",Reference,20,0.017337127311587028,0.022827879873686074,-0.00020054068776054895,0.7561664581298828,no difference
+gap-filling,k_mean_C2,"Mean persistence, cluster C2",Reference (fracture-removed),20,0.017337127311587028,0.021023858396922876,-0.0010299382478181004,0.6215133666992188,no difference
+new-bench,k_mean_C2,"Mean persistence, cluster C2",Reference,50,0.0184401675353719,0.021246833259587802,-0.002368471568281478,0.01958777690517799,better
+new-bench,k_mean_C2,"Mean persistence, cluster C2",Reference (fracture-removed),50,0.0184401675353719,0.021246833259587802,-0.002368471568281478,0.01958777690517799,better
+new-stretch,k_mean_C2,"Mean persistence, cluster C2",Reference,50,0.019602824682475824,0.02153844999845785,-0.0005645213933599723,0.9085978224870299,no difference
+new-stretch,k_mean_C2,"Mean persistence, cluster C2",Reference (fracture-removed),50,0.019602824682475824,0.02039775497627185,-0.00025430115839252584,0.81837027658068,no difference
+gap-filling,k_max_C1,"Maximum persistence, cluster C1",Reference,20,0.1783936644650494,0.19881538288422718,0.011627403431294328,0.5458755493164062,no difference
+gap-filling,k_max_C1,"Maximum persistence, cluster C1",Reference (fracture-removed),20,0.1783936644650494,0.19881538288422718,-0.00042075048645083546,0.7011814117431641,no difference
+new-bench,k_max_C1,"Maximum persistence, cluster C1",Reference,50,0.1462768830506479,0.2004874186800222,-0.006927198573148656,0.8632650227005474,no difference
+new-bench,k_max_C1,"Maximum persistence, cluster C1",Reference (fracture-removed),50,0.1462768830506479,0.2004874186800222,-0.006927198573148656,0.8632650227005474,no difference
+new-stretch,k_max_C1,"Maximum persistence, cluster C1",Reference,50,0.1819985354575057,0.187474047713272,0.018990182445249006,0.08401577354329604,no difference
+new-stretch,k_max_C1,"Maximum persistence, cluster C1",Reference (fracture-removed),50,0.1819985354575057,0.19085921515436866,-0.005230018861359195,0.4119147822830561,no difference
+gap-filling,k_max_C2,"Maximum persistence, cluster C2",Reference,20,0.1266972914565457,0.11771892300610134,0.025233364990420407,0.10539817810058594,no difference
+gap-filling,k_max_C2,"Maximum persistence, cluster C2",Reference (fracture-removed),20,0.1266972914565457,0.11771892300610134,0.025233364990420407,0.08969497680664062,no difference
+new-bench,k_max_C2,"Maximum persistence, cluster C2",Reference,50,0.13103898956382065,0.11497162896724325,0.010976179586043022,0.12316903051698347,no difference
+new-bench,k_max_C2,"Maximum persistence, cluster C2",Reference (fracture-removed),50,0.13103898956382065,0.11497162896724325,0.010976179586043022,0.12316903051698347,no difference
+new-stretch,k_max_C2,"Maximum persistence, cluster C2",Reference,50,0.1550682747176661,0.14159621892423696,0.005818574637556882,0.34720687274462314,no difference
+new-stretch,k_max_C2,"Maximum persistence, cluster C2",Reference (fracture-removed),50,0.1550682747176661,0.1369926520978091,0.009084603231097388,0.2695104487517437,no difference

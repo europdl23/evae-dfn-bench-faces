@@ -1,0 +1,381 @@
+{
+ "counts": {
+  "EVAE vs ADFNE-cl": {
+   "Trace-direction distribution": [
+    0,
+    9,
+    6
+   ],
+   "Trace-direction clusters": [
+    0,
+    33,
+    9
+   ],
+   "Trace length": [
+    9,
+    12,
+    0
+   ],
+   "Density and spacing": [
+    5,
+    20,
+    2
+   ],
+   "Topology": [
+    6,
+    3,
+    0
+   ],
+   "All": [
+    20,
+    77,
+    17
+   ]
+  },
+  "EVAE vs KDE-cl": {
+   "Trace-direction distribution": [
+    0,
+    13,
+    2
+   ],
+   "Trace-direction clusters": [
+    0,
+    30,
+    12
+   ],
+   "Trace length": [
+    8,
+    12,
+    1
+   ],
+   "Density and spacing": [
+    3,
+    22,
+    2
+   ],
+   "Topology": [
+    6,
+    3,
+    0
+   ],
+   "All": [
+    17,
+    80,
+    17
+   ]
+  }
+ },
+ "by_test": {
+  "EVAE vs ADFNE-cl | gap-filling": [
+   7,
+   26,
+   5
+  ],
+  "EVAE vs KDE-cl | gap-filling": [
+   6,
+   28,
+   4
+  ],
+  "EVAE vs ADFNE-cl | new-bench": [
+   7,
+   25,
+   6
+  ],
+  "EVAE vs KDE-cl | new-bench": [
+   6,
+   26,
+   6
+  ],
+  "EVAE vs ADFNE-cl | new-stretch": [
+   6,
+   26,
+   6
+  ],
+  "EVAE vs KDE-cl | new-stretch": [
+   5,
+   26,
+   7
+  ]
+ },
+ "verdict": {
+  "EVAE": 5,
+  "ADFNE-cl": 0,
+  "KDE-cl": 1,
+  "no method": 32
+ },
+ "verdict_scores": {
+  "EVAE": [
+   "len_w1_m",
+   "len_p90_err_m",
+   "P22_relerr",
+   "CL_err",
+   "node_tv"
+  ],
+  "ADFNE-cl": [],
+  "KDE-cl": [
+   "cluster_share_tv"
+  ]
+ },
+ "nd_cells": {
+  "ADFNE-cl": 517,
+  "EVAE": 505,
+  "KDE-cl": 573
+ },
+ "provenance": [
+  {
+   "scheme": "S1",
+   "fold": 0,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    4.46,
+    4.34,
+    2.95,
+    1.8,
+    0.66
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S1",
+   "fold": 1,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    4.8,
+    4.66,
+    2.78,
+    1.0,
+    1.0
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S1",
+   "fold": 2,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    4.77,
+    3.72,
+    2.87,
+    2.03,
+    0.59
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S1",
+   "fold": 3,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    4.87,
+    4.33,
+    2.72,
+    1.69,
+    0.51
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S2",
+   "fold": 0,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    5.49,
+    4.14,
+    2.95,
+    1.32,
+    0.46
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S2",
+   "fold": 1,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    5.32,
+    4.76,
+    2.9,
+    1.24,
+    0.78
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S2",
+   "fold": 2,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    5.23,
+    5.0,
+    2.67,
+    1.08,
+    0.9
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S2",
+   "fold": 3,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    5.21,
+    4.63,
+    2.58,
+    1.61,
+    0.58
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S2",
+   "fold": 4,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": false,
+   "class_mean_counts": [
+    4.92,
+    4.97,
+    2.87,
+    1.08,
+    1.26
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "weight order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S2",
+   "fold": 5,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    4.55,
+    4.16,
+    2.66,
+    1.76,
+    0.92
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S2",
+   "fold": 6,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    4.61,
+    4.37,
+    3.11,
+    1.68,
+    0.47
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S3",
+   "fold": 0,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    4.12,
+    3.78,
+    3.25,
+    1.62,
+    0.56
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S3",
+   "fold": 1,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    4.5,
+    4.12,
+    3.28,
+    1.5,
+    0.47
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S3",
+   "fold": 2,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    5.09,
+    4.71,
+    2.15,
+    1.62,
+    0.56
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  },
+  {
+   "scheme": "S3",
+   "fold": 3,
+   "classes": 5,
+   "K": 4,
+   "reference_order_is_weight_order": true,
+   "class_mean_counts": [
+    5.78,
+    4.83,
+    2.22,
+    1.56,
+    0.56
+   ],
+   "kde_regenerated_equals_file": true,
+   "kde_match_order": "reference order",
+   "evae_equals_study_geobg": true
+  }
+ ]
+}

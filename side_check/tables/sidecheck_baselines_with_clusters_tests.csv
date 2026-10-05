@@ -1,0 +1,229 @@
+test,scheme,group,score,comparison,first,second,n_panels,median_diff,p,p_holm,result,group_paper
+gap-filling,S1,Orientation distribution,orient_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,1.576173615011598,0.16495704650878906,0.17938995361328125,no difference,Trace-direction distribution
+gap-filling,S1,Orientation distribution,orient_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,20,1.6513799904135587,0.08969497680664062,0.17938995361328125,no difference,Trace-direction distribution
+gap-filling,S1,Orientation distribution,oc1_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,18,0.4527707657713118,0.02081298828125,0.0416259765625,worse,Trace-direction distribution
+gap-filling,S1,Orientation distribution,oc1_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,18,0.28632950679377833,0.32472991943359375,0.32472991943359375,no difference,Trace-direction distribution
+gap-filling,S1,Orientation distribution,oc2_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,19,0.8308505633622083,0.0180816650390625,0.036163330078125,worse,Trace-direction distribution
+gap-filling,S1,Orientation distribution,oc2_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,19,0.28711243152997756,0.168792724609375,0.168792724609375,no difference,Trace-direction distribution
+gap-filling,S1,Orientation distribution,oc3_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,18,0.039076718763460416,0.8985748291015625,0.8985748291015625,no difference,Trace-direction distribution
+gap-filling,S1,Orientation distribution,oc3_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,18,-0.3844023923613564,0.18146514892578125,0.3629302978515625,no difference,Trace-direction distribution
+gap-filling,S1,Orientation distribution,oc4_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,6,0.3703807027877031,0.5625,1.0,no difference,Trace-direction distribution
+gap-filling,S1,Orientation distribution,oc4_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,6,-0.1361592793652009,1.0,1.0,no difference,Trace-direction distribution
+gap-filling,S1,Orientation clusters,oc1_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,18,0.4332006138612128,0.06653594970703125,0.1330718994140625,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc1_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,18,0.0024495179798385003,0.550872802734375,0.550872802734375,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc1_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,18,0.5717584109654479,0.00157928466796875,0.00157928466796875,worse,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc1_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,18,0.9251354947885668,0.00032806396484375,0.0006561279296875,worse,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc1_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,-0.020137542196365724,0.7651587300879816,1.0,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc1_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.003939075630252115,0.6011493143674917,1.0,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc2_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,19,0.5360328915394366,0.18186569213867188,0.36373138427734375,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc2_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,19,0.19424092546552574,0.5412178039550781,0.5412178039550781,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc2_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,19,0.20454515085058134,0.156402587890625,0.156402587890625,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc2_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,19,0.43793271721358273,0.07283401489257812,0.14566802978515625,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc2_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,0.030194805194805205,0.001321961308240755,0.00264392261648151,worse,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc2_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.030194805194805205,0.001321961308240755,0.00264392261648151,worse,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc3_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,18,0.6085470108449196,0.28372955322265625,0.5674591064453125,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc3_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,18,-0.28047416292478156,0.49507904052734375,0.5674591064453125,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc3_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,18,-0.0457146025363242,0.6396942138671875,0.834228515625,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc3_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,18,-0.04132139118716527,0.4171142578125,0.834228515625,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc3_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,0.02313034188034186,0.06733069932137338,0.13466139864274676,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc3_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.02313034188034186,0.06733069932137338,0.13466139864274676,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc4_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,6,-0.5666767810173909,0.21875,0.21875,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc4_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,6,-1.2723461985411568,0.09375,0.1875,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc4_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,6,1.467182517375675,0.3125,0.625,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc4_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,6,0.9777765004825512,0.4375,0.625,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc4_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,0.022588522588522585,0.05934505395444528,0.05934505395444528,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,oc4_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.022588522588522585,0.010535679701083002,0.021071359402166003,worse,Trace-direction clusters
+gap-filling,S1,Orientation clusters,unclustered_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,0.0,0.488377842175609,0.976755684351218,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,unclustered_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.0004960317460317443,0.7360549368680906,0.976755684351218,no difference,Trace-direction clusters
+gap-filling,S1,Orientation clusters,cluster_share_tv,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,0.049999999999999975,0.011736977116182136,0.011736977116182136,worse,Trace-direction clusters
+gap-filling,S1,Orientation clusters,cluster_share_tv,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.04999999999999999,0.0009533580410134002,0.0019067160820268004,worse,Trace-direction clusters
+gap-filling,S1,Length,len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,-0.5350220740498601,1.9073486328125e-06,3.814697265625e-06,better,Trace length
+gap-filling,S1,Length,len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,20,-0.4299384557663428,1.9073486328125e-06,3.814697265625e-06,better,Trace length
+gap-filling,S1,Length,len_med_err_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,-0.7175280900122669,3.814697265625e-06,7.62939453125e-06,better,Trace length
+gap-filling,S1,Length,len_med_err_m,EVAE vs KDE-cl,EVAE,KDE-cl,20,-0.28462300278801517,0.0005855560302734375,0.0005855560302734375,better,Trace length
+gap-filling,S1,Length,len_p90_err_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,-0.5935794125974987,1.33514404296875e-05,1.33514404296875e-05,better,Trace length
+gap-filling,S1,Length,len_p90_err_m,EVAE vs KDE-cl,EVAE,KDE-cl,20,-1.050126731959994,1.9073486328125e-06,3.814697265625e-06,better,Trace length
+gap-filling,S1,Length,oc1_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,18,-0.44032128236586754,0.16735076904296875,0.3347015380859375,no difference,Trace length
+gap-filling,S1,Length,oc1_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,18,-0.40338566762241235,0.522613525390625,0.522613525390625,no difference,Trace length
+gap-filling,S1,Length,oc2_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,19,0.026345564881102845,0.9843215942382812,0.9843215942382812,no difference,Trace length
+gap-filling,S1,Length,oc2_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,19,0.05971891988901312,0.3320655822753906,0.6641311645507812,no difference,Trace length
+gap-filling,S1,Length,oc3_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,18,0.04344774601547752,0.522613525390625,0.522613525390625,no difference,Trace length
+gap-filling,S1,Length,oc3_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,18,0.1115908178916889,0.22875213623046875,0.4575042724609375,no difference,Trace length
+gap-filling,S1,Length,oc4_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,6,-0.32116665174399817,0.15625,0.3125,no difference,Trace length
+gap-filling,S1,Length,oc4_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,6,-0.2729340152411306,0.3125,0.3125,no difference,Trace length
+gap-filling,S1,Density,P20_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,0.0,0.5881544372443146,1.0,no difference,Density and spacing
+gap-filling,S1,Density,P20_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.0,0.5881544372443146,1.0,no difference,Density and spacing
+gap-filling,S1,Density,P21_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,-0.03564172861257511,0.01068878173828125,0.0213775634765625,better,Density and spacing
+gap-filling,S1,Density,P21_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,20,-0.016227572227345277,0.34881019592285156,0.34881019592285156,no difference,Density and spacing
+gap-filling,S1,Density,P22_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,15,-1.0,0.001068944261699609,0.0017539905538289419,better,Density and spacing
+gap-filling,S1,Density,P22_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,15,-1.25,0.0008769952769144709,0.0017539905538289419,better,Density and spacing
+gap-filling,S1,Density,nn_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,0.20144758216869513,0.8983173370361328,1.0,no difference,Density and spacing
+gap-filling,S1,Density,nn_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.24756713711652634,0.956329345703125,1.0,no difference,Density and spacing
+gap-filling,S1,Density,cluster_vmr_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,-0.08621794871794872,0.04405403137207031,0.08810806274414062,no difference,Density and spacing
+gap-filling,S1,Density,cluster_vmr_err,EVAE vs KDE-cl,EVAE,KDE-cl,20,-0.12199463118580765,0.05316925048828125,0.08810806274414062,no difference,Density and spacing
+gap-filling,S1,Density,oc1_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,18,-0.03571428571428571,0.6160728734749354,1.0,no difference,Density and spacing
+gap-filling,S1,Density,oc1_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,18,-0.03571428571428571,0.7109223622536486,1.0,no difference,Density and spacing
+gap-filling,S1,Density,oc2_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,0.0357142857142857,0.6400441770786527,1.0,no difference,Density and spacing
+gap-filling,S1,Density,oc2_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.0357142857142857,0.6400441770786527,1.0,no difference,Density and spacing
+gap-filling,S1,Density,oc3_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,0.0,0.07797437818283934,0.09505218666982441,no difference,Density and spacing
+gap-filling,S1,Density,oc3_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,20,0.0,0.04752609333491221,0.09505218666982441,no difference,Density and spacing
+gap-filling,S1,Density,oc4_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,14,0.0,0.2965720945892616,0.2965720945892616,no difference,Density and spacing
+gap-filling,S1,Density,oc4_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,14,0.0625,0.04547305927835073,0.09094611855670146,no difference,Density and spacing
+gap-filling,S1,Topology,term_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,-0.003489135385687108,0.5216732025146484,1.0,no difference,Topology
+gap-filling,S1,Topology,term_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,20,-0.005555668164363814,0.6215133666992188,1.0,no difference,Topology
+gap-filling,S1,Topology,CL_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,-0.3409752651440632,0.00946954016958807,0.00946954016958807,better,Topology
+gap-filling,S1,Topology,CL_err,EVAE vs KDE-cl,EVAE,KDE-cl,20,-0.29516527662660474,0.001209259033203125,0.00241851806640625,better,Topology
+gap-filling,S1,Topology,node_tv,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,20,-0.04724123571177273,0.0042209625244140625,0.0042209625244140625,better,Topology
+gap-filling,S1,Topology,node_tv,EVAE vs KDE-cl,EVAE,KDE-cl,20,-0.04286780682318207,0.0019855499267578125,0.003971099853515625,better,Topology
+new-bench,S2,Orientation distribution,orient_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.8966644761756539,0.06930163067169381,0.13860326134338763,no difference,Trace-direction distribution
+new-bench,S2,Orientation distribution,orient_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.8621812063116332,0.07719592312590784,0.13860326134338763,no difference,Trace-direction distribution
+new-bench,S2,Orientation distribution,oc1_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,44,0.6151746610255961,0.017636520837072567,0.035273041674145134,worse,Trace-direction distribution
+new-bench,S2,Orientation distribution,oc1_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,44,0.4510883820543592,0.06569591060303992,0.06569591060303992,no difference,Trace-direction distribution
+new-bench,S2,Orientation distribution,oc2_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,48,0.7386221097059482,0.00043737064628146527,0.0008747412925629305,worse,Trace-direction distribution
+new-bench,S2,Orientation distribution,oc2_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,48,0.6280719474287775,0.008464591096668528,0.008464591096668528,worse,Trace-direction distribution
+new-bench,S2,Orientation distribution,oc3_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,42,-0.22634759613461752,0.7382750756282803,0.8405605874568209,no difference,Trace-direction distribution
+new-bench,S2,Orientation distribution,oc3_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,42,-0.10921962896375526,0.42028029372841047,0.8405605874568209,no difference,Trace-direction distribution
+new-bench,S2,Orientation distribution,oc4_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,21,-0.44688751758890355,0.6332969665527344,1.0,no difference,Trace-direction distribution
+new-bench,S2,Orientation distribution,oc4_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,14,0.15783265848627348,0.8077392578125,1.0,no difference,Trace-direction distribution
+new-bench,S2,Orientation clusters,oc1_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,44,0.5911163743685752,0.042082897992031576,0.08416579598406315,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc1_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,44,0.36784956803842395,0.14422375516824104,0.14422375516824104,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc1_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,44,0.3037125215263716,0.06747004004739665,0.06747004004739665,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc1_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,44,0.47048883026303656,0.00911552652132741,0.01823105304265482,worse,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc1_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.002403846153846159,0.5494925462140423,1.0,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc1_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.002403846153846159,0.5494925462140423,1.0,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc2_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,48,0.22247068158644678,0.147851081672826,0.295702163345652,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc2_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,48,0.05309394159357206,0.34073079452452504,0.34073079452452504,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc2_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,48,0.49262781929617216,0.050108188528163566,0.08848295963382213,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc2_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,48,0.2540755603941338,0.04424147981691107,0.08848295963382213,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc2_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.021549528902470104,0.00019052976576460783,0.00023449095523541931,worse,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc2_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.021708683473389383,0.00011724547761770966,0.00023449095523541931,worse,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc3_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,42,-0.11469373017992912,0.930992042690832,1.0,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc3_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,42,0.1390275244097181,0.9408311358779429,1.0,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc3_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,42,-0.03410527783891626,0.7382750756282803,0.7382750756282803,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc3_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,42,-0.23684026864402852,0.2277620672807643,0.4555241345615286,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc3_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.003453263282984634,0.7101477060344783,1.0,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc3_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.003453263282984634,0.6535143997551669,1.0,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc4_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,21,-0.1424747594701521,0.4319114685058594,0.8638229370117188,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc4_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,14,-0.016368963198666764,0.855224609375,0.8638229370117188,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc4_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,21,0.13085366117160246,0.5167608261108398,1.0,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc4_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,14,-0.1872754158770802,0.9031982421875,1.0,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc4_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.012768971224853577,7.095376306836174e-05,0.00014190752613672347,worse,Trace-direction clusters
+new-bench,S2,Orientation clusters,oc4_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.012768971224853577,7.095376306836174e-05,0.00014190752613672347,worse,Trace-direction clusters
+new-bench,S2,Orientation clusters,unclustered_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.0074667366946778654,0.1295579713586751,0.1295579713586751,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,unclustered_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.008928571428571425,0.037025320407258124,0.07405064081451625,no difference,Trace-direction clusters
+new-bench,S2,Orientation clusters,cluster_share_tv,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.04969405594405593,0.00021178724761483636,0.00021178724761483636,worse,Trace-direction clusters
+new-bench,S2,Orientation clusters,cluster_share_tv,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.05128135753135754,2.9747345218211763e-05,5.9494690436423525e-05,worse,Trace-direction clusters
+new-bench,S2,Length,len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.36470677499882875,1.0633089786438177e-06,2.1266179572876354e-06,better,Trace length
+new-bench,S2,Length,len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.2578697823751184,0.001282241835095732,0.001282241835095732,better,Trace length
+new-bench,S2,Length,len_med_err_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.642765921124201,1.0633089786438177e-06,2.1266179572876354e-06,better,Trace length
+new-bench,S2,Length,len_med_err_m,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.2587746597182414,0.010566648384996213,0.010566648384996213,better,Trace length
+new-bench,S2,Length,len_p90_err_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.5133024108662759,0.002896310240339872,0.005792620480679744,better,Trace length
+new-bench,S2,Length,len_p90_err_m,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.7254962491235492,0.010879562807692977,0.010879562807692977,better,Trace length
+new-bench,S2,Length,oc1_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,44,0.036720566454539916,0.7158291383542519,1.0,no difference,Trace length
+new-bench,S2,Length,oc1_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,44,-0.03632842981625317,0.7594410668136788,1.0,no difference,Trace length
+new-bench,S2,Length,oc2_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,48,-0.029517656239976153,0.7106128570169759,0.7106128570169759,no difference,Trace length
+new-bench,S2,Length,oc2_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,48,0.14548521713110674,0.2035866693819557,0.4071733387639114,no difference,Trace length
+new-bench,S2,Length,oc3_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,42,0.028339153089875002,0.38525727250589625,0.38525727250589625,no difference,Trace length
+new-bench,S2,Length,oc3_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,42,0.1070760042744825,0.08446595227178477,0.16893190454356954,no difference,Trace length
+new-bench,S2,Length,oc4_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,21,-0.5099347319616214,0.09579944610595703,0.156982421875,no difference,Trace length
+new-bench,S2,Length,oc4_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,14,-0.3647130391233586,0.0784912109375,0.156982421875,no difference,Trace length
+new-bench,S2,Density,P20_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.05902777777777776,0.2668188980079048,0.5336377960158096,no difference,Density and spacing
+new-bench,S2,Density,P20_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.05902777777777776,0.2668188980079048,0.5336377960158096,no difference,Density and spacing
+new-bench,S2,Density,P21_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.0309949440144697,0.007380741603101981,0.014761483206203962,better,Density and spacing
+new-bench,S2,Density,P21_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.003091423672602789,0.34720687274462314,0.34720687274462314,no difference,Density and spacing
+new-bench,S2,Density,P22_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,38,-0.5,1.978944358375461e-06,2.856329258307568e-06,better,Density and spacing
+new-bench,S2,Density,P22_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,38,-1.0,1.428164629153784e-06,2.856329258307568e-06,better,Density and spacing
+new-bench,S2,Density,nn_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.3807966546821939,0.16293225736063377,0.32586451472126754,no difference,Density and spacing
+new-bench,S2,Density,nn_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.2774787104796954,0.3374027667706141,0.3374027667706141,no difference,Density and spacing
+new-bench,S2,Density,cluster_vmr_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.052436379410063655,0.3776732059941086,0.3776732059941086,no difference,Density and spacing
+new-bench,S2,Density,cluster_vmr_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.093819375069375,0.050606643801015906,0.10121328760203181,no difference,Density and spacing
+new-bench,S2,Density,oc1_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,47,0.0,0.8862891277983085,1.0,no difference,Density and spacing
+new-bench,S2,Density,oc1_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,47,0.0,0.8862891277983085,1.0,no difference,Density and spacing
+new-bench,S2,Density,oc2_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.101010101010101,0.21390369372627638,0.42780738745255276,no difference,Density and spacing
+new-bench,S2,Density,oc2_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.06628787878787884,0.2209434745248784,0.42780738745255276,no difference,Density and spacing
+new-bench,S2,Density,oc3_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,48,0.0,0.1319728925589774,0.2639457851179548,no difference,Density and spacing
+new-bench,S2,Density,oc3_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,48,0.0,0.1319728925589774,0.2639457851179548,no difference,Density and spacing
+new-bench,S2,Density,oc4_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,34,0.0,0.0003911958928244789,0.0007823917856489578,worse,Density and spacing
+new-bench,S2,Density,oc4_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,34,0.0,0.0003911958928244789,0.0007823917856489578,worse,Density and spacing
+new-bench,S2,Topology,term_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.0016604010025062718,0.26279070544858907,0.26279070544858907,no difference,Topology
+new-bench,S2,Topology,term_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.010660406005233589,0.06382082152328958,0.12764164304657916,no difference,Topology
+new-bench,S2,Topology,CL_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.10399111265125621,0.00594215911497642,0.00594215911497642,better,Topology
+new-bench,S2,Topology,CL_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.28716020821283983,1.858430656635253e-05,3.716861313270506e-05,better,Topology
+new-bench,S2,Topology,node_tv,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.01008705716586153,0.011122948329368075,0.011122948329368075,better,Topology
+new-bench,S2,Topology,node_tv,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.03764367037137435,8.87296791773906e-06,1.774593583547812e-05,better,Topology
+new-stretch,S3,Orientation distribution,orient_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,1.0581719123089037,0.0009149367393188612,0.0018298734786377224,worse,Trace-direction distribution
+new-stretch,S3,Orientation distribution,orient_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,50,1.2990142554866875,0.001235703558341683,0.0018298734786377224,worse,Trace-direction distribution
+new-stretch,S3,Orientation distribution,oc1_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,45,0.39854746508894756,0.006862312871078302,0.013724625742156604,worse,Trace-direction distribution
+new-stretch,S3,Orientation distribution,oc1_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,45,0.45194422739052165,0.10450369263605808,0.10450369263605808,no difference,Trace-direction distribution
+new-stretch,S3,Orientation distribution,oc2_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,48,0.4244831084388023,0.2264523670066012,0.4529047340132024,no difference,Trace-direction distribution
+new-stretch,S3,Orientation distribution,oc2_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,48,0.00010267420164788987,0.7565597214388404,0.7565597214388404,no difference,Trace-direction distribution
+new-stretch,S3,Orientation distribution,oc3_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,39,0.2142561950403845,0.6636639096868748,1.0,no difference,Trace-direction distribution
+new-stretch,S3,Orientation distribution,oc3_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,39,-0.1509139748276045,0.5205607866228092,1.0,no difference,Trace-direction distribution
+new-stretch,S3,Orientation distribution,oc4_w1_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,22,0.03283570105687339,0.8237285614013672,1.0,no difference,Trace-direction distribution
+new-stretch,S3,Orientation distribution,oc4_w1_deg,EVAE vs KDE-cl,EVAE,KDE-cl,15,-0.24381741604408447,0.7197265625,1.0,no difference,Trace-direction distribution
+new-stretch,S3,Orientation clusters,oc1_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,45,0.6268112673923079,0.1497779752334054,0.2995559504668108,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc1_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,45,0.40728817724849753,0.291723080940983,0.2995559504668108,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc1_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,45,0.41050190431017697,0.291723080940983,0.291723080940983,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc1_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,45,0.38695822068676033,0.013299736328065137,0.026599472656130274,worse,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc1_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.021328671328671334,0.18598404027073678,0.37196808054147357,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc1_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.021328671328671334,0.18598404027073678,0.37196808054147357,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc2_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,48,0.13045351269281547,0.643629759437637,1.0,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc2_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,48,-0.24392606850961696,0.5933963803088957,1.0,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc2_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,48,0.10344031283602884,0.5382521028626854,0.5920214561800208,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc2_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,48,0.12926290000175644,0.2960107280900104,0.5920214561800208,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc2_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.035805860805860804,2.0841988830398658e-06,4.1683977660797316e-06,worse,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc2_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.035805860805860804,2.0841988830398658e-06,4.1683977660797316e-06,worse,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc3_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,39,-0.29025114879130687,0.8739367569032765,1.0,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc3_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,39,0.06812071889981652,0.8739367569032765,1.0,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc3_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,39,0.15868016479587155,0.7772631587613432,0.7772631587613432,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc3_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,39,-0.1347486301854337,0.3359774843265768,0.6719549686531536,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc3_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.007955586080586094,0.18753103763461598,0.37506207526923196,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc3_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.007955586080586094,0.18753103763461598,0.37506207526923196,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc4_centre_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,22,-0.5605573301060192,0.2221074104309082,0.4442148208618164,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc4_centre_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,15,-0.30849378625987356,0.67877197265625,0.67877197265625,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc4_spread_err_deg,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,22,0.025781620777581393,0.6327285766601562,1.0,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc4_spread_err_deg,EVAE vs KDE-cl,EVAE,KDE-cl,15,-0.0693255148046742,0.93408203125,1.0,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc4_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.01319444444444444,0.01419389874104042,0.02838779748208084,worse,Trace-direction clusters
+new-stretch,S3,Orientation clusters,oc4_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.01319444444444444,0.01419389874104042,0.02838779748208084,worse,Trace-direction clusters
+new-stretch,S3,Orientation clusters,unclustered_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.010714285714285711,0.13658807119978703,0.19222010511701948,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,unclustered_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.0161364585706691,0.09611005255850974,0.19222010511701948,no difference,Trace-direction clusters
+new-stretch,S3,Orientation clusters,cluster_share_tv,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.04468804222093695,1.6840624781786112e-06,1.6840624781786112e-06,worse,Trace-direction clusters
+new-stretch,S3,Orientation clusters,cluster_share_tv,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.04468804222093695,6.012873319219925e-07,1.202574663843985e-06,worse,Trace-direction clusters
+new-stretch,S3,Length,len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.29379907888810053,1.158324636207908e-08,2.316649272415816e-08,better,Trace length
+new-stretch,S3,Length,len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.27828160227032206,4.213757459226031e-05,4.213757459226031e-05,better,Trace length
+new-stretch,S3,Length,len_med_err_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.42327975165784043,2.8573925447972215e-08,5.714785089594443e-08,better,Trace length
+new-stretch,S3,Length,len_med_err_m,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.10806272188047145,0.3422827758111566,0.3422827758111566,no difference,Trace length
+new-stretch,S3,Length,len_p90_err_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.07485173497846187,0.21148488261323095,0.21906098786918804,no difference,Trace length
+new-stretch,S3,Length,len_p90_err_m,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.34895816747564945,0.10953049393459402,0.21906098786918804,no difference,Trace length
+new-stretch,S3,Length,oc1_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,45,-0.08588259600758974,0.5835980622698003,0.6588075762028893,no difference,Trace length
+new-stretch,S3,Length,oc1_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,45,0.17128594534815678,0.32940378810144466,0.6588075762028893,no difference,Trace length
+new-stretch,S3,Length,oc2_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,48,0.03575237511563489,0.5793745498477492,0.5793745498477492,no difference,Trace length
+new-stretch,S3,Length,oc2_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,48,0.24427259788272315,0.0022779720720791374,0.004555944144158275,worse,Trace length
+new-stretch,S3,Length,oc3_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,39,-0.2885912003099562,0.003042842392460443,0.006085684784920886,better,Trace length
+new-stretch,S3,Length,oc3_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,39,-0.3286945733098088,0.04750477915149531,0.04750477915149531,better,Trace length
+new-stretch,S3,Length,oc4_len_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,22,-0.11786412930883494,0.5879268646240234,1.0,no difference,Trace length
+new-stretch,S3,Length,oc4_len_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,15,0.08047840261707329,0.97796630859375,1.0,no difference,Trace length
+new-stretch,S3,Density,P20_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.0,0.08900062740916033,0.17800125481832066,no difference,Density and spacing
+new-stretch,S3,Density,P20_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.0,0.08900062740916033,0.17800125481832066,no difference,Density and spacing
+new-stretch,S3,Density,P21_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.02443050769663027,0.2954728324166016,0.5909456648332032,no difference,Density and spacing
+new-stretch,S3,Density,P21_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,50,-4.510974366483955e-05,0.9618478594751583,0.9618478594751583,no difference,Density and spacing
+new-stretch,S3,Density,P22_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,38,-0.5,2.0942771392424526e-05,2.0942771392424526e-05,better,Density and spacing
+new-stretch,S3,Density,P22_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,38,-1.0,2.84043394598704e-06,5.68086789197408e-06,better,Density and spacing
+new-stretch,S3,Density,nn_w1_m,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.3088787353401827,0.174987615360088,0.349975230720176,no difference,Density and spacing
+new-stretch,S3,Density,nn_w1_m,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.31314002082896,0.2866420365460076,0.349975230720176,no difference,Density and spacing
+new-stretch,S3,Density,cluster_vmr_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.032192460317460314,0.6118509675549912,1.0,no difference,Density and spacing
+new-stretch,S3,Density,cluster_vmr_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.017261904761904867,0.5852066143769612,1.0,no difference,Density and spacing
+new-stretch,S3,Density,oc1_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,47,0.0,0.38803462228913244,0.7760692445782649,no difference,Density and spacing
+new-stretch,S3,Density,oc1_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,47,0.0,0.38803462228913244,0.7760692445782649,no difference,Density and spacing
+new-stretch,S3,Density,oc2_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.0,0.04176979432795014,0.08352489578280205,no difference,Density and spacing
+new-stretch,S3,Density,oc2_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,50,0.0,0.041762447891401024,0.08352489578280205,no difference,Density and spacing
+new-stretch,S3,Density,oc3_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,49,0.0,0.03490072436346077,0.06980144872692154,no difference,Density and spacing
+new-stretch,S3,Density,oc3_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,49,0.0,0.03490072436346077,0.06980144872692154,no difference,Density and spacing
+new-stretch,S3,Density,oc4_count_relerr,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,35,0.0,0.0187117195478733,0.0374234390957466,worse,Density and spacing
+new-stretch,S3,Density,oc4_count_relerr,EVAE vs KDE-cl,EVAE,KDE-cl,35,0.0,0.0187117195478733,0.0374234390957466,worse,Density and spacing
+new-stretch,S3,Topology,term_share_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,0.00143060643060643,0.5240466148546444,0.8293356991782532,no difference,Topology
+new-stretch,S3,Topology,term_share_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.0031540247678018586,0.4146678495891266,0.8293356991782532,no difference,Topology
+new-stretch,S3,Topology,CL_err,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.202304625199362,9.468707561843814e-05,9.468707561843814e-05,better,Topology
+new-stretch,S3,Topology,CL_err,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.3030801714625245,3.633577416550793e-05,7.267154833101586e-05,better,Topology
+new-stretch,S3,Topology,node_tv,EVAE vs ADFNE-cl,EVAE,ADFNE-cl,50,-0.03699434824434823,5.6804637029728156e-06,1.1360927405945631e-05,better,Topology
+new-stretch,S3,Topology,node_tv,EVAE vs KDE-cl,EVAE,KDE-cl,50,-0.045839784047182384,1.2965142769161275e-05,1.2965142769161275e-05,better,Topology

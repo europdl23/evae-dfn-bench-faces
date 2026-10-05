@@ -1,0 +1,12 @@
+measure,name,spearman_with_P21,p,n
+p,Percolation parameter p,0.7229791225205822,1.1258132126823346e-20,120
+rho,Crack density rho,0.7229791225205822,1.1258132126823346e-20,120
+E_along,"Equivalent modulus along the bench, E/E0",-0.6486122207941084,1.147224064718843e-15,120
+E_down,"Equivalent modulus down the face, E/E0",-0.46971202278806407,6.225501438273826e-08,120
+aniso,Deformability anisotropy index,-0.28360023621773717,0.0016959773754821714,120
+span,Spanning cluster (share),0.15600531285686123,0.08884924557933105,120
+largest_share,Largest connected cluster (share of trace length),0.027248410740959458,0.7676715615644245,120
+k_mean_C1,"Mean persistence, cluster C1",0.6502896579006039,9.162505036457005e-16,120
+k_mean_C2,"Mean persistence, cluster C2",0.4771102076852591,3.601600370595603e-08,120
+k_max_C1,"Maximum persistence, cluster C1",0.46725553250062574,7.444909704421375e-08,120
+k_max_C2,"Maximum persistence, cluster C2",0.25238692716856104,0.005419303417290887,120

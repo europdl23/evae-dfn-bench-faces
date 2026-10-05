@@ -1,0 +1,21 @@
+against,group,correction,better,no_difference,worse
+ADFNE,Deformability,Holm,6,3,0
+ADFNE,Deformability,BH,6,3,0
+ADFNE,Connectivity,Holm,6,3,0
+ADFNE,Connectivity,BH,5,4,0
+ADFNE,Persistence,Holm,2,10,0
+ADFNE,Persistence,BH,2,10,0
+ADFNE,All,Holm,14,16,0
+ADFNE,All,BH,13,17,0
+ADFNE,All,bootstrap CI,13,17,0
+KDE,Deformability,Holm,7,2,0
+KDE,Deformability,BH,6,3,0
+KDE,Connectivity,Holm,5,4,0
+KDE,Connectivity,BH,4,5,0
+KDE,Persistence,Holm,0,11,1
+KDE,Persistence,BH,0,11,1
+KDE,All,Holm,12,17,1
+KDE,All,BH,10,19,1
+KDE,All,bootstrap CI,11,19,0
+Reference,All,none (alpha 0.05),4,24,2
+Reference (fracture-removed),All,none (alpha 0.05),5,23,2

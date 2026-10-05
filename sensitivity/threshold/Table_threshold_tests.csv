@@ -1,0 +1,13 @@
+comparison,group,better,no_difference,worse,scores
+threshold 0.4 vs threshold 0.5,Orientation distribution,0,5,0,5
+threshold 0.4 vs threshold 0.5,Orientation clusters,0,14,0,14
+threshold 0.4 vs threshold 0.5,Length,0,7,0,7
+threshold 0.4 vs threshold 0.5,Density,0,9,0,9
+threshold 0.4 vs threshold 0.5,Topology,0,3,0,3
+threshold 0.4 vs threshold 0.5,All,0,38,0,38
+threshold 0.6 vs threshold 0.5,Orientation distribution,0,4,1,5
+threshold 0.6 vs threshold 0.5,Orientation clusters,0,14,0,14
+threshold 0.6 vs threshold 0.5,Length,0,7,0,7
+threshold 0.6 vs threshold 0.5,Density,0,8,1,9
+threshold 0.6 vs threshold 0.5,Topology,0,3,0,3
+threshold 0.6 vs threshold 0.5,All,0,36,2,38

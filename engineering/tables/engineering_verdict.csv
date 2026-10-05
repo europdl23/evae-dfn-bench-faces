@@ -1,0 +1,11 @@
+measure,name,gap-filling winner,new-bench winner,new-stretch winner,verdict
+E_along,"Equivalent modulus along the bench, E/E0",EVAE (clear),EVAE (clear),EVAE (clear),EVAE
+E_down,"Equivalent modulus down the face, E/E0",EVAE (tie),EVAE (clear),EVAE (clear),EVAE
+aniso,Deformability anisotropy index,EVAE (tie),ADFNE (tie),EVAE (clear),no method
+p,Percolation parameter p,EVAE (clear),EVAE (clear),EVAE (clear),EVAE
+span,Spanning cluster (share),EVAE (tie),EVAE (clear),EVAE (tie),no method
+largest_share,Largest connected cluster (share of trace length),EVAE (clear),KDE (tie),EVAE (tie),no method
+k_mean_C1,"Mean persistence, cluster C1",KDE (tie),KDE (tie),KDE (tie),no method
+k_mean_C2,"Mean persistence, cluster C2",ADFNE (tie),ADFNE (tie),KDE (tie),no method
+k_max_C1,"Maximum persistence, cluster C1",EVAE (tie),EVAE (tie),KDE (tie),no method
+k_max_C2,"Maximum persistence, cluster C2",KDE (tie),ADFNE (tie),KDE (tie),no method

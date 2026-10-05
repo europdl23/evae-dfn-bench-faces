@@ -28,7 +28,7 @@ All figures:
 | File | Shows |
 |---|---|
 | `EXAMPLE_PANELS.md`, `example_panels.json` | the example-panel rule and the 4 chosen panels, with their generator seeds |
-| `figures/Fig_R1_examples_no_photo` | panel map, then the 4 example panels: held-out traces next to the EVAE realisation (run seed 1337, draw 0), coloured by trace-direction cluster. The paper version draws the held-out traces on the bench-face photographs; these belong to the mine operator and are not in the repository. Set `S1_PHOTO_DIR` to a folder holding them to draw that version |
+| `figures/Fig_R1_examples_no_photo` | panel map, then the 4 example panels: held-out traces next to the EVAE realisation (run seed 1337, draw 0), coloured by trace-direction cluster. No version of this figure uses a photograph. |
 | `figures/Fig_R2_geometry` | per test: rose over 0-360° and length histogram over 0-30 m (EVAE filled, held-out outline, 20 m decoder limit) |
 | `figures/Fig_R4_panel_by_panel` | held-out vs EVAE per panel for P21, intersections, connections per trace and spacing; Spearman ρ per test |
 | `tables/Table_R1.xlsx` (`.csv`) | 15 parameters; held-out, natural-variability reference and EVAE for each test |

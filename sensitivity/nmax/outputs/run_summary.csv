@@ -1,0 +1,4 @@
+nmax,models,params,train_s_mean,train_s_min,train_s_max,epochs_mean,s_per_epoch,stable,active_slots_mean,active_slots_max,traces_mean,traces_max
+50,12,328442,68.35,46.6,86.7,68.5,1.0,12,13.96,22,13.96,22
+120,12,544392,96.05,72.0,116.7,84.5,1.14,12,13.91,20,13.91,20
+200,12,791192,111.2,72.8,138.3,82.17,1.36,12,13.51,18,13.51,18

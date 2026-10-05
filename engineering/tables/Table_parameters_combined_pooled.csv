@@ -1,0 +1,29 @@
+Group,Parameter,Unit,Held-out,Reference,EVAE,ADFNE,KDE,Reference (fracture-removed),closest,"EVAE vs ADFNE/KDE, gap-filling","EVAE vs ADFNE/KDE, new-bench","EVAE vs ADFNE/KDE, new-stretch"
+Trace direction,Cluster C1 (~125°): share,%,35.0,36.0,35.0,36.0,34.0,36.0,EVAE,=/=,=/=,=/=
+Trace direction,Cluster C2 (~56°): share,%,32.0,30.0,28.0,33.0,31.0,29.0,"ADFNE, KDE",−/=,=/=,=/=
+Trace direction,Cluster C3 (~27°): share,%,18.0,20.0,19.0,17.0,20.0,20.0,"EVAE, ADFNE",=/=,=/=,=/+
+Trace direction,Cluster C4 (~89°): share,%,10.0,11.0,12.0,9.0,11.0,11.0,"ADFNE, KDE",=/=,=/=,=/=
+Trace direction,Cluster C1: direction,°,124.0,124.0,125.0,124.0,125.0,124.0,ADFNE,=/=,=/=,=/=
+Trace direction,Cluster C2: direction,°,56.0,57.0,56.0,56.0,57.0,57.0,"EVAE, ADFNE",=/=,=/=,=/=
+Trace direction,Cluster C1: spread,°,10.8,10.9,12.0,11.2,10.9,11.0,KDE,−/−,=/=,=/=
+Trace direction,Cluster C2: spread,°,9.9,9.6,10.4,10.2,9.7,9.5,KDE,=/=,−/−,−/=
+Length,Median trace length,m,5.7,5.9,5.4,4.6,5.2,5.9,EVAE,+/+,+/+,+/=
+Length,90th-percentile trace length,m,12.4,12.7,11.8,11.2,10.3,12.8,EVAE,+/+,+/+,=/+
+Intensity and spacing,Trace density (P20),per 100 m²,3.93,3.56,3.5,3.75,3.75,3.52,"ADFNE, KDE",=/=,=/=,=/=
+Intensity and spacing,Trace intensity (P21),m/m²,0.265,0.257,0.216,0.205,0.214,0.246,EVAE,+/+,+/+,=/=
+Intensity and spacing,Spacing to the nearest trace,m,3.0,3.1,4.1,2.5,2.4,3.2,ADFNE,=/=,=/=,=/=
+Connectivity and termination,Intersections,per 100 m²,0.5,0.38,0.75,1.14,1.38,0.29,EVAE,+/+,+/+,+/+
+Connectivity and termination,Connections per trace,-,0.73,0.61,0.94,1.29,1.43,0.6,EVAE,+/+,+/+,+/+
+Connectivity and termination,T-end share (ends stopping on another trace),-,0.09,0.08,0.09,0.12,0.12,0.08,EVAE,=/=,=/=,=/=
+Connectivity and termination,Crossing share of nodes,-,0.07,0.07,0.12,0.17,0.19,0.07,EVAE,+/+,+/+,+/+
+Connectivity and termination,Percolation parameter p (threshold about 5.6),-,2.47,2.52,1.96,1.63,1.63,2.42,EVAE,+/+,+/+,+/+
+Connectivity and termination,Panels with a spanning cluster,share,0.28,0.31,0.06,0.12,0.1,0.3,ADFNE,=/=,+/+,=/=
+Connectivity and termination,Largest connected cluster,share of length,0.28,0.26,0.4,0.43,0.41,0.26,EVAE,+/+,=/=,+/=
+Engineering inputs,"Equivalent modulus along the bench, E/E0",-,0.29,0.28,0.35,0.39,0.4,0.29,EVAE,+/+,+/+,+/+
+Engineering inputs,"Equivalent modulus down the face, E/E0",-,0.41,0.41,0.46,0.51,0.51,0.42,EVAE,=/=,+/+,+/+
+Engineering inputs,Deformability anisotropy index,-,0.5,0.5,0.45,0.38,0.36,0.52,EVAE,=/+,=/=,+/+
+Engineering inputs,Softest loading direction (from the bench axis),°,-1.0,-1.0,12.0,-5.0,-4.0,-2.0,KDE,,,
+Engineering inputs,"Mean persistence, C1",-,0.044,0.051,0.044,0.037,0.039,0.047,EVAE,+/=,=/=,=/=
+Engineering inputs,"Mean persistence, C2",-,0.036,0.031,0.024,0.031,0.031,0.03,"ADFNE, KDE",=/=,=/=,=/−
+Engineering inputs,"Maximum persistence, C1",-,0.35,0.36,0.31,0.3,0.32,0.36,KDE,=/=,+/=,=/=
+Engineering inputs,"Maximum persistence, C2",-,0.31,0.28,0.24,0.26,0.29,0.28,KDE,=/=,=/=,=/=

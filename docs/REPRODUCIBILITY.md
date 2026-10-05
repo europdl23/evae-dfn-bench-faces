@@ -16,7 +16,7 @@
 5. **Statistical tests:** `python scripts/statistical_tests.py`.
 6. **Excel file of all tables:** `python scripts/export_excel.py` writes `tables/final_tables.xlsx` (same bytes on every run).
 7. **Ablation:** `python scripts/ablation_table.py` (table, tests, Excel).
-8. **Paper figures, tables and checks:** `python paper/code/run_all.py` (about 1 minute; Figure R1 is drawn without the photographs unless `S1_PHOTO_DIR` points to them).
+8. **Paper figures, tables and checks:** `python paper/code/run_all.py` (about 1 minute).
 
 Steps 4 and 5 read `networks/`. To use regenerated networks, set `S1_NETWORKS_DIR` to their folder.
 

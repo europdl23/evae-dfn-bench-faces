@@ -1,0 +1,29 @@
+Group,Parameter,Unit,gap-filling: Held-out,gap-filling: Reference,gap-filling: EVAE,gap-filling: ADFNE,gap-filling: KDE,gap-filling: Reference (fracture-removed),gap-filling: closest,gap-filling: EVAE vs ADFNE/KDE,new-bench: Held-out,new-bench: Reference,new-bench: EVAE,new-bench: ADFNE,new-bench: KDE,new-bench: Reference (fracture-removed),new-bench: closest,new-bench: EVAE vs ADFNE/KDE,new-stretch: Held-out,new-stretch: Reference,new-stretch: EVAE,new-stretch: ADFNE,new-stretch: KDE,new-stretch: Reference (fracture-removed),new-stretch: closest,new-stretch: EVAE vs ADFNE/KDE
+Trace direction,Cluster C1 (~125°): share,%,36.0,36.0,34.0,36.0,34.0,36.0,ADFNE,=/=,34.0,36.0,34.0,36.0,35.0,36.0,EVAE,=/=,34.0,36.0,36.0,36.0,34.0,36.0,KDE,=/=
+Trace direction,Cluster C2 (~56°): share,%,32.0,30.0,28.0,32.0,29.0,30.0,ADFNE,−/=,31.0,30.0,28.0,33.0,31.0,30.0,KDE,=/=,32.0,29.0,28.0,33.0,31.0,29.0,"ADFNE, KDE",=/=
+Trace direction,Cluster C3 (~27°): share,%,19.0,19.0,19.0,17.0,21.0,18.0,EVAE,=/=,19.0,20.0,20.0,17.0,20.0,20.0,"EVAE, KDE",=/=,18.0,20.0,18.0,17.0,20.0,20.0,EVAE,=/+
+Trace direction,Cluster C4 (~89°): share,%,10.0,11.0,13.0,11.0,11.0,12.0,"ADFNE, KDE",=/=,10.0,10.0,10.0,8.0,10.0,10.0,"EVAE, KDE",=/=,10.0,11.0,13.0,10.0,11.0,12.0,ADFNE,=/=
+Trace direction,Cluster C1: direction,°,125.0,125.0,126.0,125.0,125.0,125.0,"ADFNE, KDE",=/=,125.0,124.0,125.0,124.0,125.0,124.0,"EVAE, KDE",=/=,124.0,124.0,124.0,124.0,124.0,124.0,"EVAE, ADFNE, KDE",=/=
+Trace direction,Cluster C2: direction,°,56.0,57.0,56.0,56.0,56.0,57.0,"EVAE, ADFNE, KDE",=/=,57.0,57.0,56.0,57.0,57.0,57.0,"ADFNE, KDE",=/=,56.0,56.0,56.0,56.0,57.0,56.0,"EVAE, ADFNE",=/=
+Trace direction,Cluster C1: spread,°,10.1,10.3,11.6,10.8,10.8,10.3,"ADFNE, KDE",−/−,11.0,10.9,12.0,11.1,10.8,10.9,ADFNE,=/=,10.9,11.2,12.2,11.4,11.0,11.3,KDE,=/=
+Trace direction,Cluster C2: spread,°,9.3,9.3,10.0,9.8,9.7,9.4,KDE,=/=,9.8,9.8,10.4,10.5,9.7,9.8,KDE,−/−,10.3,9.4,10.6,10.1,9.6,9.3,ADFNE,−/=
+Length,Median trace length,m,5.8,6.0,5.5,4.6,5.2,6.0,EVAE,+/+,5.7,6.0,5.5,4.5,5.2,6.0,EVAE,+/+,5.7,5.8,5.1,4.6,5.2,5.9,KDE,+/=
+Length,90th-percentile trace length,m,13.9,12.9,11.8,11.2,10.2,12.9,EVAE,+/+,12.4,12.8,12.1,11.1,10.4,12.8,EVAE,+/+,12.4,12.4,11.4,11.3,10.3,12.6,EVAE,=/+
+Intensity and spacing,Trace density (P20),per 100 m²,3.75,3.5,3.5,3.75,3.75,3.38,"ADFNE, KDE",=/=,3.93,3.55,3.5,3.75,3.75,3.55,"ADFNE, KDE",=/=,3.93,3.74,3.5,3.5,3.5,3.53,"EVAE, ADFNE, KDE",=/=
+Intensity and spacing,Trace intensity (P21),m/m²,0.269,0.263,0.214,0.21,0.215,0.242,KDE,+/+,0.265,0.258,0.223,0.207,0.217,0.258,EVAE,+/+,0.265,0.252,0.206,0.202,0.204,0.244,EVAE,=/=
+Intensity and spacing,Spacing to the nearest trace,m,3.1,3.0,4.1,2.5,2.4,3.1,ADFNE,=/=,3.0,3.2,4.1,2.5,2.4,3.2,ADFNE,=/=,3.0,3.1,4.0,2.6,2.4,3.1,ADFNE,=/=
+Connectivity and termination,Intersections,per 100 m²,0.5,0.38,0.75,1.19,1.5,0.26,EVAE,+/+,0.41,0.38,0.75,1.25,1.5,0.38,EVAE,+/+,0.41,0.38,0.65,1.12,1.25,0.25,EVAE,+/+
+Connectivity and termination,Connections per trace,-,0.73,0.68,0.9,1.32,1.43,0.61,EVAE,+/+,0.68,0.58,1.0,1.29,1.46,0.58,EVAE,+/+,0.68,0.57,0.87,1.27,1.36,0.53,EVAE,+/+
+Connectivity and termination,T-end share (ends stopping on another trace),-,0.09,0.1,0.09,0.12,0.13,0.09,EVAE,=/=,0.09,0.08,0.09,0.12,0.12,0.08,EVAE,=/=,0.09,0.08,0.08,0.11,0.13,0.07,EVAE,=/=
+Connectivity and termination,Crossing share of nodes,-,0.08,0.07,0.11,0.17,0.19,0.07,EVAE,+/+,0.07,0.07,0.14,0.17,0.19,0.07,EVAE,+/+,0.07,0.07,0.11,0.17,0.17,0.06,EVAE,+/+
+Connectivity and termination,Percolation parameter p (threshold about 5.6),-,2.75,2.56,1.88,1.68,1.63,2.55,EVAE,+/+,2.35,2.48,2.05,1.63,1.66,2.48,EVAE,+/+,2.35,2.48,1.82,1.58,1.55,2.34,EVAE,+/+
+Connectivity and termination,Panels with a spanning cluster,share,0.45,0.33,0.03,0.11,0.1,0.31,ADFNE,=/=,0.24,0.32,0.05,0.11,0.09,0.32,ADFNE,+/+,0.24,0.29,0.09,0.13,0.1,0.28,ADFNE,=/=
+Connectivity and termination,Largest connected cluster,share of length,0.28,0.26,0.39,0.42,0.41,0.26,EVAE,+/+,0.28,0.27,0.41,0.42,0.42,0.27,EVAE,=/=,0.28,0.25,0.4,0.43,0.4,0.26,"EVAE, KDE",+/=
+Engineering inputs,"Equivalent modulus along the bench, E/E0",-,0.26,0.27,0.36,0.38,0.41,0.27,EVAE,+/+,0.31,0.28,0.35,0.39,0.39,0.28,EVAE,+/+,0.31,0.29,0.35,0.4,0.41,0.3,EVAE,+/+
+Engineering inputs,"Equivalent modulus down the face, E/E0",-,0.41,0.41,0.47,0.49,0.51,0.43,EVAE,=/=,0.41,0.41,0.44,0.5,0.5,0.41,EVAE,+/+,0.41,0.41,0.49,0.52,0.52,0.44,EVAE,+/+
+Engineering inputs,Deformability anisotropy index,-,0.51,0.48,0.41,0.37,0.34,0.52,EVAE,=/+,0.5,0.51,0.39,0.36,0.35,0.51,EVAE,=/=,0.5,0.5,0.5,0.4,0.37,0.53,EVAE,+/+
+Engineering inputs,Softest loading direction (from the bench axis),°,3.0,2.0,13.0,-3.0,-2.0,1.0,KDE,,-3.0,-3.0,12.0,-3.0,-3.0,-3.0,"ADFNE, KDE",,-3.0,-1.0,11.0,-8.0,-7.0,-2.0,KDE,
+Engineering inputs,"Mean persistence, C1",-,0.059,0.055,0.038,0.036,0.039,0.042,KDE,+/=,0.043,0.047,0.045,0.039,0.04,0.047,EVAE,=/=,0.042,0.056,0.043,0.033,0.036,0.052,EVAE,=/=
+Engineering inputs,"Mean persistence, C2",-,0.037,0.033,0.022,0.031,0.031,0.031,"ADFNE, KDE",=/=,0.033,0.03,0.028,0.03,0.031,0.03,KDE,=/=,0.031,0.031,0.021,0.031,0.03,0.031,ADFNE,=/−
+Engineering inputs,"Maximum persistence, C1",-,0.43,0.39,0.31,0.29,0.32,0.37,KDE,=/=,0.32,0.37,0.29,0.31,0.32,0.37,KDE,+/=,0.3,0.35,0.33,0.28,0.3,0.35,KDE,=/=
+Engineering inputs,"Maximum persistence, C2",-,0.28,0.28,0.24,0.26,0.29,0.28,KDE,=/=,0.3,0.28,0.25,0.26,0.29,0.28,KDE,=/=,0.33,0.27,0.21,0.27,0.29,0.27,KDE,=/=

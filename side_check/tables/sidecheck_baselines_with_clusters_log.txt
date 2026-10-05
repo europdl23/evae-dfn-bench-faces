@@ -1,0 +1,30 @@
+sidecheck_baselines_with_clusters.py: LABELLED SIDE CHECK, ADFNE and KDE given the four learned clusters (n.d. rule, release scorer and tests)
+inventory ADFNE-cl: 2880 files in the study folders, 2880 expected window-case/seed/draw files, all present: True, extras: 0
+inventory KDE-cl: 2880 files in the study folders, 2880 expected window-case/seed/draw files, all present: True, extras: 0
+study cluster models (work/setbg) byte-identical to release data/orientation_clusters: True
+study box library byte-identical to release data/box_library: True
+study generation logs: variant bgbase in 15 of 15 folds; networks per log 2880
+cluster-informed fit: classes per fold (K + 1 = 5 expected) [5]; KDE realisation regenerated in memory = stored file in 15 of 15 folds (S2 f4: weight order); release EVAE files = study geobg files in 15 of 15 folds
+folds whose stored cluster order differs from the weight order: ['S2 f4']
+realisations scored: {'EVAE': 2880, 'ADFNE-cl': 2880, 'KDE-cl': 2880}
+empty realisations: {}; traces per realisation (min / median / max): {'ADFNE-cl': (11, 15.0, 17), 'EVAE': (6, 14.0, 23), 'KDE-cl': (11, 15.0, 17)}
+self-test 1, EVAE scores recomputed here = release tables/stats_network_scores.csv: True
+self-test 2, main recount reproduced row by row (228 rows): True; All: [['EVAE vs ADFNE', 24, 84, 6], ['EVAE vs KDE', 21, 88, 5]]; verdict {'no method': 31, 'EVAE': 7}
+undefined window-score cells (of 4,560 per method): {'ADFNE-cl': 517, 'EVAE': 505, 'KDE-cl': 573}
+
+RESULT (better / no difference / worse = EVAE error lower / not significantly different / higher; 114 comparisons each)
+  EVAE vs ADFNE-cl: Trace-direction distribution 0 / 9 / 6; Trace-direction clusters 0 / 33 / 9; Trace length 9 / 12 / 0; Density and spacing 5 / 20 / 2; Topology 6 / 3 / 0; All 20 / 77 / 17
+     by test: gap-filling 7 / 26 / 5; new-bench 7 / 25 / 6; new-stretch 6 / 26 / 6
+     EVAE worse (17): gap-filling oc1_w1_deg; gap-filling oc2_w1_deg; gap-filling oc1_spread_err_deg; gap-filling oc2_share_err; gap-filling cluster_share_tv; new-bench oc1_w1_deg; new-bench oc2_w1_deg; new-bench oc2_share_err; new-bench oc4_share_err; new-bench cluster_share_tv; new-bench oc4_count_relerr; new-stretch orient_w1_deg; new-stretch oc1_w1_deg; new-stretch oc2_share_err; new-stretch oc4_share_err; new-stretch cluster_share_tv; new-stretch oc4_count_relerr
+     EVAE better (20): gap-filling len_w1_m; gap-filling len_med_err_m; gap-filling len_p90_err_m; gap-filling P21_relerr; gap-filling P22_relerr; gap-filling CL_err; gap-filling node_tv; new-bench len_w1_m; new-bench len_med_err_m; new-bench len_p90_err_m; new-bench P21_relerr; new-bench P22_relerr; new-bench CL_err; new-bench node_tv; new-stretch len_w1_m; new-stretch len_med_err_m; new-stretch oc3_len_w1_m; new-stretch P22_relerr; new-stretch CL_err; new-stretch node_tv
+  EVAE vs KDE-cl: Trace-direction distribution 0 / 13 / 2; Trace-direction clusters 0 / 30 / 12; Trace length 8 / 12 / 1; Density and spacing 3 / 22 / 2; Topology 6 / 3 / 0; All 17 / 80 / 17
+     by test: gap-filling 6 / 28 / 4; new-bench 6 / 26 / 6; new-stretch 5 / 26 / 7
+     EVAE worse (17): gap-filling oc1_spread_err_deg; gap-filling oc2_share_err; gap-filling oc4_share_err; gap-filling cluster_share_tv; new-bench oc2_w1_deg; new-bench oc1_spread_err_deg; new-bench oc2_share_err; new-bench oc4_share_err; new-bench cluster_share_tv; new-bench oc4_count_relerr; new-stretch orient_w1_deg; new-stretch oc1_spread_err_deg; new-stretch oc2_share_err; new-stretch oc4_share_err; new-stretch cluster_share_tv; new-stretch oc2_len_w1_m; new-stretch oc4_count_relerr
+     EVAE better (17): gap-filling len_w1_m; gap-filling len_med_err_m; gap-filling len_p90_err_m; gap-filling P22_relerr; gap-filling CL_err; gap-filling node_tv; new-bench len_w1_m; new-bench len_med_err_m; new-bench len_p90_err_m; new-bench P22_relerr; new-bench CL_err; new-bench node_tv; new-stretch len_w1_m; new-stretch oc3_len_w1_m; new-stretch P22_relerr; new-stretch CL_err; new-stretch node_tv
+  "overall better" verdict (EVAE / ADFNE-cl / KDE-cl / no method): 5 / 0 / 1 / 32
+     EVAE scores: len_w1_m, len_p90_err_m, P22_relerr, CL_err, node_tv
+     ADFNE-cl scores: 
+     KDE-cl scores: cluster_share_tv
+     clear wins gap-filling: {'EVAE': 7, 'ADFNE-cl': 0, 'KDE-cl': 1}
+     clear wins new-bench: {'EVAE': 6, 'ADFNE-cl': 1, 'KDE-cl': 1}
+     clear wins new-stretch: {'EVAE': 5, 'ADFNE-cl': 0, 'KDE-cl': 1}

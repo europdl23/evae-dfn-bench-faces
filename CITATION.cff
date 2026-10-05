@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite the paper (preferred-citation) and this repository."
+title: "evae-dfn-bench-faces: data and code for 'Data-driven generative modelling of discrete fracture networks with geology-informed constraints'"
+type: software
+version: "1.1.0"
+date-released: "2026-10-06"
+# doi: "10.5281/zenodo.XXXXXXX"
+repository-code: "https://github.com/europdl23/evae-dfn-bench-faces"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Traced data and code of the paper. The traced data are the 2D end points of the fracture traces mapped on the bench
+  faces of one open-pit wall, in sampling-window coordinates (50 sampling windows, 735 clipped traces), with the window
+  grid and the fold definitions of the three hold-out tests. The code (training, generation, evaluation, side check,
+  engineering inputs, sensitivity tests, figures) comes with its outputs: the trained enhanced variational autoencoder (EVAE) models, the
+  fitted ADFNE and KDE baselines, every generated realisation with its seed, and the tables and figures of the paper.
+  Code is MIT-licensed; data, models, realisations, tables and figures are CC BY 4.0. Photographs, orthophotos, the
+  photogrammetric model and 3D or mine-grid coordinates are not released.
+keywords:
+  - discrete fracture network
+  - fracture traces
+  - generative modelling
+  - variational autoencoder
+  - rock mass characterisation
+authors:
+  - family-names: Paudyal
+    given-names: Europe
+    affiliation: "School of Minerals and Energy Resources Engineering, The University of New South Wales, Sydney, Australia"
+  - family-names: Tang
+    given-names: Yudi
+    affiliation: "School of Minerals and Energy Resources Engineering, The University of New South Wales, Sydney, Australia"
+  - family-names: Lamei Ramandi
+    given-names: Hamed
+    affiliation: "School of Minerals and Energy Resources Engineering, The University of New South Wales, Sydney, Australia"
+  - family-names: Zhai
+    given-names: Hao
+    affiliation: "School of Minerals and Energy Resources Engineering, The University of New South Wales, Sydney, Australia"
+  - family-names: Oh
+    given-names: Joung
+    affiliation: "School of Minerals and Energy Resources Engineering, The University of New South Wales, Sydney, Australia"
+  - family-names: Yang
+    given-names: Shengqi
+    affiliation: "State Key Laboratory of Intelligent Deep Metal Mining and Equipment, Shaoxing University, Shaoxing, China"
+  - family-names: Si
+    given-names: Guangyao
+    affiliation: "School of Minerals and Energy Resources Engineering, The University of New South Wales, Sydney, Australia"
+preferred-citation:
+  type: article
+  title: "Data-driven generative modelling of discrete fracture networks with geology-informed constraints"
+  journal: "International Journal of Rock Mechanics and Mining Sciences"
+  status: submitted
+  authors:
+    - family-names: Paudyal
+      given-names: Europe
+    - family-names: Tang
+      given-names: Yudi
+    - family-names: Lamei Ramandi
+      given-names: Hamed
+    - family-names: Zhai
+      given-names: Hao
+    - family-names: Oh
+      given-names: Joung
+    - family-names: Yang
+      given-names: Shengqi
+    - family-names: Si
+      given-names: Guangyao

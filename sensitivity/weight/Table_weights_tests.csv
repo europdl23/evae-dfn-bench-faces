@@ -1,0 +1,49 @@
+variant,group,better,no_difference,worse,scores
+A_half,Orientation distribution,0,5,0,5
+A_half,Orientation clusters,0,14,0,14
+A_half,Length,0,7,0,7
+A_half,Density,0,9,0,9
+A_half,Topology,0,3,0,3
+A_half,All,0,38,0,38
+A_double,Orientation distribution,0,5,0,5
+A_double,Orientation clusters,0,14,0,14
+A_double,Length,0,7,0,7
+A_double,Density,0,9,0,9
+A_double,Topology,0,3,0,3
+A_double,All,0,38,0,38
+B_half,Orientation distribution,0,5,0,5
+B_half,Orientation clusters,0,14,0,14
+B_half,Length,0,6,1,7
+B_half,Density,0,8,1,9
+B_half,Topology,0,3,0,3
+B_half,All,0,36,2,38
+B_double,Orientation distribution,0,5,0,5
+B_double,Orientation clusters,0,14,0,14
+B_double,Length,0,7,0,7
+B_double,Density,0,9,0,9
+B_double,Topology,0,3,0,3
+B_double,All,0,38,0,38
+C_half,Orientation distribution,0,5,0,5
+C_half,Orientation clusters,0,14,0,14
+C_half,Length,0,7,0,7
+C_half,Density,0,9,0,9
+C_half,Topology,0,3,0,3
+C_half,All,0,38,0,38
+C_double,Orientation distribution,0,5,0,5
+C_double,Orientation clusters,0,14,0,14
+C_double,Length,0,6,1,7
+C_double,Density,0,8,1,9
+C_double,Topology,0,3,0,3
+C_double,All,0,36,2,38
+D_half,Orientation distribution,0,5,0,5
+D_half,Orientation clusters,0,14,0,14
+D_half,Length,0,7,0,7
+D_half,Density,0,8,1,9
+D_half,Topology,0,3,0,3
+D_half,All,0,37,1,38
+D_double,Orientation distribution,0,5,0,5
+D_double,Orientation clusters,0,14,0,14
+D_double,Length,0,7,0,7
+D_double,Density,0,8,1,9
+D_double,Topology,0,3,0,3
+D_double,All,0,37,1,38

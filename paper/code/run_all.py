@@ -5,7 +5,7 @@
   3. checks.py              Results and Discussion checks
   4. discussion.py          recount with undefined scores as n.d., Figure 9, Figure 11, Tables D, ablation and S
   5. tables_export.py       Table_R1.xlsx and checks.xlsx
-  6. figures.py             Figures R1, R2, R4 and D1 (R1 with photographs only when S1_PHOTO_DIR points to them)
+  6. figures.py             Figures R1, R2, R4 and D1
 Usage (from the repository root):  python paper/code/run_all.py        about 5 minutes on a desktop computer"""
 import sys, subprocess, time
 from pathlib import Path

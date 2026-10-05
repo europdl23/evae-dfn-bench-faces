@@ -1,0 +1,13 @@
+comparison,group,better,no_difference,worse,scores
+N_max 50 vs N_max 120,Orientation distribution,0,5,0,5
+N_max 50 vs N_max 120,Orientation clusters,1,13,0,14
+N_max 50 vs N_max 120,Length,0,7,0,7
+N_max 50 vs N_max 120,Density,0,9,0,9
+N_max 50 vs N_max 120,Topology,0,3,0,3
+N_max 50 vs N_max 120,All,1,37,0,38
+N_max 200 vs N_max 120,Orientation distribution,0,5,0,5
+N_max 200 vs N_max 120,Orientation clusters,0,14,0,14
+N_max 200 vs N_max 120,Length,0,7,0,7
+N_max 200 vs N_max 120,Density,0,9,0,9
+N_max 200 vs N_max 120,Topology,0,3,0,3
+N_max 200 vs N_max 120,All,0,38,0,38
